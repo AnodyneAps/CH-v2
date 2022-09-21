@@ -295,14 +295,31 @@
               </li>
             {%- endif -%}
 
+             <!-- language selector start  -->
             {%- if settings.show_locale_selector or settings.show_currency_selector -%}
               {%- if settings.localization_position == 'header' or settings.localization_position == 'header_and_footer' -%}
-                <li class="site-nav__item">
-                  {%- render "localization-form", position: "header", toggle_class: "site-nav__link site-nav__link--icon" -%}
-                </li>
+               <li class="dropdown site-nav__item {% if link.active %}site-nav--active{% endif %}">
+                   <a id="MenuParentToggle-2" href="javascript:void(0)"
+                   class="dropdown-toggle site-nav__link langlink"
+                   aria-controls="MenuParent-2"
+                   aria-haspopup="true"
+                   aria-expanded="false"
+                   {% unless request.page_type == 'index' %}{% if link.active %}aria-current="page"{% endif %}{% endunless %}>
+                   <span class="langflag"><img src="https://cdn.langshop.app/buckets/app/img/svg/languages/flags/circle/de.svg" alt="DEflag" height="20" width="20"></span><span class="langtext">DE</span>
+                   <span class="{{settings.icon}}" aria-hidden="true">keyboard_arrow_down</span>
+                 </a>
+                 <ul id="MenuChildren-2" class="dropdown-menu dropdown-list-parent" aria-labelledby="MenuParentToggle-2">
+                   <li class="dropdown-item">
+                     <a href="https://fr.anodyne.ch" class="dropdown-link langlink">
+                       <span class="langflag"><img src="https://cdn.langshop.app/buckets/app/img/svg/languages/flags/circle/fr.svg" alt="FRflag" height="20"  width="20"></span><span class="langtext">FR</span>
+                     </a>
+                   </li>
+                 </ul>
+                 </li>
               {%- endif -%}
             {%- endif -%}
-
+             <!-- language selector end -->
+             
             <li class="site-nav__item">
               <a href="/cart" class="site-nav__link site-nav__link--icon cart-link js-drawer-open-button-right" aria-controls="{%- if settings.cart_type == 'drawer' or settings.cart_type == 'page' -%}CartDrawer{%- else -%}CartModal{%- endif -%}" aria-label="{{ 'layout.cart.title' | t }}" title="{{ 'layout.cart.title' | t }}">
                 <span class="{{ settings.icon }}" aria-hidden="true">{{ settings.icon_cart }}</span>

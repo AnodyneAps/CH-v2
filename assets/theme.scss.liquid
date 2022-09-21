@@ -6031,13 +6031,30 @@ cite {
   white-space: normal;
   margin: 0;
 }
-
+.site-nav__item, .dropdown-item {
+  .langlink {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .langtext{
+      font-size:0.95rem;
+      padding-left: 5px;
+    }
+  }
+}
+.dropdown-item{
+  .langlink {
+    .langflag img{
+      margin-top:5px;
+    }
+  }
+}
 // Nav Links
 .site-nav__link {
   @include accentFontStack;
   display: inline-block;
   text-decoration: none;
-  padding: $gutter-xs;
+  padding:4px;
   white-space: nowrap;
 
   @include screen($small) {
@@ -10795,7 +10812,7 @@ body:not(.dbtfy-wish_list-destroy) {
   }
 }
 
-.emark-container{
+.trusted-shops-container{
   position: absolute;
   bottom:130px;
   left: 20px;
@@ -10804,16 +10821,26 @@ body:not(.dbtfy-wish_list-destroy) {
   @include screenUp($postSmall){
     bottom: 60px;
   }
-    .emark-path{
+    .trusted-shops-path{
       fill: white;
     }
 
-    .Icon--emark {
+    .Icon--trusted-shops {
       -webkit-animation: rotating 12s linear infinite;
       -moz-animation: rotating 12s linear infinite;
       -ms-animation: rotating 12s linear infinite;
       -o-animation: rotating 12s linear infinite;
       animation: rotating 12s linear infinite;
+      .circle{
+	    fill:none;
+      stroke:$white;
+      stroke-width:8;
+      stroke-miterlimit:10;
+      }
+      circle,
+      path{
+        fill: $white;
+      }
     }
 }
 

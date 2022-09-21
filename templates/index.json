@@ -31,7 +31,6 @@
           "settings": {
             "title": "Hurtig levering",
             "description": "Vi tilbyder også fri fragt til alle pakkeshops ved køb over 399 kr.",
-            "icon": "shopify:\/\/shop_images\/Truck_200px.png",
             "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
           }
         },
@@ -40,7 +39,6 @@
           "settings": {
             "title": "Gratis ombytning",
             "description": "Passer dit produkt ikke? Det er nemt og 100% gratis at ombytte dine varer hos Anodyne®",
-            "icon": "shopify:\/\/shop_images\/Returns_200px.png",
             "uspLinkUrl": "shopify:\/\/pages\/returportal"
           }
         },
@@ -49,7 +47,6 @@
           "settings": {
             "title": "Danskernes foretrukne",
             "description": "Flere end 100.000 glade, danske kunder kan ikke tage fejl... Vi har 4.9 ud af 5 på TrustPilot.",
-            "icon": "shopify:\/\/shop_images\/Smile2_200px.png",
             "uspLinkUrl": "https:\/\/www.anodyne.dk\/pages\/hvem-er-vi"
           }
         },
@@ -58,7 +55,6 @@
           "settings": {
             "title": "Prøv frit i 30 dage",
             "description": "Du kan frit afprøve dit produkt, når du handler hos os. Vi bytter altid med et smil :)",
-            "icon": "shopify:\/\/shop_images\/Checkmark_200px.png",
             "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
           }
         }
@@ -250,7 +246,6 @@
         "16595128814be99d47-0": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Checkmark_200px.png",
             "title": "Det originale holdningskorrigerende tøj",
             "text": "<p>Det originale Anodyne® holdningskorrigerende tøj til mænd og kvinder kan kun købes her på <a href=\"https:\/\/www.anodyne.dk\/\">www.anodyne.dk<\/a> eller hos en af vores godkendte forhandlere. Vær opmærksom på, at der findes mange falske og underlødige produkter på markedet. Kun en slags holdningskorrigerende tøj er både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr samt findes på listen over godkendte hjælpemidler i Danmark; det er produkterne fra Anodyne® - så vær særligt opmærksom, når du handler på nettet. Hos Anodyne® kan du også købe produkter inden for rygstøtte, der kan hjælpe dig med at støtte din ryg i det daglige.<\/p>"
           }
@@ -258,7 +253,6 @@
         "16595128814be99d47-1": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Smile2_200px.png",
             "title": "Holdningskorrigerende tøj med 100% tilfredshedsgaranti",
             "text": "<p>Hos Anodyne® tilbyder vi altid 100% tilfredshedsgaranti, 30 dages fuld returret og gratis ombytning. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt, og finde ud af om det lever op til dine forventninger. Det er let og enkelt at returnere eller bytte hos os og det er vores mål, at du skal være 100% tilfreds - ligesom det har været vores mål for de flere end 100.000 andre danskere, som allerede har købt et originalt Anodyne® produkt i løbet af de sidste 7 år. <\/p>"
           }
@@ -266,7 +260,6 @@
         "16595128814be99d47-2": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kinesio2_copy_200px.png",
             "title": "Fra kinesiotape til holdningskorrigerende tøj",
             "text": "<p>Hos Anodyne® forhandler vi den originale <a href=\"\/collections\/posture-shirt\" title=\"Posture Shirt™\"><span style=\"text-decoration:underline\">holdningskorrigerende Posture Shirt™<\/span><\/a>. T-shirtens design benytter den unikke og patenterede NeuroBand™-teknologi, der er baseret på dybdegående videnskabelig forskning i menneskelig fysiologi og designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber for at fremme en bedre kropsholdning. Teknologien er inspireret af kinesiotape – en behandlingsform der ofte anvendes af danske fysioterapeuter og kiropraktorer til at behandle smerter og spændinger i nakke, skuldre og ryg. Kinesiotaping bruges også hyppigt af professionelle atleter til at stimulere specifikke muskelgrupper og forbedre kropsholdningen.<\/p>"
           }
@@ -317,29 +310,29 @@
         "1659513186ec7e9cae-0": {
           "type": "Accordion",
           "settings": {
-            "accordion_title": "Patenteret NeuroBand™-teknologi i Anodyne® holdningskorrigerende tøj",
+            "accordion_title": "Patentierte NeuroBand™-Technologie in haltungskorrigierender Kleidung",
             "accordion__inner-title": "",
-            "accordion__description": "Anodyne® holdningskorrigerende tøj til kvinder og mænd er fremstillet af en unik sammensætning af spandex, polyester og nylon, som giver slidstærke og åndbare produkter, der bevarer elasticitet ved brug og gør tøjet behageligt at have på. Designet benytter den patenterede NeuroBand™-teknologi, der er inspireret af kinesiotape, og baseret på forskning i menneskets fysiologi. Tøjet er designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber og dermed fremme den rette kropsholdning.",
-            "accordion__buttontext": "Køb din Posture Shirt her",
+            "accordion__description": "Anodyne® haltungskorrigierende Bekleidung ist hergestellt aus einer einzigartigen Kombination aus Spandex, Polyester und Nylon – eine einzigartige Zusammensetzung die ein widerstandsfähiges und atmungsaktives Posture Shirt™ ergibt, welches seine Elastizität bei täglichem Gebrauch bewahrt. Designed mit der patentierten NeuroBand™-Technologie, inspiriert von Kinesiotape und basierend auf wissenschaftlicher Forschung der menschlichen Physiologie. Die Kleidung wurde auf eine einzigartige Weise designed, um die kontrahierenden Eigenschaften der Muskulatur widerzuspiegeln und eine aufrechtere Körperhaltung zu unterstützen.",
+            "accordion__buttontext": "Kaufe posture shirt",
             "accordion__LinkUrl": "shopify:\/\/collections\/posture-shirt"
           }
         },
         "1659513186ec7e9cae-1": {
           "type": "Accordion",
           "settings": {
-            "accordion_title": "Holdningskorrigerende tøj til dit behov",
+            "accordion_title": "Haltungskorrigierende Kleidung nach Ihren Bedürfnissen",
             "accordion__inner-title": "",
-            "accordion__description": "Holdningskorrigerende tøj fra Anodyne® kan anvendes af alle. Vi forhandler holdningskorrigerende t-shirts, BH’er og veste, der alle er udviklet til at hjælpe med at aktivere muskulaturen og blodcirkulationen, og derved minde kroppen om at indtage en mere optimal holdning. Anodyne® holdningskorrigerende t-shirts og BH’er kan anvendes når som helst - når du træner, handler ind, går tur, gør rent eller ved andre aktiviteter. For at få mest ud af Anodyne® holdningskorrigerende tøj, anbefaler vi, at du læser den medsendte brugsvejledning grundigt, så du har de helt rette forudsætninger for at nå den optimale effekt af vores produkter.",
-            "accordion__buttontext": "Se udvalget af holdningstøj",
+            "accordion__description": "Haltungskorrigierende Kleidung von Anodyne® eignet sich als Unterstützung in diversen Alltagssituationen. Wir vertreiben haltungskorrigierende T-Shirts, BH´s und Westen, die alle entwickelt wurden, um die Blutzirkulation anzuregen und die Muskulatur zu aktivieren, und dadurch zu einer optimalen Körperhaltung zu verhelfen. Anodyne® haltungskorrigierende Kleidung kann jederzeit genutzt werden: im Office, beim Training, Einkaufen, Spazierengehen, Saubermachen und diversen anderen Aktivitäten. Um den optimalen Effekt Ihrer Anodyne®-haltungskorrigierender Kleidung zu erhalten, empfehlen wir die beiliegende Gebrauchsanweisung gründlich zu lesen. So haben Sie optimale Voraussetzungen das beste Ergebnis mit ihrem Anodyne®-Produkt zu erreichen.",
+            "accordion__buttontext": "Siehe Produkte zur Haltungskorrektur",
             "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkter"
           }
         },
         "3c3108af-7850-4cad-a838-88ed336c741f": {
           "type": "Accordion",
           "settings": {
-            "accordion_title": "Også til dig med skader",
+            "accordion_title": "Auch für Personen mit Verletzungen",
             "accordion__inner-title": "",
-            "accordion__description": "Døjer du med en skade, eller har du eks. en diskusprolaps, scoliose, gigt eller lignende, kan du med fordel anvende holdningskorrigerende tøj, men er du endnu ikke udredt, anbefaler vi, at du konsulterer en fagprofessionel. I nogle tilfælde vil Anodyne® holdningskorrigerende veste (MyLign og SpinalQ Pro) være at foretrække, da de har den kraftigste støttefunktion. Det er desuden vigtigt, at du vælger holdningskorrigerende tøj i den rigtige størrelse, da du ellers ikke opnår den optimale effekt. Husk derfor at tjekke størrelsesguiden omhyggeligt. Du er også velkommen til at kontakte vores kundeservice, der gerne hjælper med at svare på spørgsmål om vores produkter, samt at finde din rette størrelse.",
+            "accordion__description": "Haben Sie Beschwerden auf Grund von Verletzungen, z.B. Bandscheibenvorfall, Skoliose, Gicht oder ähnlichem, können Sie gut haltungskorrigierende Kleidung von Anodyne nutzen. Sollte die Verletzung akut sein, sprechen Sie bitte zuerst mit Ihrem Arzt oder Spezialisten. In manchen Fällen kann die haltungskorrigierende Weste von Anodyne (MyLign & SpinalQ Pro) von Vorteil sein, da diese Produkte eine stärkere Stützfunktion haben. Es ist ausgesprochen wichtig, haltungskorrigierende Kleidung in der optimalen Größe zu wählen, da sonst der optimale Effekt nicht erreicht wird. Kontrollieren Sie daher unsere Größenangaben. Zögern Sie nicht, unseren Kundenservice zu kontaktieren, der Sie gerne zu Fragen der Größe und Produktwahl berät.",
             "accordion__buttontext": "Se produktudvalg",
             "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkter"
           }

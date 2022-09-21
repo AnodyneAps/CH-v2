@@ -554,8 +554,8 @@
           "main_menu_link_list": "main-menu",
           "navigation_type": "right",
           "logo_link": true,
-          "default_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_6728745e-a674-486e-8077-9faaf5a75715.png",
-          "mobile_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_6728745e-a674-486e-8077-9faaf5a75715.png",
+          "default_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_028903dc-7d7d-433a-a72d-e0d2c6b586a4.png",
+          "mobile_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_028903dc-7d7d-433a-a72d-e0d2c6b586a4.png",
           "default_logo_svg": "",
           "inverted_logo_svg": "",
           "mobile_logo_svg": "",
@@ -663,7 +663,7 @@
               "column_width": 1,
               "heading_text": "Kategorier",
               "subtitle": "",
-              "footer_link_list": "footer-categories"
+              "footer_link_list": ""
             }
           },
           "0bf661af-2d67-4ed7-9f1e-750e2c09c74e": {
