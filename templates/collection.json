@@ -7,11 +7,31 @@
     "collection-image": {
       "type": "collection-image",
       "settings": {
+        "stars_text": "{{ collection.metafields.theme.Collection__subtext.value }}",
+        "collection_stars": "shopify:\/\/shop_images\/trustedshop-stars_007c8016-731a-48c5-a2fc-b59a424d33d7.png",
+        "stars_url": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html"
       }
     },
     "main": {
       "type": "collection-template",
       "settings": {
+        "collection_tags_enable": false,
+        "collection_tags_count": false,
+        "collection_multiple_tags_filtering_enable": false,
+        "collection_sort_enable": false,
+        "tag_selector": "button",
+        "collection_layout": "grid",
+        "rows": "4",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "collection_giff_enable": true,
+        "collection_banner": "shopify:\/\/shop_images\/collectionbanner_264x360_76ea2d1a-5ac8-441a-a0ff-f1025451ecfd.gif",
+        "collection_banner_gif_link": "",
+        "collection_banner_font_family": "poppins_n4",
+        "collection_banner_title": "Specialangebote",
+        "collection_banner_button_label": "Shop",
+        "collection_banner_button_link": "shopify:\/\/collections\/restposten",
+        "collection_enable_porcent_tag": false
       }
     }
   },
