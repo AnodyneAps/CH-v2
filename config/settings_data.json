@@ -484,7 +484,7 @@
           "show_social_medias": true,
           "hide_menu_icon": true,
           "title": "Menu",
-          "drawer_top_link_list": "main-menu",
+          "drawer_top_link_list": "mobile-menu",
           "drawer_bottom_link_list": ""
         }
       },
@@ -493,37 +493,35 @@
         "blocks": {
           "announcement-0": {
             "type": "message",
-            "disabled": true,
             "settings": {
               "title": "",
-              "announcement_text": "<p>30 dages fuld returret<\/p>"
+              "announcement_text": "<p>Professioneller Service<\/p>"
             }
           },
           "c4676b39-a890-441a-b56f-27f60a8d0ad9": {
             "type": "message",
-            "disabled": true,
             "settings": {
               "title": "",
-              "announcement_text": "<p>Gratis ombytning<\/p>"
+              "announcement_text": "<p>Kostenlose Rückgabe<\/p>"
             }
           },
           "82893cc1-5e92-46bd-a94d-7204271ffa01": {
             "type": "message",
-            "disabled": true,
             "settings": {
               "title": "",
-              "announcement_text": "<p>Gratis fragt ved køb over 399 kr.<\/p>"
+              "announcement_text": "<p>14 Tage Rückgaberecht<\/p>"
             }
           },
           "1845e2c6-d475-470e-81ff-6bb64b635172": {
             "type": "message",
             "settings": {
               "title": "",
-              "announcement_text": "<p>Brug rabatkode: <strong>SEPT25<\/strong><\/p>"
+              "announcement_text": "<p>Schnelle Lieferung<\/p>"
             }
           },
           "ed921cc9-429d-455b-86d4-1b6382ef61e7": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "title": "",
               "announcement_text": "<p><strong>SPAR 25%<\/strong> på alle produkter<\/p>"
@@ -543,7 +541,7 @@
           "show_social": false,
           "email": true,
           "phone": true,
-          "left_message": "<p>Vi forbedrer din kropsholdning<\/p>",
+          "left_message": "<p>Wir optimieren Ihre Körperhaltung<\/p>",
           "right_message": "<p><a href=\"\/pages\/kontakt\" target=\"_blank\" title=\"Kontakt\">Kontakt<\/a><\/p>",
           "announcement_autoplayspeed": 5
         }
@@ -584,10 +582,10 @@
             "type": "text",
             "settings": {
               "title": "",
-              "image": "shopify:\/\/shop_images\/Returns_200px.png",
+              "image": "shopify:\/\/shop_images\/Returns.png",
               "guarantee_icon": "loyalty",
               "heading_text": "",
-              "text": "<p>Gratis ombytning<\/p>",
+              "text": "<p>Kostenlose Umtausch<\/p>",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "button_style": "btn-outline-primary",
@@ -599,10 +597,10 @@
             "type": "text",
             "settings": {
               "title": "",
-              "image": "shopify:\/\/shop_images\/Truck_200px.png",
+              "image": "shopify:\/\/shop_images\/Truck.png",
               "guarantee_icon": "loyalty",
               "heading_text": "",
-              "text": "<p>Mulighed for gratis levering til pakkeshop<\/p>",
+              "text": "<p>Gratis Versand für Einkäufe über 59 CHF.<\/p>",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "button_style": "btn-outline-primary",
@@ -614,10 +612,10 @@
             "type": "text",
             "settings": {
               "title": "",
-              "image": "shopify:\/\/shop_images\/Smile2_200px.png",
+              "image": "shopify:\/\/shop_images\/Checkmark.png",
               "guarantee_icon": "loyalty",
               "heading_text": "",
-              "text": "<p>Prøv frit i 30 dage<\/p>",
+              "text": "<p>14 Tage Rückgaberecht<\/p>",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "button_style": "btn-outline-primary",
@@ -629,10 +627,10 @@
             "type": "text",
             "settings": {
               "title": "",
-              "image": "shopify:\/\/shop_images\/e-maerket.png",
+              "image": "shopify:\/\/shop_images\/Customerservice_copy.png",
               "guarantee_icon": "loyalty",
               "heading_text": "",
-              "text": "<p>Vi er en <a href=\"https:\/\/certifikat.emaerket.dk\/anodyne.dk\" target=\"_blank\" title=\"https:\/\/certifikat.emaerket.dk\/anodyne.dk\">E-mærket<\/a> webshop<\/p>",
+              "text": "<p>Professioneller Service<\/p>",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "button_style": "btn-outline-primary",
@@ -661,9 +659,9 @@
             "settings": {
               "title": "Kategorier",
               "column_width": 1,
-              "heading_text": "Kategorier",
+              "heading_text": "Kategorien",
               "subtitle": "",
-              "footer_link_list": ""
+              "footer_link_list": "category-menu"
             }
           },
           "0bf661af-2d67-4ed7-9f1e-750e2c09c74e": {
@@ -684,9 +682,9 @@
               "svg": "",
               "img_url": "",
               "logo_width": 150,
-              "heading_text": "Kontakt os",
+              "heading_text": "Kontakt",
               "subtitle": "",
-              "text": "<p>Anodyne.dk<\/p><p><strong>Man - tors<\/strong>: 10:00 - 16:00<br\/><strong>Fre:<\/strong> 10:00 - 15:00<\/p>",
+              "text": "<p>Anodyne.ch<\/p><p><strong>Mon - Don<\/strong>: 10:00 - 16:00<br\/><strong>Freitag:<\/strong> 10:00 - 15:00<\/p>",
               "email": true,
               "phone": true,
               "show_social_media": false
@@ -700,9 +698,9 @@
               "heading_text": "Socials",
               "subtitle": "",
               "html_area": "",
-              "facebook_link": "https:\/\/www.facebook.com\/anodyne.dk",
+              "facebook_link": "https:\/\/www.facebook.com\/anodyne.ch\/",
               "youtube_link": "https:\/\/www.youtube.com\/channel\/UCFLDlWEPVUrvsuNjVt6sXJg",
-              "insta_link": "https:\/\/www.instagram.com\/anodyne.dk"
+              "insta_link": "https:\/\/www.instagram.com\/anodyne.dach"
             }
           }
         },
@@ -716,11 +714,11 @@
           "show_social_media": false,
           "social_media_position_desktop": "center",
           "social_title": "Follow-us on social media!",
-          "show_payment_icons": true,
+          "show_payment_icons": false,
           "show_shopify_footer": false,
           "show_debutify_footer": false,
-          "custom_credential": "<p>P.O. Pedersens Vej 9, 8200 Aarhus N - CVR: 3716703 <em>(NB: Intet salg på adressen)<\/em><\/p>",
-          "product_counter_text": "Vi sender din ordre om",
+          "custom_credential": "<p>Anodyne GmbH, Bahnstrasse 25, 8603 Schwerzenbach, Switzerland (Kein Verkauf von dieser Adresse). UID: CHE-280.781.291 MwSt.<\/p>",
+          "product_counter_text": "Wir versenden Ihr Paket in",
           "show_product_counter": true
         }
       },

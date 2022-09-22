@@ -9,17 +9,17 @@
         "show_overlay": true,
         "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
         "image_position": "center center",
-        "video_title": "Velkommen",
+        "video_title": "<span class=\"first\">Anodyne®<\/span>",
         "text_size": "medium",
-        "text_description": "<p>Få en bedre holdning med produkter fra Anodyne® - Vi har flere end 100.000 glade danske kunder<\/p>",
+        "text_description": "<p><strong>Verbessere jetzt Deine Körperhaltung!<\/strong><\/p>",
         "text_description_size": "medium",
-        "button_label": "Mænd",
-        "button_link": "shopify:\/\/collections\/maend",
-        "second_button_label": "Kvinder",
-        "second_button_link": "shopify:\/\/collections\/kvinder",
+        "button_label": "Männer",
+        "button_link": "shopify:\/\/collections\/manner",
+        "second_button_label": "Frauen",
+        "second_button_link": "shopify:\/\/collections\/frauen",
         "show_scrolldown": true,
         "show_emark": true,
-        "bottom_counter_text": "Vi sender din ordre om",
+        "bottom_counter_text": "Wir versenden Ihr Paket in",
         "show_bottom_counter": true
       }
     },
@@ -29,32 +29,36 @@
         "1656942069c276e07d-0": {
           "type": "service",
           "settings": {
-            "title": "Hurtig levering",
-            "description": "Vi tilbyder også fri fragt til alle pakkeshops ved køb over 399 kr.",
+            "title": "Schnelle Lieferung",
+            "description": "GRATIS Versand für Einkäufe über 59 CHF",
+            "icon": "shopify:\/\/shop_images\/Truck.png",
             "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
           }
         },
         "1656942069c276e07d-1": {
           "type": "service",
           "settings": {
-            "title": "Gratis ombytning",
-            "description": "Passer dit produkt ikke? Det er nemt og 100% gratis at ombytte dine varer hos Anodyne®",
+            "title": "Kostenlose Rückgabe",
+            "description": "Der Rückversand bei Anodyne® ist kostenfrei",
+            "icon": "shopify:\/\/shop_images\/Returns.png",
             "uspLinkUrl": "shopify:\/\/pages\/returportal"
           }
         },
         "342df7ed-a5e0-495e-b2aa-88ec2359c324": {
           "type": "service",
           "settings": {
-            "title": "Danskernes foretrukne",
-            "description": "Flere end 100.000 glade, danske kunder kan ikke tage fejl... Vi har 4.9 ud af 5 på TrustPilot.",
+            "title": "14 Tage Rückgaberecht",
+            "description": "Testen Sie unsere Produkte in aller Ruhe während 14 Tagen",
+            "icon": "shopify:\/\/shop_images\/Checkmark.png",
             "uspLinkUrl": "https:\/\/www.anodyne.dk\/pages\/hvem-er-vi"
           }
         },
         "bd4294cd-ff2b-4e34-9b3f-83b23dd32f70": {
           "type": "service",
           "settings": {
-            "title": "Prøv frit i 30 dage",
-            "description": "Du kan frit afprøve dit produkt, når du handler hos os. Vi bytter altid med et smil :)",
+            "title": "Professioneller Service",
+            "description": "Rufen Sie uns an oder kontaktieren Sie uns per Mail",
+            "icon": "shopify:\/\/shop_images\/Customerservice_copy.png",
             "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
           }
         }
@@ -77,23 +81,23 @@
           "settings": {
             "title": "",
             "collection": "posture-shirt",
-            "btn__shopnow": "Shop nu"
+            "btn__shopnow": "Shop"
           }
         },
         "1654180360b14d67ac-0": {
           "type": "collection",
           "settings": {
             "title": "",
-            "collection": "rygstoette",
-            "btn__shopnow": "Shop nu"
+            "collection": "ruckenstutze",
+            "btn__shopnow": "Shop"
           }
         },
         "1654180360b14d67ac-1": {
           "type": "collection",
           "settings": {
             "title": "",
-            "collection": "andre-produkter",
-            "btn__shopnow": "Shop nu"
+            "collection": "hilfsmittel",
+            "btn__shopnow": "Shop"
           }
         }
       },
@@ -125,20 +129,20 @@
         "1657200190267fd417-0": {
           "type": "Profile-Text",
           "settings": {
-            "title": "Hvorfor vælge holdningskorrigerende tøj fra Anodyne?",
-            "code": "<p>Med <a href=\"\/\"><span style=\"text-decoration:underline\">holdningskorrigerende tøj<\/span><\/a> fra Anodyne® kan du på en enkelt og ubesværet måde opnå en bedre kropsholdning og reducere smerter og spændinger i nakke, skuldre og ryg. Anodyne® <a href=\"\/collections\/alle-produkter\/\"><span style=\"text-decoration:underline\">holdningstøj til mænd og kvinder<\/span><\/a> hjælper dig til at øge din kropsholdningsbevidsthed og kan bruges både, når du sidder på kontoret, rejser, er aktiv på jobbet eller bruger det til træning. Anodyne® er europæisk producent og distributør af holdningskorrigerende tøj med teknologi udviklet af amerikanske AlignMed - verdens eneste producent af holdningskorrigerende tøj, der er registreret hos USA’s føderale fødevare- og lægemiddelmyndighed (FDA). Anodyne® holdningskorrigerende tøj er som det eneste i Europa både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr (Klasse I), hvilket er din garanti for, at vores produkter lever op til de krav, der stilles for medicinsk udstyr. Vi sælger også en række forskellige <a href=\"\/collections\/rygstoette\"><span style=\"text-decoration:underline\">produkter til rygstøtte<\/span><\/a>, både i form af holdningsveste, <a href=\"\/collections\/skulderstoette\"><span style=\"text-decoration:underline\">skulderstøtter<\/span><\/a>, ergonomiske puder mm.<\/p>",
+            "title": "Warum haltungskorrigierende Kleidung von Anodyne® wählen?",
+            "code": "<p>Mit <a href=\"\/\"><span style=\"text-decoration:underline\">haltungskorrigierender Kleidung<\/span><\/a> von Anodyne® können Sie auf einfache und unbeschwerte Weise eine bessere Körperhaltung bekommen, sowie Schmerzen und Verspannungen im Nacken, Schultern und Rücken reduzieren. Anodyne® haltungskorrigierende Kleidung hilft Ihnen Ihr Körperbewusstsein zu verbessern und kann sowohl sitzend im Büro oder aktiver auf der Arbeit, auf Reisen oder zum Training verwendet werden. Anodyne® ist ein europäischer Produzent und Händler von das <a href=\"\/collections\/posture-shirt\"><span style=\"text-decoration:underline\">Posture Shirt<\/span><\/a>. Die Technologie wurde entwickelt vom us-amerikanischen Hersteller AlignMed - der einzige Produzent haltungskorrigierender Kleidung, die bei USA´s FDA (Behörde für u.a. Medizinalprodukte), registriert ist. Anodyne® haltungskorrigierende Kleidung ist die einzige Kleidung, die sowohl FDA-registriert und in Europa als medizinisches Hilfsmittel (Klasse 1) MDR\/CE-registriert ist. Dies ist Ihre Garantie dafür, dass Anodyne´s Produkte die Vorschriften für medizinische Hilfsmittel erfüllen.<\/p>",
             "text_alignment": "text-center",
             "status1_number": "+100.000",
-            "status1_label": "Glade danske kunder",
+            "status1_label": "Zufriedene Kunden",
             "status1_link": "shopify:\/\/collections\/all",
             "status2_number": "+500.000",
-            "status2_label": "Solgte produkter verden over",
+            "status2_label": "Weltweit verkaufte Produkte",
             "status2_link": "shopify:\/\/collections\/all",
             "status3_number": "+8",
-            "status3_label": "Års erfaring",
+            "status3_label": "Jahre Erfahrung",
             "status3_link": "shopify:\/\/collections\/all",
             "status4_number": "+80",
-            "status4_label": "Tilgængelige produkter",
+            "status4_label": "Verfügbare Produkte",
             "status4_link": "shopify:\/\/collections\/all",
             "vendor_image_position": "center center",
             "vendor_text": ""
@@ -163,11 +167,12 @@
           "type": "quote",
           "settings": {
             "title": "",
-            "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
+            "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
             "icon": "format_quote",
-            "quote": "<p><em>Kan kun anbefale deres produkter til alle der har smerter eller spændinger i skulderen. De har været en stor hjælp i en hård hverdag med smerter.<\/em><\/p>",
-            "author": "Laura J",
-            "quotes_link": "https:\/\/somelink.com",
+            "quote": "<p>Ich bin sehr zufrieden mit dem Produkt. Es hilft mir sehr gut bei meine Schulter und Nacken Verspannungen. Ich kann es nur weiter empfehlen<\/p>",
+            "author": "Conny G.",
+            "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_128x32_29d2c67b-7589-41e0-abef-3c0338c3a49f.png",
+            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
@@ -176,11 +181,12 @@
           "type": "quote",
           "settings": {
             "title": "",
-            "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
+            "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
             "icon": "format_quote",
-            "quote": "<p><em>Hurtig levering, fantastisk kvalitet og god service. Jeg har købt tre T-shirts over to gange. Kan kun anbefale dem til alle!<\/em><\/p>",
-            "author": "Kristian J.",
-            "quotes_link": "https:\/\/somelink.com",
+            "quote": "<p>Superschnelle Lieferung, unkomplizierte Rücksendung und genau so schnell neue Grösse geliefert. Jetzt passt es und hilft echt!<\/p>",
+            "author": "Miriam F.",
+            "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_128x32_29d2c67b-7589-41e0-abef-3c0338c3a49f.png",
+            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
@@ -189,11 +195,12 @@
           "type": "quote",
           "settings": {
             "title": "",
-            "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
+            "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
             "icon": "format_quote",
-            "quote": "<p><em>Super gode produkter, der holder hvad de lover. God størrelsesvejledning og god service. Jeg skal helt sikkert have en t-shirt mere!<\/em><\/p>",
-            "author": "Stine F.J.",
-            "quotes_link": "https:\/\/somelink.com",
+            "quote": "<p>Super Product, sehr zufrieden. Lieferung sehr schnell, innerhalb ein Tag. Danke und immer wieder bestellen.<\/p>",
+            "author": "Giuseppe P.",
+            "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_128x32_29d2c67b-7589-41e0-abef-3c0338c3a49f.png",
+            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
@@ -207,6 +214,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
+        "trustpilot_imagetitle": "shopify:\/\/shop_images\/Trustedshops_logo_300x100_7167dada-f670-4d71-a50e-b349b60b9a09.png",
         "title": "",
         "subtitle": "",
         "section_style": "section-blank",
@@ -222,7 +230,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "title": "Mest populære produkter",
+        "title": "Beliebte Produkte",
         "subtitle": "",
         "section_style": "section-blank",
         "home_featured_products": "posture-shirt",
@@ -230,8 +238,8 @@
         "desktop_grid": "4",
         "mobile_grid": "2",
         "show_view_all": true,
-        "button_label": "Se alle produkter",
-        "button_link": "shopify:\/\/collections\/alle-produkter",
+        "button_label": "Mehr sehen",
+        "button_link": "shopify:\/\/collections\/alle-produkte",
         "button_style": "btn--primary",
         "slider_related_products": true,
         "arrows": true,
@@ -246,22 +254,25 @@
         "16595128814be99d47-0": {
           "type": "text_block",
           "settings": {
-            "title": "Det originale holdningskorrigerende tøj",
-            "text": "<p>Det originale Anodyne® holdningskorrigerende tøj til mænd og kvinder kan kun købes her på <a href=\"https:\/\/www.anodyne.dk\/\">www.anodyne.dk<\/a> eller hos en af vores godkendte forhandlere. Vær opmærksom på, at der findes mange falske og underlødige produkter på markedet. Kun en slags holdningskorrigerende tøj er både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr samt findes på listen over godkendte hjælpemidler i Danmark; det er produkterne fra Anodyne® - så vær særligt opmærksom, når du handler på nettet. Hos Anodyne® kan du også købe produkter inden for rygstøtte, der kan hjælpe dig med at støtte din ryg i det daglige.<\/p>"
+            "image": "shopify:\/\/shop_images\/Checkmark.png",
+            "title": "Die originale haltungskorrigierende Kleidung",
+            "text": "<p>Die originale Anodyne® haltungskorrigierende Kleidung kann nur auf <a href=\"https:\/\/www.anodyne.ch\/\" title=\"https:\/\/www.anodyne.ch\"><span style=\"text-decoration:underline\">www.anodyne.ch <\/span><\/a>erworben werden. Achten Sie darauf, dass es leider viele minderwertige Fälschungen auf dem Markt gibt. Nur ein einziges haltungskorrigierendes Produkt ist sowohl FDA-registriert und als medizinisches Hilfsmittel MDR\/CE-registriert: Anodyne®.<br\/>Seien Sie beim online Shoppen also achtsam auf Fälschungen.<\/p>"
           }
         },
         "16595128814be99d47-1": {
           "type": "text_block",
           "settings": {
-            "title": "Holdningskorrigerende tøj med 100% tilfredshedsgaranti",
-            "text": "<p>Hos Anodyne® tilbyder vi altid 100% tilfredshedsgaranti, 30 dages fuld returret og gratis ombytning. Det betyder, at du inden for 30 dage frit kan teste og afprøve dit produkt, og finde ud af om det lever op til dine forventninger. Det er let og enkelt at returnere eller bytte hos os og det er vores mål, at du skal være 100% tilfreds - ligesom det har været vores mål for de flere end 100.000 andre danskere, som allerede har købt et originalt Anodyne® produkt i løbet af de sidste 7 år. <\/p>"
+            "image": "shopify:\/\/shop_images\/Smile2.png",
+            "title": "Haltungskorrigierende Kleidung mit 100% Zufriedenheitsgarantie",
+            "text": "<p>Bei Anodyne® bieten wir immer 100% Zufriedenheitsgarantie, 14 Tage gesetzliches Widerrufsrecht und kostenfreie Rücksendung bei Umtausch oder Retoure. Das bedeutet, dass Sie 14 Tage das Produkt testen können, um zu kontrollieren, ob es Ihren Ansprüchen entspricht. Es ist ganz einfach ein Produkt umzutauschen oder zu retournieren. Unser Ziel ist es, dass Sie 100% zufrieden sind.  Genauso war es unser Ziel, mit den bald über 300.000 zufriedenen Kunden in Europa, die das originale Anodyne® Posture Shirt innerhalb der letzten 7 Jahre gekauft haben.<\/p>"
           }
         },
         "16595128814be99d47-2": {
           "type": "text_block",
           "settings": {
-            "title": "Fra kinesiotape til holdningskorrigerende tøj",
-            "text": "<p>Hos Anodyne® forhandler vi den originale <a href=\"\/collections\/posture-shirt\" title=\"Posture Shirt™\"><span style=\"text-decoration:underline\">holdningskorrigerende Posture Shirt™<\/span><\/a>. T-shirtens design benytter den unikke og patenterede NeuroBand™-teknologi, der er baseret på dybdegående videnskabelig forskning i menneskelig fysiologi og designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber for at fremme en bedre kropsholdning. Teknologien er inspireret af kinesiotape – en behandlingsform der ofte anvendes af danske fysioterapeuter og kiropraktorer til at behandle smerter og spændinger i nakke, skuldre og ryg. Kinesiotaping bruges også hyppigt af professionelle atleter til at stimulere specifikke muskelgrupper og forbedre kropsholdningen.<\/p>"
+            "image": "shopify:\/\/shop_images\/Kinesio2_copy.png",
+            "title": "Von Kinesiotape zu haltungskorrigierender Kleidung",
+            "text": "<p><a href=\"https:\/\/anodyne-ch.myshopify.com\/collections\/alle-produkte\" title=\"Alle Produkte\"><span style=\"text-decoration:underline\">Haltungskorrektur-Kleidung<\/span><\/a> aktiviert die Muskulatur im Rücken, den Schultern und Schulterblätter, ohne dabei die Muskulatur oder Glieder zu schwächen oder einzuschränken. Die Technologie ist vom Kinesiotape inspiriert - eine häufig von Physiotherapeuten & Chiropraktikern angewendete Behandlungsform, um Schmerzen und Verspannungen in Nacken, Schultern und Rücken zu behandeln. Kinesiotape wird oft von professionellen Athleten verwendet, um spezifische Muskelgruppen zu stimulieren und die Körperhaltung zu verbessern.<\/p>"
           }
         }
       },
@@ -299,8 +310,8 @@
         "show_on_desktop": true,
         "show_on_mobile": true,
         "full_width": false,
-        "title": "Hvem er vi?",
-        "subtitle": "Se vores præsentationsvideo",
+        "title": "Wer ist Anodyne®?",
+        "subtitle": "Sehen Sie sich unser Präsentationsvideo an",
         "section_style": "section-default"
       }
     },
@@ -344,7 +355,7 @@
         "3c3108af-7850-4cad-a838-88ed336c741f"
       ],
       "settings": {
-        "title": "Smertelindring med holdningstøj",
+        "title": "Haltungskorrigierende Kleidung von Anodyne®",
         "section_style": "section-blank"
       }
     },
@@ -353,8 +364,8 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "title": "Tilmeld dig vores nyhedsbrev",
-        "subtitle": "Modtag løbende e-mails med nye produkter, aktuelle tilbud og konkurrencer",
+        "title": "Abonnieren Sie unseren Newsletter",
+        "subtitle": "Erhalten Sie regelmäßig E-Mails mit neuen Produkten, aktuellen Angeboten und Gewinnspielen",
         "section_style": "section-default",
         "customer_tag": "newsletter"
       }

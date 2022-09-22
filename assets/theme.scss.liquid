@@ -270,6 +270,7 @@ $cFooterBg: #141414;
 $white: white;
 $black: black;
 $colorError: tomato;
+$trusted_shops_color: #ffdc0f;
 
 // Button size
 $paddingButtonY: {{ settings.button_padding_y }}px;
@@ -7504,6 +7505,9 @@ cite {
       &.dark-blue{
         background-color: #17415A;
       }
+      &.burgundy{
+        background-color:#8f2e43;
+      }
     }
     .active-color{
       box-shadow: 0 0 0 2px $white, 0 0 0 4px $cPrimary;
@@ -7525,22 +7529,31 @@ cite {
     margin-top: 0;
   z-index: 0;
   }
-
-  .emaerk__icon-wrapper{
+  .trusted-shops__icon-wrapper{
     position: absolute;
-    top: 32px;
+    top: 40px;
     right: $gutter-sm;
-    width:40px;
-    height: 40px;
+    width:50px;
+    height: 50px;
     border-radius:50px;
     background-color: darken($white, 3%);
     // display: flex;
     // place-items: center;
-    padding:6px 3px 3px 3px;
-    box-shadow: 0 0 0 2px $white, 0 0 0 4px darken($white, 3%);
+    padding:0;
+    box-shadow: 0 0 0 2px $white, 0 0 0 4px $trusted_shops_color;
     // animation: rotating 12s linear infinite;
     z-index: -1;
-
+    .Icon.Icon--trusted-shops {
+      .inner_circle{
+        fill: $trusted_shops_color;
+      }
+      circle{
+        fill: none;
+        stroke: #fff;
+        stroke-width: 8;
+        stroke-miterlimit: 10;
+      }
+    }
   }
 }
 
@@ -10831,9 +10844,12 @@ body:not(.dbtfy-wish_list-destroy) {
       -ms-animation: rotating 12s linear infinite;
       -o-animation: rotating 12s linear infinite;
       animation: rotating 12s linear infinite;
+      .inner_circle{
+        fill: $trusted_shops_color;
+      }
       .circle{
 	    fill:none;
-      stroke:$white;
+      stroke:$trusted_shops_color;
       stroke-width:8;
       stroke-miterlimit:10;
       }
@@ -11624,10 +11640,11 @@ body:not(.dbtfy-wish_list-destroy) {
       font-size: 1.4rem;
       font-weight: 600;
       color: $white;
+      margin-bottom:15px;
       text-transform:uppercase;
       text-shadow: 0 0 4px rgba(22,22,22,0.6);
       @include screenUp($postSmall){
-        font-size:2rem;
+        font-size:1.5rem;
       }
     }
     .collection_banner_btn{

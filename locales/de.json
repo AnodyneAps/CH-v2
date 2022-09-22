@@ -527,6 +527,21 @@
       "next": "Weiter (Pfeiltaste rechts)",
       "prev": "Zurück (Linke Pfeiltaste)",
       "close": "Schließen (Esc)"
+    },
+    "tabs": {
+      "tab-description": " Beschreibung ",
+      "tab-medical": " Technologie ",
+      "tab-use": " Anwendung ",
+      "tab-manual": " Gebrauchsanweisung ",
+      "tab-material": " Materialen ",
+      "tab-delivery": "  Versand und Retoure "
+    },
+    "radios": {
+      "radio-one": "",
+      "radio-save-amount": "Sie sparen "
+    },
+    "sizes": {
+      "choose-size-message": "Bitte wählen Sie Ihre Größe"
     }
   },
   "gift_cards": {

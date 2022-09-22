@@ -347,8 +347,8 @@
         <!-- right grid item -->
         <div id="ProductMeta-{{ section.id }}" class="grid__item product-single__meta--wrapper {{ product_description_width }}{% if emptyState %} large--sticky medium--sticky sticky-check-header{% endif %} {% if sold_out %}variant-soldout{% endif %}">
           <!-- run emaerk icon here  -->
-          <div class="emaerk__icon-wrapper">
-            {%- render 'icon' with 'emaerklogo' -%}
+          <div class="trusted-shops__icon-wrapper">
+            {%- render 'icon' with 'trusted-shops' -%}
           </div>
           <div class="product-single__meta">
             {%- liquid
@@ -661,9 +661,7 @@
                       </span>
                     </button>
                     <!-- <button type="button" class="btn btn__cloud">Add to cloud</button> -->
-                    <button id="ov-onskeskyen-generated-wish-button" class="pill" type="button">Tilføj til Ønskeskyen</button>
-    
-    
+                    <!-- <button id="ov-onskeskyen-generated-wish-button" class="pill" type="button">Tilføj til Ønskeskyen</button> -->
                     {%- if settings.enable_payment_button -%}
                       {{ form | payment_button }}
                     {%- endif -%}
