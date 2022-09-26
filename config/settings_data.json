@@ -997,10 +997,10 @@
       "dbtfy-cart-goal": {
         "type": "dbtfy-cart-goal",
         "settings": {
-          "dbtfy_cart_goal_before_text": "Endnu",
-          "dbtfy_cart_goal_amount": "399",
-          "dbtfy_cart_goal_after_text": "til gratis forsendelse.",
-          "dbtfy_cart_goal_reached_text": "Gratis levering til pakkeshop",
+          "dbtfy_cart_goal_before_text": "Noch",
+          "dbtfy_cart_goal_amount": "59",
+          "dbtfy_cart_goal_after_text": "zum KOSTENLOSEN Versand!",
+          "dbtfy_cart_goal_reached_text": "Gratis Versand!",
           "dbtfy_cart_goal_icons": "local_shipping"
         }
       },

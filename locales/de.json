@@ -303,7 +303,7 @@
   },
   "cart": {
     "general": {
-      "title": "Ihr Einkaufswagen",
+      "title": "Warenkorb",
       "remove": "Entfernen",
       "note": "Besondere Anweisungen für den Verkäufer",
       "subtotal": "Zwischensumme",
@@ -312,7 +312,7 @@
       "taxes_included_but_shipping_at_checkout": "Inklusive MwSt. und Versandkosten werden an der Kasse berechnet",
       "taxes_included_and_shipping_policy_html": "Steuern inklusive. <a href=\"{{ link }}\">Versand<\/a> wird an der Kasse berechnet.",
       "update": "Einkaufswagen aktualisieren",
-      "checkout": "Kasse",
+      "checkout": "Zur Kasse",
       "empty": "Ihr Warenkorb ist derzeit leer.",
       "continue_browsing_html": "Surfen Sie weiter",
       "close_cart": "Warenkorb schließen",
