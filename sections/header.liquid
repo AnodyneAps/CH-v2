@@ -299,15 +299,10 @@
             {%- if settings.show_locale_selector or settings.show_currency_selector -%}
               {%- if settings.localization_position == 'header' or settings.localization_position == 'header_and_footer' -%}
                <li class="dropdown site-nav__item {% if link.active %}site-nav--active{% endif %}">
-                   <a id="MenuParentToggle-2" href="javascript:void(0)"
-                   class="dropdown-toggle site-nav__link langlink"
-                   aria-controls="MenuParent-2"
-                   aria-haspopup="true"
-                   aria-expanded="false"
-                   {% unless request.page_type == 'index' %}{% if link.active %}aria-current="page"{% endif %}{% endunless %}>
+                   <div id="MenuParentToggle-2" class="dropdown-toggle site-nav__link langlink">
                    <span class="langflag"><img src="https://cdn.langshop.app/buckets/app/img/svg/languages/flags/circle/de.svg" alt="DEflag" height="20" width="20"></span><span class="langtext">DE</span>
                    <span class="{{settings.icon}}" aria-hidden="true">keyboard_arrow_down</span>
-                 </a>
+                 </div>
                  <ul id="MenuChildren-2" class="dropdown-menu dropdown-list-parent" aria-labelledby="MenuParentToggle-2">
                    <li class="dropdown-item">
                      <a href="https://fr.anodyne.ch" class="dropdown-link langlink">

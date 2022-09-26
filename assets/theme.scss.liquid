@@ -1714,7 +1714,7 @@ $class-type: unquote(".");
   background-position:20%;
   background-size:cover; 
   min-height: 100%;
-  
+
 }
 /*================ _Pagination ================*/
 // Button pagination
@@ -6042,6 +6042,7 @@ cite {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    cursor: pointer;
     .langtext{
       font-size:0.95rem;
       padding-left: 5px;
@@ -10944,21 +10945,19 @@ body:not(.dbtfy-wish_list-destroy) {
           align-items: flex-start;
 			.content-imagebox {
 				.img{
-          width: 70px;
-          padding: 1rem;
+          max-width: 60px;
+          padding: 12px;
           background-color: lighten($cPrimary, 50%);
           border-top-left-radius: 5px;
           border-bottom-right-radius:5px;
-					@include screenUp($postSmall){
-            width: 150px;
-          }
+          aspect-ratio:1/1;
 				}
 			}
 			.content-textbox {
 				padding: 2rem 0 1rem 1rem;
         text-align: left;
 				.title{
-					font-size: clamp(1.2rem, 1vw, 2rem);
+					font-size: clamp(1rem, 1vw, 1.8rem);
 					font-weight: 600;
 					margin-bottom: .5rem;
 					color:$cText;
