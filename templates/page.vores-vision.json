@@ -6,10 +6,10 @@
         "show_on_desktop": true,
         "show_on_mobile": true,
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Vision_bd4a16a0-3599-4edb-a4e6-f24ab31ed395.jpg",
+        "image": "shopify:\/\/shop_images\/Vision.jpg",
         "section_style": "section-blank",
         "wrapper__height": 360,
-        "image_title": "<p><strong>Vores vision<\/strong><\/p>",
+        "image_title": "<p><strong>Unsere vision<\/strong><\/p>",
         "image_subtitle": "",
         "image_btntext": "",
         "image_link": "",
@@ -23,7 +23,7 @@
           "type": "html",
           "settings": {
             "mission_title": "",
-            "mission_description": "<div style=\"margin:2rem 0;\">\n<h1>Vi vil gøre en forskel<\/h1>\n<p>For mange er en sund kropsholdning vejen til et bedre liv. Uanset om man døjer med periodevise spændinger ved skrivebordet eller lider af kroniske smerter, er en sund kropsholdning noget, der kan være med til at lette hverdagen. Derfor tager vi vores kunder og deres situation seriøst og arbejder benhårdt for at hjælpe dem med at forbedre deres kropsholdning.<\/p>\n<\/div>",
+            "mission_description": "<div style=\"margin:2rem 0;\">\n<h1>Wir wollen einen Unterschied machen<\/h1>\n<p>Für viele kann eine gesündere Körperhaltung der Weg zu einem besseren Leben sein. Egal, ob Sie unter gelegentlichen Verspannungen oder chronischen Schmerzen leiden, eine gesunde Körperhaltung kann Ihre täglichen Beschwerden lindern. Deshalb nehmen wir die Situation unserer Kunden ernst und arbeiten hart daran, ihnen zu helfen, ihre Haltung zu verbessern.\n<\/p>\n<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center",
@@ -50,7 +50,7 @@
           "type": "html",
           "settings": {
             "title": "",
-            "code": "<div style=\"padding-left:55px; padding-right:55px;\">\n<img src=\"https:\/\/i.ibb.co\/n1XdwZ4\/Purpose2.gif\" style=\"max-width:100px; width:100%\">\n<h2>Formål<\/h2>\n<p>Vi eksisterer for at forbedre kropsholdning, lindre smerter og øge livskvaliteten for vores kunder.<\/p>\n<\/div>",
+            "code": "<div style=\"padding-left:55px; padding-right:55px;\">\n<img src=\"https:\/\/i.ibb.co\/n1XdwZ4\/Purpose2.gif\" style=\"max-width:100px; width:100%\">\n<h2>Zweck<\/h2>\n<p>Unser Ziel ist es, die Körperhaltung zu verbessern, Schmerzen zu lindern und die Lebensqualität unserer Kunden zu erhöhen.<\/p>\n<\/div>",
             "column_width": 6,
             "column_width_mobile": 12,
             "text_alignment": "text-center"
@@ -60,7 +60,7 @@
           "type": "html",
           "settings": {
             "title": "",
-            "code": "<div style=\"padding-left:55px; padding-right:55px;\">\n<img src=\"https:\/\/i.ibb.co\/FgjcrpD\/Ambition2.gif\" style=\"max-width:100px; width:100%\">\n<h2>Ambition<\/h2>\n<p>Vi vil være den mest pålidelige og foretrukne leverandør af effektivt holdningskorrigerende tøj i hele Europa..<\/p>\n<\/div>",
+            "code": "<div style=\"padding-left:55px; padding-right:55px;\">\n<img src=\"https:\/\/i.ibb.co\/FgjcrpD\/Ambition2.gif\" style=\"max-width:100px; width:100%\">\n<h2>Ehrgeiz<\/h2>\n<p>Wir wollen der zuverlässigste und bevorzugte Anbieter von effektiver haltungskorrigierender Bekleidung in ganz Europa sein.<\/p>\n<\/div>",
             "column_width": 6,
             "column_width_mobile": 12,
             "text_alignment": "text-center"
@@ -86,32 +86,32 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Integrity.png",
-            "title": "Bevar integriteten",
-            "text": "<p>Vi er respektfulde og ærlige overfor vores kunder.<\/p>"
+            "title": "Integrität bewahren",
+            "text": "<p>Wir sind unseren Kunden gegenüber respektvoll und ehrlich.<\/p>"
           }
         },
         "1663677295ba56017e-1": {
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Quality.png",
-            "title": "Fokus på kvalitet",
-            "text": "<p>Vores produkter virker og holder i mange år.<\/p>"
+            "title": "Auf Qualität konzentrieren",
+            "text": "<p>Unsere Produkte funktionieren und halten jahrelang.<\/p>"
           }
         },
         "1663677295ba56017e-2": {
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Target.png",
-            "title": "Gør det enkelt",
-            "text": "<p>Vi gør det nemt at finde det helt rigtige produkt.<\/p>"
+            "title": "Es einfach machen",
+            "text": "<p>Wir machen es Ihnen leicht, genau das richtige Produkt zu finden.<\/p>"
           }
         },
         "f97af3f9-1518-4821-bef4-2273e327c1e4": {
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/Feedback.png",
-            "title": "Lyt til kunden",
-            "text": "<p>Vi holder fingeren på pulsen og lytter til vores kunders feedback.<\/p>"
+            "title": "Dem Kunden zuhören",
+            "text": "<p>Wir passen uns dem Markt an und hören auf das Feedback unserer Kunden.<\/p>"
           }
         }
       },
@@ -124,8 +124,8 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "title": "Vores værdier",
-        "subtitle": "Hos Anodyne har vi fire kerneværdier, som guider alle vores beslutninger og sikrer, at vi altid leverer den samme gode service.",
+        "title": "Unsere Werte",
+        "subtitle": "Wir bei Anodyne® haben vier Grundwerte, die alle unsere Entscheidungen leiten und sicherstellen, dass wir immer den gleichen großartigen Service bieten.",
         "section_style": "section-default",
         "text_align": "text-center"
       }
@@ -135,7 +135,7 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "title": "Mest solgte",
+        "title": "Bestsellers",
         "subtitle": "",
         "section_style": "section-blank",
         "home_featured_products": "posture-shirt",

@@ -12,7 +12,7 @@
           "type": "html",
           "settings": {
             "title": "",
-            "code": "<div style=\"margin-bottom:-60px\">\n<h1>Posture Shirt eller Skulderstøtte?<\/h1>\n<h4>Læs mere om forskelle og ligheder mellem de to produkter her.<\/h4>\n<\/div>",
+            "code": "<div style=\"margin-bottom:-60px\">\n<h1>Posture Shirt oder Geradehalter?<\/h1>\n<h4>Lesen Sie hier mehr über die Unterschiede und Gemeinsamkeiten zwischen den beiden Produkten.<\/h4>\n<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center"
@@ -41,10 +41,10 @@
         "text_size": "medium",
         "image_alignement": "left",
         "text_alignment": "",
-        "title": "Hvorfor vælge en Posture Shirt™?",
-        "text": "<p>Vælg en Posture Shirt™, hvis du ønsker et produkt med høj komfort, som giver støtte hele dagen.<\/p><p>• Forbedrer kropsholdningen<br\/>• Øger kropsholdningsbevidstheden<br\/>• Aktiverer muskulaturen<br\/>• Giver fri bevægelighed<br\/>• Dokumenteret effekt på lindring af smerter og spændinger<br\/>• Medicinsk registreret (klasse 1)<\/p><p><br\/>Kan bruges <strong>hele dagen<\/strong> (ved gradvis tilvænning):<\/p><p>• Siddende<br\/>• Stående<br\/>• Ved fysisk aktivitet <\/p>",
+        "title": "Warum das Posture Shirt™ wählen?",
+        "text": "<p>Wählen Sie das Posture Shirt™, wenn Sie ein Produkt mit hohem Komfort und Stütze für den ganzen Tag wünschen.<\/p><p><\/p><p>• Verbessert die Körperhaltung<br\/>• Verbessert das Körperbewusstsein<br\/>• Aktiviert die Muskulatur<br\/>• Sichert volle Bewegungsfreiheit<br\/>• Dokumentierter Effekt der Linderung von Schmerzen und Verspannungen<\/p><p>Kann <strong>den ganzen Tag<\/strong> genutzt werden (individuelle Eingewöhnungszeiten):<br\/><\/p><p>• Sitzend<br\/>• Stehend<br\/>• Bei physischer Aktivität<\/p>",
         "button_style": "",
-        "button_label": "Se Posture Shirts",
+        "button_label": "Siehe Auswahl",
         "button_link": "shopify:\/\/collections\/posture-shirt"
       }
     },
@@ -59,15 +59,16 @@
         "text_size": "medium",
         "image_alignement": "right",
         "text_alignment": "",
-        "title": "Hvorfor vælge en Skulderstøtte?",
-        "text": "<p>Vælg en Skulderstøtte, hvis du ønsker et produkt, du kan bruge i kortere perioder i løbet af dagen.<\/p><p>• Forbedrer kropsholdningen<br\/>• Stabiliserer og aflaster<br\/>• Kan lindre smerter og spændinger<\/p><p>Kan bruges <strong>30-60 min.<\/strong> efter behov:<\/p><p>• Siddende<br\/>• Stående<\/p>",
+        "title": "Warum den Geradehalter wählen?",
+        "text": "<p>Wählen Sie den Geradehalter, wenn Sie ein Produkt zur kurzweiligen Nutzung im Laufe des Tages wünschen.<\/p><p>• Verbessert die Körperhaltung<br\/>• Stabilisiert und Entlastet<br\/>• Kann Schmerzen und Spannungen lindern<\/p><p>Kann <strong>30-60 Minuten<\/strong>, je nach Bedarf, genutzt werden:<\/p><p>• Sitzend<br\/>• Stehend<\/p>",
         "button_style": "",
-        "button_label": "Se skulderstøtter",
-        "button_link": "shopify:\/\/collections\/skulderstoette"
+        "button_label": "Siehe Auswahl",
+        "button_link": "shopify:\/\/collections\/ruckenstutze"
       }
     },
     "16637455326d1926f0": {
       "type": "featured-content",
+      "disabled": true,
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,

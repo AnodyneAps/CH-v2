@@ -7,7 +7,7 @@
           "type": "html",
           "settings": {
             "title": "",
-            "code": "<div style=\"margin-bottom:-110px\">\n<h1>Øvelser til udspændning af ryg og nakke<\/h1>\n<p>Døjer du med nakkesmerter eller spændinger skulder eller ryg? I samarbejde med kiropraktor og klinikejer Michael Justad fra JustHealth, har vi i videoen herunder samlet 5 nemme øvelser, som du kan lave på under 5 minutter – på kontoret eller hjemme.<\/p>\n<\/div>",
+            "code": "<div style=\"margin-bottom:-110px\">\n<h1>Übungen bei Verspannungen<\/h1>\n<p>Leiden Sie unter Nackenschmerzen oder Verspannungen in Schultern und Rücken? In Zusammenarbeit mit dem Chiropraktiker und Klinikbesitzer Michael Justad von JustHealth haben wir in dem folgenden Video 5 einfache Übungen zusammengestellt, die Sie zu Hause oder an Ihrem Arbeitsplatz durchführen können. Es dauert nur fünf Minuten.<\/p>\n<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center"
@@ -33,7 +33,7 @@
           "settings": {
             "video_cover_image": "shopify:\/\/shop_images\/Cover_video.jpg",
             "title": "",
-            "video_url": "https:\/\/youtu.be\/cwrhb8dS56U",
+            "video_url": "https:\/\/youtu.be\/vi-hphFy5aE",
             "animated_button": true
           }
         }
@@ -55,14 +55,14 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "image": "shopify:\/\/shop_images\/Working_posture.jpg",
+        "image": "shopify:\/\/shop_images\/Working_posture_1296x1296_3bfb1960-eb5b-47d7-a0be-ec385755c01c.jpg",
         "image_link": "",
         "section_style": "section-blank",
         "text_size": "medium",
         "image_alignement": "right",
         "text_alignment": "",
-        "title": "Optimér din arbejdsstilling på kontoret",
-        "html_text": "<p>Er du en af dem, der døjer med spændinger i nakke, skuldre eller ryg, fordi du har et primært stillesiddende arbejde, så hjælper de 5 afspændingsøvelser dig godt på vej til at lindre og forebygge dette i hverdagen. Det kan samtidig være en fordel at se på, om du kan optimere din arbejdsstilling, når du sidder ved skrivebordet.<\/p><strong><br>Følg disse råd til en korrekt arbejdsstilling ved skrivebord:<\/strong><div style=\"padding-left:20px\">\n<p><\/p>\n<ul>\n<li><p>Sid med ret ryg, skub bækkenet ind og træk skuldrene tilbage – set fra siden skal rygsøjlen være i en S-kurven<\/p><\/li>\n<li><p>Ben og knæ skal være i en 90 graders vinkel eller derover<\/p><\/li>\n<li><p>Begge albuer skal hvile på skrivebord eller armlæn i en ret vinkel ud fra kroppen, så skuldrene slapper af<\/p><\/li>\n<li><p>Computer eller computerskærm skal være placeret i øjenhøjde<\/p><\/li>\n<p><\/p>\n<li><p>Skift arbejdsstilling ofte og veksel gerne mellem at stå og sidde<\/p><\/li>\n<\/ul>\n<\/div>",
+        "title": "Optimieren Sie Ihre Körperhaltung im Büro",
+        "html_text": "<p>Wenn Sie unter Nacken-, Schulter- oder Rückenverspannungen leiden, weil Sie eine überwiegend sitzende Tätigkeit ausüben, werden diese 5 Entspannungsübungen Ihnen helfen, Verspannungen in Ihrem Alltag zu lösen und vorzubeugen. Es kann auch sinnvoll sein, sich zu überlegen, wie Sie Ihre Körperhaltung beim Sitzen am Schreibtisch optimieren können.<\/p><strong><br>Befolgen Sie diese Tipps für eine korrekte Haltung an Ihrem Schreibtisch:<\/strong><div style=\"padding-left:20px\">\n<p><\/p>\n<ul>\n<li><p>Setzen Sie sich mit geradem Rücken hin, drücken Sie Ihr Becken nach innen und ziehen Sie die Schultern zurück. Von der Seite betrachtet sollte Ihre Wirbelsäule die Form eines S haben.<\/p><\/li>\n<li><p>Die Beine und Knie sollten einen Winkel von 90 Grad oder mehr bilden.<\/p><\/li>\n<li><p>Beide Ellbogen sollten im rechten Winkel zum Körper auf dem Schreibtisch oder der Armlehne aufliegen, so dass Ihre  Schultern entspannt sind.<\/p><\/li>\n<li><p>Der Computerbildschirm sollte sich auf Augenhöhe befinden.<\/p><\/li>\n<p><\/p>\n<li><p>Ändern Sie Ihre Arbeitsposition häufig und wechseln Sie zwischen der Arbeit im Sitzen und Stehen.<\/p><\/li>\n<\/ul>\n<\/div>",
         "button_style": "btn--primary",
         "button_label": "",
         "button_link": ""
@@ -73,10 +73,10 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "title": "Mest solgte",
+        "title": "Bestsellers",
         "subtitle": "",
         "section_style": "section-default",
-        "home_featured_products": "posture-shirt",
+        "home_featured_products": "bestseller",
         "rows": "2",
         "desktop_grid": "4",
         "mobile_grid": "2",
@@ -98,7 +98,7 @@
           "type": "html",
           "settings": {
             "title": "",
-            "code": "<div style=\"margin-bottom:-80px\">\n<h2>Holdningskorrigerende produkter til kontorarbejde<\/h2>\n<p>Hos Anodyne® tilbyder vi produkter inden for holdningskorrektion, aflastning og generel kropssundhed. Vores produkter har til formål at øge kropsholdningsbevidstheden, aflaste og støtte kroppen i dagligdagen, lindre smerter og spændinger, samt øge dagligt velvære. Kropssundheden er i fokus, og det er derfor vigtigt at fastslå, at vi altid anbefaler at bruge produkterne som et supplement til en aktiv livsstil, da motion og bevægelse er fundamentalt for kroppens sundhed..<\/p>\n<\/div>",
+            "code": "<div style=\"margin-bottom:-80px\">\n<h2>Produkte zur Korrektur der Körperhaltung bei der Büroarbeit<\/h2>\n<p>Bei Anodyne® bieten wir Produkte zur Haltungskorrektur, zur Entspannung und zur allgemeinen Gesundheit an. Unsere Produkte zielen darauf ab, den Körper zu unterstützen und das Haltungsbewusstsein im täglichen Leben zu verbessern sowie Schmerzen und Verspannungen zu lindern, um die Lebensqualität zu erhöhen.<\/p>\n<\/div>",
             "column_width": 12,
             "column_width_mobile": 12,
             "text_alignment": "text-center"
@@ -121,17 +121,17 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "image": "shopify:\/\/shop_images\/Belt_500x330_995774e2-41ce-4644-bb78-e58978635d61.jpg",
+        "image": "shopify:\/\/shop_images\/Lumbar.jpg",
         "image_link": "shopify:\/\/collections\/rygstoette",
         "section_style": "section-blank",
         "text_size": "medium",
         "image_alignement": "left",
         "text_alignment": "",
-        "title": "Aflast ryg og lænd med Skulderstøtte eller Lændebælte",
-        "text": "<p>Ryggen er særligt udsat, når vi sidder meget ned, og derfor kan det være en fordel at aflaste ryg og skuldre i løbet af arbejdsdagen. Hos Anodyne® tilbyder vi en række produkter til rygstøtte, heriblandt vores <em>skulderstøtter<\/em> og <em>lændebælte<\/em>. Begge produkter er ideelle redskaber til at forebygge og behandle smerter og spændinger, og de fungerer som hjælpemidler til at støtte og aflaste muskulaturen, når der opstår et akut behov.<\/p><p>Vores <a href=\"https:\/\/codebeautify.org\/collections\/skulderstoette\"><span style=\"text-decoration:underline\">skulderstøtter<\/span><\/a> fremmer en god holdning, når du har produktet på, og kan med fordel anvendes ved smerter og spændinger i nakke, skulder og øvre ryg. Skulderbladene trækkes tilbage på plads, hvorved skuldre og øvre ryg aflastes. <a href=\"https:\/\/codebeautify.org\/products\/laendebaelte\"><span style=\"text-decoration:underline\">Lændebæltet<\/span><\/a> kan med fordel anvendes, hvis man døjer med smerter eller spændinger i lænden. Lændebæltet støtter og aflaster muskler og led, mens presset på musklerne mindskes, og samtidig bidrager det til et øget fokus på holdningen omkring lænden.<\/p>",
+        "title": "Entlasten Sie Rücken und Lendenwirbelsäule mit Shoulder Brace oder Lumbar Belt",
+        "text": "<p>Unser Rücken ist besonders anfällig, wenn wir viel sitzen. Daher kann es von Vorteil sein, wenn wir unseren Rücken und unsere Schultern über den Arbeitstag entlasten. Bei Anodyne® bieten wir eine Reihe von Produkten zur Rückenunterstützung an, darunter unsere Schulterstützen und Lendengurte. Beide Produkte sind ideale Hilfsmittel zur Vorbeugung und Linderung von Schmerzen und Verspannungen und dienen zur Unterstützung und Entlastung der Muskulatur, wenn akuter Bedarf besteht.<\/p><p>Unsere Shoulder Braces helfen, Ihre Haltung zu verbessern, solange Sie das Produkt tragen. Sie können bei Schmerzen und Verspannungen im Nacken, in den Schultern und im oberen Rücken eingesetzt werden. Die Schulterblätter werden in die richtige Position gezogen, wodurch der Druck auf die Schultern und den oberen Rücken verringert wird. Der Lendengurt ist ideal, wenn Sie unter Schmerzen oder Verspannungen im unteren Rückenbereich leiden. Der Lendengurt reduziert die Belastung auf die Muskeln und hilft, die Haltung im Lendenbereich zu verbessern.<\/p>",
         "button_style": "",
-        "button_label": "Se udvalg",
-        "button_link": "shopify:\/\/collections\/rygstoette"
+        "button_label": "Auswahl Ansehen",
+        "button_link": "shopify:\/\/collections\/ruckenstutze"
       }
     },
     "16637496063027e35a": {
@@ -139,21 +139,22 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "image": "shopify:\/\/shop_images\/Posture-Shirt_500x330_97e93c41-6f0c-41da-b71e-4a970c3d343b.jpg",
+        "image": "shopify:\/\/shop_images\/Posture_shirt.jpg",
         "image_link": "shopify:\/\/collections\/posture-shirt",
         "section_style": "section-default",
         "text_size": "medium",
         "image_alignement": "right",
         "text_alignment": "",
-        "title": "Forebyg spændinger med en holdningskorrigerende trøje",
-        "text": "<p>Er kropsholdningen optimal, når man sidder ned, kan man i langt de fleste tilfælde undgå at få smerter eller spændinger i nakken og ryggen. Men det er svært hele tiden at huske på at rette ryggen op. Ønsker man hjælp til at huske den gode kropsholdning, er vores<a href=\"https:\/\/codebeautify.org\/collections\/posture-shirt\/\"><span style=\"text-decoration:underline\">Posture Shirt™<\/span><\/a>et oplagt valg. De integrerede støttebånd på ryggen, som kaldes NeuroBands™, trækker let i skuldrene, så man bliver mindet om, at de skal trækkes tilbage på plads. Posture Shirt™ fungerer således som en påmindelse om at aktivere muskulaturen i øvre ryg, hvilket gør det nemmere at huske at rette ryggen op i løbet af dagen og gøre den gode kropsholdning til en vane. På den måde kan den også forebygge spændinger og smerter i dagligdagen, fordi kroppen undgår at falde sammen.<\/p>",
+        "title": "Beugen Sie Haltungsschäden mit einem Posture Shirt vor, das Ihre Haltung korrigiert",
+        "text": "<p>Eine optimale Haltung beim Sitzen kann in den allermeisten Fällen Schmerzen oder Verspannungen im Nacken und Rücken vorbeugen. Es kann jedoch schwierig sein, ständig daran zu denken, aufrecht zu sitzen. Wenn Sie eine Erinnerung daran brauchen, ist unser Posture Shirt™ die ideale Wahl. Die integrierten Stützbänder auf dem Rücken, die NeuroBands™ genannt werden, ziehen sanft an den Schultern, um Sie daran zu erinnern, die Schultern wieder an ihren Platz zu ziehen. Auf diese Weise wirkt das Posture Shirt™ wie eine Erinnerung, die es Ihnen erleichtert, sich daran zu erinnern, Ihren Rücken den ganzen Tag über aufzurichten und eine gute Haltung zur Gewohnheit werden zu lassen.<\/p>",
         "button_style": "",
-        "button_label": "Se udvalg",
+        "button_label": "Auswahl Ansehen",
         "button_link": "shopify:\/\/collections\/posture-shirt"
       }
     },
     "16637498776cfac0c7": {
       "type": "featured-row",
+      "disabled": true,
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,

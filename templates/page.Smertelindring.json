@@ -1,0 +1,233 @@
+{
+  "sections": {
+    "166367530215ab248b": {
+      "type": "featured-image-landing",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Smertelindring_hero.jpg",
+        "section_style": "section-blank",
+        "wrapper__height": 360,
+        "image_title": "<p><strong>CHMERZLINDERUNG UND GESUNDE KÖRPERHALTUNG<\/strong><\/p>",
+        "image_subtitle": "",
+        "image_btntext": "",
+        "image_link": "",
+        "show_on_image_scrolldown": false
+      }
+    },
+    "1664189904b6e5ac6e": {
+      "type": "featured-icons",
+      "blocks": {
+        "1664189904b358f8dc-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ease.png",
+            "title": "Lindert Schmerzen",
+            "text": "<p>Eine gesunde Körperhaltung kann Verspannungen und Schmerzen in Rücken, Schultern und Nacken lindern.<\/p>"
+          }
+        },
+        "1664189904b358f8dc-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Shield2.png",
+            "title": "Verhindert Verletzungen",
+            "text": "<p>Hilft Ihnen, zukünftige Probleme mit Schmerzen zu verhindern.<\/p>"
+          }
+        },
+        "1664189904b358f8dc-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Alleviate.png",
+            "title": "Entlastet den Körper",
+            "text": "<p>Entspannt beanspruchte Muskelgruppen und lindert Verspannungen in Schultern, Nacken und unterem Rücken.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1664189904b358f8dc-0",
+        "1664189904b358f8dc-1",
+        "1664189904b358f8dc-2"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "text_align": "text-center"
+      }
+    },
+    "1664190529b641ada9": {
+      "type": "featured-columns",
+      "blocks": {
+        "16641905298f0931b5-0": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/Shoulders.jpg",
+            "image_link": "",
+            "icon": "",
+            "heading_text": "",
+            "text": "<p><strong>73 % <\/strong>erleben eine Verringerung der Häufigkeit ihrer Rücken- und Schulterschmerzen.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "16641905298f0931b5-1": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/Neck.jpg",
+            "image_link": "",
+            "icon": "",
+            "heading_text": "",
+            "text": "<p><strong>70 % <\/strong>erleben eine Verringerung der Häufigkeit ihrer Nackenschmerzen.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "16641905298f0931b5-2": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/Lumbar2.jpg",
+            "image_link": "",
+            "icon": "",
+            "heading_text": "",
+            "text": "<p><strong>65 % <\/strong>haben das Gefühl, dass sich die Intensität ihrer Schmerzen im unteren Rückenbereich verringert hat.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "7b198320-3cf0-4a22-8099-ed15b8dd2381": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "image": "shopify:\/\/shop_images\/Headache.jpg",
+            "image_link": "",
+            "icon": "",
+            "heading_text": "",
+            "text": "<p><strong>77 % <\/strong>haben das Gefühl, dass sich die Intensität ihrer Kopfschmerzen verringert hat.<\/p>",
+            "button_style": "btn--primary",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16641905298f0931b5-0",
+        "16641905298f0931b5-1",
+        "16641905298f0931b5-2",
+        "7b198320-3cf0-4a22-8099-ed15b8dd2381"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Schmerzlinderung mit haltungsverbessernder Kleidung",
+        "subtitle": "Wir bemühen uns sehr, die Wirksamkeit unserer Produkte nachzuweisen. Deshalb haben wir eine unabhängige Umfrage in Auftrag gegeben, bei der 1.039 unserer Kunden befragt wurden. Die Studie kommt zu dem Schluss, dass sich unser Posture Shirt™ positiv auf die Körperhaltung auswirkt und als zusätzliches Hilfsmittel zur Schmerzlinderung in Kopf, Nacken, Schultern und Rücken eingesetzt werden kann.",
+        "section_style": "section-blank",
+        "text_align": "text-center"
+      }
+    },
+    "1664190819e1167914": {
+      "type": "mission",
+      "blocks": {
+        "16641908195f04c2de-0": {
+          "type": "html",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Registrering2.png",
+            "mission_title": "Wir sind medizinisch registriert",
+            "mission_description": "<p>Anodyne® ist der einzige Händler für haltungskorrigierende Kleidung in Europa, dessen Produkte sowohl FDA-registriert als auch als medizinische Hilfsmittel CE-gekennzeichnet sind. Das bedeutet, dass unsere Produkte eine Reihe von strengen Umwelt-, Sicherheits-, Qualitäts- und Leistungsanforderungen erfüllen.\nDiese Registrierung gilt für unsere Produkte Posture Shirt™, SpinalQ Pro und MyLign Pro.<\/p>",
+            "column_width": 12,
+            "column_width_mobile": 12,
+            "text_alignment": "text-center",
+            "btn_text": "Auswahl Ansehen",
+            "btn_url": "shopify:\/\/collections\/posture-shirt"
+          }
+        }
+      },
+      "block_order": [
+        "16641908195f04c2de-0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "margin__bottom": 0,
+        "section_style": "section-blank",
+        "wrapper_size": ""
+      }
+    },
+    "166419113891b64f32": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/Kinesotape_to_posture_shirt.jpg",
+        "image_link": "",
+        "section_style": "section-blank",
+        "text_size": "medium",
+        "image_alignement": "left",
+        "text_alignment": "",
+        "title": "Inspiriert von Kinesiotape",
+        "text": "<p>Das Posture Shirt™ ist das originale T-Shirt zur Korrektur der Körperhaltung. Das T-Shirt wurde auf der Grundlage wissenschaftlicher Studien der menschlichen Physiologie entwickelt und von der Verwendung von Kinesio-Tape als physiotherapeutische Behandlung von Schmerzen inspiriert.<\/p><p>Das Kinesiotape ist mit den sogenannten NeuroBands™ in den Rücken unseres Posture Shirt™ integriert – Stützbänder, die dort angebracht werden, wo normalerweise das Kinesiotape angebracht wird. Diese NeuroBands™ sind entscheidend für die Fähigkeit des T-Shirts, eine bessere Haltung zu fördern, indem sie die Schultern leicht nach hinten ziehen. Dieser Zug erinnert den Körper daran, sich aufzurichten und eine gute Haltung zu bewahren.<\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Lesen Sie mehr",
+        "button_link": ""
+      }
+    },
+    "16641912064201dfe2": {
+      "type": "featured-row",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "image": "shopify:\/\/shop_images\/MK2_d33ab37f-4220-48eb-b8ac-33c2b9cb20bb.jpg",
+        "image_link": "",
+        "section_style": "section-blank",
+        "text_size": "medium",
+        "image_alignement": "right",
+        "text_alignment": "",
+        "title": "Schmerzlinderung ist Teil unserer DNA",
+        "text": "<p>Anodyne® wurde gegründet, weil der CEO, Kenneth, selbst viele Jahre unter Schmerzen litt. Nach unzähligen physiotherapeutischen Behandlungen und einer langen Suche fand er ein haltungsverbesserndes T-Shirt aus den USA, das ihm half, seine Haltung zu korrigieren. Die Wirkung war für ihn unbestreitbar und er wusste sofort, dass er dieses T-Shirt mit anderen teilen musste, die ebenfalls unter Schmerzen leiden. Deshalb gründete er 2014 gemeinsam mit seiner Frau Mia Anodyne® und begann mit dem Vertrieb des Posture Shirt™ in Europa. Seitdem hat sich das Sortiment erweitert und wir bieten nun eine breite Palette von Produkten zur Verbesserung der Körperhaltung und zur Schmerzlinderung an.  <\/p>",
+        "button_style": "btn--primary",
+        "button_label": "Über uns",
+        "button_link": "shopify:\/\/pages\/uber-uns"
+      }
+    },
+    "16636773046ce0c44d": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Bestsellers",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "home_featured_products": "bestseller",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    }
+  },
+  "order": [
+    "166367530215ab248b",
+    "1664189904b6e5ac6e",
+    "1664190529b641ada9",
+    "1664190819e1167914",
+    "166419113891b64f32",
+    "16641912064201dfe2",
+    "16636773046ce0c44d"
+  ]
+}
