@@ -11,9 +11,12 @@
       {%- endcapture -%}
 
       {%- if variant.compare_at_price > variant.price -%}
-      <span class="badge number-discount_saved discount_hide discount_saved-{{ variant.id }} hide">
-        <span class="{{ settings.icon }}">local_offer</span>
-        {{ "products.general.save_html" | t: saved_amount: discount_saved }}
+      <span class="badge badge__first number-discount_saved discount_saved-{{ variant.id }} hide">
+        {% comment %} <span class="{{ settings.icon }}">local_offer</span> {% endcomment %}
+        <span class="badge__first-text">{{ "products.general.save_html" | t }}</span>
+        <span class="badge__first-porcents"> - {{ "products.general.saved_amount_nums" | t: saved_amount: discount_saved }} </span>
+    
+        
         </span>
       {%- endif -%}
     {%- endfor -%}

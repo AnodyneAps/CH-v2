@@ -58,13 +58,13 @@
 			</div>
 		{%- endif -%}
     {%- if section.settings.show_emark -%}
-    <div class="trusted-shops-container">
-        <div class="trusted-shops-wrapper">{%- render 'icon' with 'trusted-shops' -%}</div>
-    </div>
-  {%- endif -%}
-      {% if section.settings.show_bottom_counter %}
+      <div class="trusted-shops-container">
+          <div class="trusted-shops-wrapper">{%- render 'icon' with 'trusted-shops' -%}</div>
+      </div>
+    {%- endif -%}
+      {%- comment -%} {% if section.settings.show_bottom_counter %}
           {%- render 'flip-clock' -%}
-    {% endif %}
+    {% endif %} {%- endcomment -%}
 		</div>
 
 	{%- if section.settings.page_width == 'fixed_width' -%}

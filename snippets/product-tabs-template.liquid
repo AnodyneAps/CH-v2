@@ -210,6 +210,7 @@
 <div class="product-single" data-product-handle="{{ product.handle }}" data-product-id="{{ product.id }}" data-product-collections="{{ product_collections }}">
   <div class="box">
     <div class="wrapper">
+    {%- if section.settings.blackdays_banner != blank -%} <div class="product__banner"><img src="{{section.settings.blackdays_banner | img_url:'1200x100'}}" alt="Anodyne black days"></div>{%- endif -%} 
       <div class="grid product-single">
         {%- if title_position_mobile == "above" -%}
           <div class="grid__item product-general-info-mobile medium--hide large--hide">
@@ -346,10 +347,7 @@
 
         <!-- right grid item -->
         <div id="ProductMeta-{{ section.id }}" class="grid__item product-single__meta--wrapper {{ product_description_width }}{% if emptyState %} large--sticky medium--sticky sticky-check-header{% endif %} {% if sold_out %}variant-soldout{% endif %}">
-          <!-- run emaerk icon here  -->
-          <div class="trusted-shops__icon-wrapper">
-            {%- render 'icon' with 'trusted-shops' -%}
-          </div>
+         
           <div class="product-single__meta">
             {%- liquid
               assign showProductProperties = false
@@ -659,9 +657,8 @@
                           -%}
                         </span>
                       </span>
-                    </button>
-                    <!-- <button type="button" class="btn btn__cloud">Add to cloud</button> -->
-                    <!-- <button id="ov-onskeskyen-generated-wish-button" class="pill" type="button">Tilføj til Ønskeskyen</button> -->
+                    </button>    
+    
                     {%- if settings.enable_payment_button -%}
                       {{ form | payment_button }}
                     {%- endif -%}

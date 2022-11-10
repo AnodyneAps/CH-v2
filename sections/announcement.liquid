@@ -4,7 +4,9 @@
   <div id="announcement"
        data-section-id="{{ section.id }}"
        data-section-type="announcement-section"
-       data-template="{{ template.name }}">
+       data-template="{{ template.name }}"
+       class="announcement__bg {% unless section.settings.style__selector == 'none' %}{{section.settings.style__selector}}__days {% endunless %}"
+       >
 
     <div class="wrapper">
     <div class="grid grid-small flex-nowrap align-center announcement-grid whitespace-nowrap fadeIn">
@@ -65,6 +67,24 @@
 	  "class": "announcement-section stacked-on-top-of-content",
     "max_blocks": 5,
     "settings": [
+            {
+        "type": "select",
+        "id": "style__selector",
+        "label": "Select color scheme",
+        "default": "none",
+        "options": [
+          {
+            "label": "None",
+            "value": "none"
+          }, {
+            "label": "Black Days",
+            "value": "black"
+          }, {
+            "label": "Cyber Days",
+            "value": "cyber"
+          }
+        ]
+      },
       {
         "type": "checkbox",
         "id": "show_announcement",

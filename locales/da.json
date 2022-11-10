@@ -499,7 +499,8 @@
   },
   "products": {
     "general": {
-      "save_html": "Gem {{ saved_amount }}",
+      "save_html": "Spar",
+      "saved_amount_nums": "{{ saved_amount }}",
       "collection_return": "Tilbage til {{ collection }}",
       "sale_price": "Udsalgspris",
       "regular_price": "Normal pris",
@@ -542,6 +543,12 @@
     },
     "sizes": {
       "choose-size-message": "Husk at vælge størrelse"
+    },
+    "counter": {
+      "days": "Dage",
+      "hours": "Timer",
+      "minutes": "Minutter",
+      "seconds": "Sekunder"
     }
   },
   "gift_cards": {

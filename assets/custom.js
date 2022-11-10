@@ -55,6 +55,7 @@ function toggleAccordion(el) {
 
 const closeBtn = document.querySelector(".close__btn");
 const flipBar = document.querySelector(".flip-container");
+const flipFlopBar = document.getElementById("flipFlop");
 
 window.addEventListener("scroll", () => {
 	let scroll = this.scrollY;
@@ -107,45 +108,45 @@ if (setupTime == null) {
     }
 }
 
-setInterval(() => {
-	//set day hours
-	const d = new Date();
-	const setTimeOfDay = d.getHours();
-	//set day hours
-	let	date1 = new Date().setHours(08,59,59) 
-	let date2 =  new Date().setHours(14,59,59) 
-	let date3 = new Date().setHours(32,59,59) 
 
-  const currentDate = d;
-  const timeBetweenDates1 = Math.ceil(( date1 - currentDate ) / 1000)
-	const timeBetweenDates2 = Math.ceil(( date2 - currentDate ) / 1000);
-	const timeBetweenDates3 = Math.ceil(( date3 - currentDate ) / 1000)
-			if(setTimeOfDay >= 0 && setTimeOfDay < 9){
-				if(timeBetweenDates1 < 0) return
-				flipAllCards(timeBetweenDates1)
-			}
-			else if(setTimeOfDay >= 9 && setTimeOfDay < 15){
-				if(timeBetweenDates2 < 0) return
-				flipAllCards(timeBetweenDates2)
-			}
-			else{
-				if(timeBetweenDates3 < 0) return
-				flipAllCards(timeBetweenDates3)
-			}
-	}, 1000)
+const dateCollect = flipFlopBar.dataset.collectDate;
+const dateStr = dateCollect.replace(' ', 'T');
+const countToBlackDays = new Date( dateStr );
+let previousTimeBetweenDates
+let daysContainer = document.querySelector("[data-days]");
+// let dayDots = document.querySelector("[data-dots]");
+
+
+setInterval(() => {
+	const currentDate = new Date()
+	const timeBetweenDates = Math.ceil((countToBlackDays - currentDate) / 1000)
+	flipAllCards(timeBetweenDates)
+	previousTimeBetweenDates = timeBetweenDates
+	if (countToBlackDays< currentDate){
+		flipFlopBar.style.display = "none";
+	} 
+	}, 250)
 
 
 function flipAllCards(time) {
-  const seconds = time % 60
-  const minutes = Math.floor(time / 60) % 60
-  const hours = Math.floor(time / 3600)
 
-  flip(document.querySelector("[data-hour-tens]"), Math.floor(hours / 10))
-  flip(document.querySelector("[data-hour-ones]"), hours % 10)
-  flip(document.querySelector("[data-minute-tens]"), Math.floor(minutes / 10))
-  flip(document.querySelector("[data-minute-ones]"), minutes % 10)
-  flip(document.querySelector("[data-second-tens]"), Math.floor(seconds / 10))
-  flip(document.querySelector("[data-second-ones]"), seconds % 10)
+	const days = Math.floor(time * 1000 / (1000 * 60 * 60 * 24));
+	const seconds = time % 60
+	const minutes = Math.floor(time / 60) % 60
+	const hours = Math.floor(time * 1000 / (1000 * 60 * 60))
+	const difhours = hours - days * 24
+	  if(days < 1){
+		daysContainer.style.display = "none"
+		// dayDots.style.display = "none"
+	  }
+	flip(document.querySelector("[data-days-tens]"), Math.floor(days / 10))
+	flip(document.querySelector("[data-days-ones]"), days % 10)
+	flip(document.querySelector("[data-hour-tens]"), Math.floor(difhours / 10))
+	flip(document.querySelector("[data-hour-ones]"), difhours % 10)
+	flip(document.querySelector("[data-minute-tens]"), Math.floor(minutes / 10))
+	flip(document.querySelector("[data-minute-ones]"), minutes % 10)
+	flip(document.querySelector("[data-second-tens]"), Math.floor(seconds / 10))
+	flip(document.querySelector("[data-second-ones]"), seconds % 10)
 }
 
 function flip(flipCard, newNumber){
@@ -235,3 +236,5 @@ const removeActiveHomeTabItemClass = () => {
     homeTabItem.classList.remove('active')
   })
 }
+
+

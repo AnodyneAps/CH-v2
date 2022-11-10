@@ -2,6 +2,7 @@
   "sections": {
     "16565958709e259b85": {
       "type": "hero-video",
+      "disabled": true,
       "settings": {
         "page_width": "full_width",
         "height": "medium",
@@ -19,7 +20,33 @@
         "second_button_link": "shopify:\/\/collections\/frauen",
         "show_scrolldown": true,
         "show_emark": true,
-        "bottom_counter_text": "Wir versenden Ihr Paket in",
+        "bottom_counter_text": "Wir versenden Ihr Paket in:",
+        "show_bottom_counter": true
+      }
+    },
+    "d5a11eca-5605-44b4-87cc-3722323405c9": {
+      "type": "hero-blackdays",
+      "settings": {
+        "style__selector": "black",
+        "page_width": "full_width",
+        "height": "medium",
+        "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Cover.mp4?v=1637326801",
+        "show_overlay": true,
+        "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
+        "image_position": "center center",
+        "video_title": "<span class=\"first\">Anodyne®<\/span>",
+        "svg_selector": "none",
+        "text_size": "medium",
+        "text_description": "<p>Verbessere jetzt Deine Körperhaltung!<\/p>",
+        "text_description_size": "medium",
+        "button_label": "Männer",
+        "button_link": "shopify:\/\/collections\/manner",
+        "second_button_label": "Frauen",
+        "second_button_link": "shopify:\/\/collections\/frauen",
+        "show_scrolldown": true,
+        "show_emark": true,
+        "bottom_counter_text": "Black Days beginnt in:",
+        "date__selector": "2022-11-15 23:59:59",
         "show_bottom_counter": true
       }
     },
@@ -373,6 +400,7 @@
   },
   "order": [
     "16565958709e259b85",
+    "d5a11eca-5605-44b4-87cc-3722323405c9",
     "1656942069989ae2c9",
     "1654180360d9664fc4",
     "1657200190f72ca1c0",

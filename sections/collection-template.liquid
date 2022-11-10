@@ -16,6 +16,7 @@
           </div>
         </div>
       {%- endcapture -%}
+
       {%- capture collection_sort -%}
         <div class="collection-sortby flex">
           <div class="collection-sortby-content">
@@ -230,6 +231,7 @@
                 </div>
               {%- endif -%}
             {%- endif -%}
+
             {%- if show_collection_sort or collection_layout == "grid_list" -%}
               <div class="collection-controls-wrapper spacer-top-lg">
                 {%- if show_collection_sort -%}
@@ -312,6 +314,24 @@
 		    "type": "header",
 		    "content": "t:sections.collection_template.settings.header__1.content"
 	    },
+      {
+        "type": "select",
+        "id": "style__selector",
+        "label": "Select color scheme",
+        "default": "none",
+        "options": [
+          {
+            "label": "None",
+            "value": "none"
+          }, {
+            "label": "Black Days",
+            "value": "black"
+          }, {
+            "label": "Cyber Days",
+            "value": "cyber"
+          }
+        ]
+      },
       {
         "type": "checkbox",
         "id": "collection_tags_enable",

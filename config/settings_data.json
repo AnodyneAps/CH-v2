@@ -439,7 +439,8 @@
       },
       "dbtfy-color-swatches": {
         "type": "dbtfy-color-swatches",
-        "settings": {}
+        "settings": {
+        }
       },
       "dbtfy-bullet-points": {
         "type": "dbtfy-bullet-points",
@@ -536,6 +537,7 @@
           "ed921cc9-429d-455b-86d4-1b6382ef61e7"
         ],
         "settings": {
+          "style__selector": "black",
           "show_announcement": true,
           "small_announcement_text": false,
           "show_social": false,
@@ -585,7 +587,7 @@
               "image": "shopify:\/\/shop_images\/Returns.png",
               "guarantee_icon": "loyalty",
               "heading_text": "",
-              "text": "<p>Kostenlose Umtausch<\/p>",
+              "text": "<p>Kostenloser Umtausch<\/p>",
               "text_alignment": "text-center",
               "text_alignment_mobile": "text-center",
               "button_style": "btn-outline-primary",
@@ -718,7 +720,9 @@
           "show_shopify_footer": false,
           "show_debutify_footer": false,
           "custom_credential": "<p>Anodyne GmbH, Bahnstrasse 25, 8603 Schwerzenbach, Switzerland (Kein Verkauf von dieser Adresse). UID: CHE-280.781.291 MwSt.<\/p>",
-          "product_counter_text": "Wir versenden Ihr Paket in",
+          "style__selector": "black",
+          "product_counter_text": "Black Days beginnt in:",
+          "date__selector": "2022-11-15 23:59:59",
           "show_product_counter": true
         }
       },
@@ -1006,7 +1010,8 @@
       },
       "dbtfy-customizable-products": {
         "type": "dbtfy-customizable-products",
-        "settings": {}
+        "settings": {
+        }
       },
       "dbtfy-product-tabs": {
         "type": "dbtfy-product-tabs",
@@ -1029,6 +1034,15 @@
       "163032806406e9f003",
       "1630331223d20499c6",
       "1630404145a76c9e4d"
-    ]
+    ],
+    "blocks": {
+      "NzlD52UPxObuSyh21K": {
+        "type": "shopify:\/\/apps\/drip-email-marketing\/blocks\/drip_shopify_snippet\/0c4de56d-b2fa-4621-acea-6293bc16aba8",
+        "disabled": false,
+        "settings": {
+          "account_param": "2019292"
+        }
+      }
+    }
   }
 }

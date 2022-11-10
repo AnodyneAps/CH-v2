@@ -270,7 +270,7 @@
       "popup_button_label": "Rabattcode anwenden"
     },
     "trust_badge": {
-      "text": "Garantiert sicherer und zuverlässiger Checkout"
+      "text": "Garantiert sicherer Checkout"
     },
     "wishlist": {
       "add_to_wishlist_text": "Zur Wunschliste hinzufügen",
@@ -303,7 +303,7 @@
   },
   "cart": {
     "general": {
-      "title": "Warenkorb",
+      "title": "Ihr Einkaufswagen",
       "remove": "Entfernen",
       "note": "Besondere Anweisungen für den Verkäufer",
       "subtotal": "Zwischensumme",
@@ -312,7 +312,7 @@
       "taxes_included_but_shipping_at_checkout": "Inklusive MwSt. und Versandkosten werden an der Kasse berechnet",
       "taxes_included_and_shipping_policy_html": "Steuern inklusive. <a href=\"{{ link }}\">Versand<\/a> wird an der Kasse berechnet.",
       "update": "Einkaufswagen aktualisieren",
-      "checkout": "Zur Kasse",
+      "checkout": "Kasse",
       "empty": "Ihr Warenkorb ist derzeit leer.",
       "continue_browsing_html": "Surfen Sie weiter",
       "close_cart": "Warenkorb schließen",
@@ -499,7 +499,8 @@
   },
   "products": {
     "general": {
-      "save_html": "{{ saved_amount }} speichern",
+      "save_html": "Sie sparen",
+      "saved_amount_nums": "{{ saved_amount }}",
       "collection_return": "Zurück zu {{ collection }}",
       "sale_price": "Verkaufspreis",
       "regular_price": "Regulärer Preis",
@@ -542,6 +543,12 @@
     },
     "sizes": {
       "choose-size-message": "Bitte wählen Sie Ihre Größe"
+    },
+    "counter": {
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden"
     }
   },
   "gift_cards": {
