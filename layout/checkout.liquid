@@ -49,13 +49,52 @@
         </div>
       </div>
   {{ tracking_code }}
-      
    <script>
+    (function($) {
     if(typeof Checkout === 'object'){
     if(typeof Checkout.$ === 'function'){
     Checkout.$('button.order-summary-toggle.order-summary-toggle--show').trigger("click");
         }
     }
+     //total saving
+      function injectCompareAtPrice(event) {
+			var line_items = [
+				{% for line in checkout.line_items %}
+					{% if line.variant.compare_at_price > 0 %}
+						{
+							'variant_id':'{{ line.variant_id }}',
+							'compare_at_price':'{{ line.variant.compare_at_price }}',
+							'quantity': {{ line.quantity }},
+						},
+					{% endif %}
+				{% endfor %}
+			]
+			let totalSaving = line_items.reduce(function (previousValue, currentValue) {
+				return previousValue + currentValue.quantity * currentValue.compare_at_price;
+			}, 0);
+			let tableBody = document.querySelector(".total-line-table__tbody");
+			let totalPriceContainer = document.querySelector("[data-checkout-subtotal-price-target]");
+			let totalSubtotalPrice = totalPriceContainer.dataset.checkoutSubtotalPriceTarget;
+					let totalSavingsColculate = totalSubtotalPrice - totalSaving;
+					let totalFinalSaving = Math.abs((parseFloat(totalSavingsColculate)/100)).toFixed(2);
+
+				 let elmentInnerHtml = `
+				<tr class="total-line total-line--savings">
+				<th class="total-line__name" scope="row">Gesamtersparnis</th>
+				<td class="total-line__savings">
+		<span class="order-summary__savings" style="color:#ff891d;font-weight:bold;">
+				-&nbsp;CHF ${totalFinalSaving}
+						</span>
+						</td>
+						</tr>
+				`
+				tableBody.insertAdjacentHTML('beforeend', elmentInnerHtml);
+			}
+
+			document.addEventListener('page:load', injectCompareAtPrice);
+			document.addEventListener('page:change', injectCompareAtPrice);
+			document.addEventListener('rebuy.refresh', injectCompareAtPrice);
+    })(Checkout.$);
   </script>   
     </body>
   </html>

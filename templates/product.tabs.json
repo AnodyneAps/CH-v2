@@ -3,6 +3,7 @@
     "main": {
       "type": "product-tabs-template",
       "settings": {
+        "blackdays_banner": "shopify:\/\/shop_images\/cd-ch-de.png",
         "show_product_vendor": false,
         "show_product_type": false,
         "show_product_sku": false,
@@ -30,8 +31,8 @@
         "text_alignment_mobile": "small--text-center",
         "show_animation_banner": true,
         "animation_banner_text": "<p>Gratis Versand für Einkäufe über 59 CHF.<\/p>",
-        "show_discount_notification": false,
-        "discount_notification_text": "<p>Click here to save 10% extra on all products<\/p>",
+        "show_discount_notification": true,
+        "discount_notification_text": "<p>Sie können sicher Weihnachtsgeschenke kaufen - Wir verlängern das Rückgaberecht bis zum <strong>9. Januar 2023<\/strong><\/p>",
         "discount_notification_link": ""
       }
     },
@@ -78,6 +79,7 @@
         "title": "Für Sie empfohlen",
         "subtitle": "",
         "section_style": "section-border",
+        "style__selector": "cyber",
         "rows": "2",
         "desktop_grid": "4",
         "mobile_grid": "2",
@@ -90,7 +92,8 @@
     },
     "review-widget": {
       "type": "product-review-widget",
-      "settings": {}
+      "settings": {
+      }
     },
     "related-products": {
       "type": "related-products",
@@ -115,7 +118,8 @@
     },
     "back-to-collection": {
       "type": "product-back-to-collection",
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [

@@ -2,7 +2,8 @@
   "sections": {
     "breadcrumbs": {
       "type": "breadcrumbs",
-      "settings": {}
+      "settings": {
+      }
     },
     "collection-image": {
       "type": "collection-image",
@@ -15,6 +16,7 @@
     "main": {
       "type": "collection-template",
       "settings": {
+        "style__selector": "cyber",
         "collection_tags_enable": false,
         "collection_tags_count": false,
         "collection_multiple_tags_filtering_enable": false,
@@ -24,7 +26,7 @@
         "rows": "4",
         "desktop_grid": "4",
         "mobile_grid": "2",
-        "collection_giff_enable": true,
+        "collection_giff_enable": false,
         "collection_banner": "shopify:\/\/shop_images\/collectionbanner_264x360_76ea2d1a-5ac8-441a-a0ff-f1025451ecfd.gif",
         "collection_banner_gif_link": "",
         "collection_banner_font_family": "poppins_n4",

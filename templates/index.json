@@ -27,17 +27,17 @@
     "d5a11eca-5605-44b4-87cc-3722323405c9": {
       "type": "hero-blackdays",
       "settings": {
-        "style__selector": "black",
+        "style__selector": "cyber",
         "page_width": "full_width",
         "height": "medium",
         "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Cover.mp4?v=1637326801",
         "show_overlay": true,
         "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
         "image_position": "center center",
-        "video_title": "<span class=\"first\">Anodyne®<\/span>",
-        "svg_selector": "none",
+        "video_title": "",
+        "svg_selector": "cyberdays",
         "text_size": "medium",
-        "text_description": "<p>Verbessere jetzt Deine Körperhaltung!<\/p>",
+        "text_description": "<p>Cyber  Days - <strong>Sparen Sie bis zu 80% <\/strong>- Billiger geht's nicht<\/p>",
         "text_description_size": "medium",
         "button_label": "Männer",
         "button_link": "shopify:\/\/collections\/manner",
@@ -45,8 +45,8 @@
         "second_button_link": "shopify:\/\/collections\/frauen",
         "show_scrolldown": true,
         "show_emark": true,
-        "bottom_counter_text": "Black Days beginnt in:",
-        "date__selector": "2022-11-15 23:59:59",
+        "bottom_counter_text": "Cyber Days endet in:",
+        "date__selector": "2022-12-04 23:59:59",
         "show_bottom_counter": true
       }
     },
@@ -59,7 +59,7 @@
             "title": "Schnelle Lieferung",
             "description": "GRATIS Versand für Einkäufe über 59 CHF",
             "icon": "shopify:\/\/shop_images\/Truck.png",
-            "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
+            "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
           }
         },
         "1656942069c276e07d-1": {
@@ -68,7 +68,7 @@
             "title": "Kostenlose Rückgabe",
             "description": "Der Rückversand bei Anodyne® ist kostenfrei",
             "icon": "shopify:\/\/shop_images\/Returns.png",
-            "uspLinkUrl": "shopify:\/\/pages\/returportal"
+            "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
           }
         },
         "342df7ed-a5e0-495e-b2aa-88ec2359c324": {
@@ -77,7 +77,7 @@
             "title": "14 Tage Rückgaberecht",
             "description": "Testen Sie unsere Produkte in aller Ruhe während 14 Tagen",
             "icon": "shopify:\/\/shop_images\/Checkmark.png",
-            "uspLinkUrl": "https:\/\/www.anodyne.dk\/pages\/hvem-er-vi"
+            "uspLinkUrl": "shopify:\/\/pages\/versand-und-retoure"
           }
         },
         "bd4294cd-ff2b-4e34-9b3f-83b23dd32f70": {
@@ -86,7 +86,7 @@
             "title": "Professioneller Service",
             "description": "Rufen Sie uns an oder kontaktieren Sie uns per Mail",
             "icon": "shopify:\/\/shop_images\/Customerservice_copy.png",
-            "uspLinkUrl": "shopify:\/\/pages\/levering-og-forsendelse"
+            "uspLinkUrl": "shopify:\/\/pages\/kontakt"
           }
         }
       },
@@ -161,16 +161,16 @@
             "text_alignment": "text-center",
             "status1_number": "+100.000",
             "status1_label": "Zufriedene Kunden",
-            "status1_link": "shopify:\/\/collections\/all",
+            "status1_link": "shopify:\/\/collections\/alle-produkte",
             "status2_number": "+500.000",
             "status2_label": "Weltweit verkaufte Produkte",
-            "status2_link": "shopify:\/\/collections\/all",
+            "status2_link": "shopify:\/\/collections\/alle-produkte",
             "status3_number": "+8",
             "status3_label": "Jahre Erfahrung",
-            "status3_link": "shopify:\/\/collections\/all",
+            "status3_link": "shopify:\/\/collections\/alle-produkte",
             "status4_number": "+80",
             "status4_label": "Verfügbare Produkte",
-            "status4_link": "shopify:\/\/collections\/all",
+            "status4_link": "shopify:\/\/collections\/alle-produkte",
             "vendor_image_position": "center center",
             "vendor_text": ""
           }
@@ -260,6 +260,7 @@
         "title": "Beliebte Produkte",
         "subtitle": "",
         "section_style": "section-blank",
+        "style__selector": "cyber",
         "home_featured_products": "posture-shirt",
         "rows": "2",
         "desktop_grid": "4",
@@ -362,7 +363,7 @@
             "accordion__inner-title": "",
             "accordion__description": "Haltungskorrigierende Kleidung von Anodyne® eignet sich als Unterstützung in diversen Alltagssituationen. Wir vertreiben haltungskorrigierende T-Shirts, BH´s und Westen, die alle entwickelt wurden, um die Blutzirkulation anzuregen und die Muskulatur zu aktivieren, und dadurch zu einer optimalen Körperhaltung zu verhelfen. Anodyne® haltungskorrigierende Kleidung kann jederzeit genutzt werden: im Office, beim Training, Einkaufen, Spazierengehen, Saubermachen und diversen anderen Aktivitäten. Um den optimalen Effekt Ihrer Anodyne®-haltungskorrigierender Kleidung zu erhalten, empfehlen wir die beiliegende Gebrauchsanweisung gründlich zu lesen. So haben Sie optimale Voraussetzungen das beste Ergebnis mit ihrem Anodyne®-Produkt zu erreichen.",
             "accordion__buttontext": "Siehe Produkte zur Haltungskorrektur",
-            "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkter"
+            "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkte"
           }
         },
         "3c3108af-7850-4cad-a838-88ed336c741f": {
@@ -372,7 +373,7 @@
             "accordion__inner-title": "",
             "accordion__description": "Haben Sie Beschwerden auf Grund von Verletzungen, z.B. Bandscheibenvorfall, Skoliose, Gicht oder ähnlichem, können Sie gut haltungskorrigierende Kleidung von Anodyne nutzen. Sollte die Verletzung akut sein, sprechen Sie bitte zuerst mit Ihrem Arzt oder Spezialisten. In manchen Fällen kann die haltungskorrigierende Weste von Anodyne (MyLign & SpinalQ Pro) von Vorteil sein, da diese Produkte eine stärkere Stützfunktion haben. Es ist ausgesprochen wichtig, haltungskorrigierende Kleidung in der optimalen Größe zu wählen, da sonst der optimale Effekt nicht erreicht wird. Kontrollieren Sie daher unsere Größenangaben. Zögern Sie nicht, unseren Kundenservice zu kontaktieren, der Sie gerne zu Fragen der Größe und Produktwahl berät.",
             "accordion__buttontext": "Se produktudvalg",
-            "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkter"
+            "accordion__LinkUrl": "shopify:\/\/collections\/alle-produkte"
           }
         }
       },
