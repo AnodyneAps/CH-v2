@@ -318,6 +318,7 @@
         "blocks": {
           "044ae220-77bb-4e0f-bf98-ca576e03c1e0": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "title": "Basic Skulderstøtte tilkøb",
               "specific_upsell_replace_item_1": "add",
@@ -374,6 +375,7 @@
           },
           "f98348a9-d1df-4a7e-a63e-6125fd7063fd": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "title": "Basic Skulderstøtte tilkøb",
               "specific_upsell_replace_item_1": "add",
@@ -430,6 +432,7 @@
           },
           "3a4ee167-92c2-4a06-bb14-4bdfcabad6b3": {
             "type": "cart-item-upsell",
+            "disabled": true,
             "settings": {
               "title": "Basic Skulderstøtte tilkøb",
               "specific_upsell_replace_item_1": "add",
@@ -551,7 +554,6 @@
         "blocks": {
           "announcement-0": {
             "type": "message",
-            "disabled": true,
             "settings": {
               "title": "",
               "announcement_text": "<p>Professioneller Service<\/p>"
@@ -559,7 +561,6 @@
           },
           "c4676b39-a890-441a-b56f-27f60a8d0ad9": {
             "type": "message",
-            "disabled": true,
             "settings": {
               "title": "",
               "announcement_text": "<p>Kostenlose Rückgabe<\/p>"
@@ -574,6 +575,7 @@
           },
           "1845e2c6-d475-470e-81ff-6bb64b635172": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "title": "Black Days",
               "announcement_text": "<p><strong>Cyber Days<\/strong> - Sparen Sie bis zu 80%<\/p>"
@@ -581,6 +583,7 @@
           },
           "ed921cc9-429d-455b-86d4-1b6382ef61e7": {
             "type": "message",
+            "disabled": true,
             "settings": {
               "title": "Black Days",
               "announcement_text": "<p><strong>Cyber Days<\/strong> - Billiger geht's nicht<\/p>"
@@ -595,7 +598,7 @@
           "ed921cc9-429d-455b-86d4-1b6382ef61e7"
         ],
         "settings": {
-          "style__selector": "cyber",
+          "style__selector": "none",
           "show_announcement": true,
           "small_announcement_text": false,
           "show_social": false,
@@ -778,9 +781,9 @@
           "show_shopify_footer": false,
           "show_debutify_footer": false,
           "custom_credential": "<p>Anodyne GmbH, Bahnstrasse 25, 8603 Schwerzenbach, Switzerland (Kein Verkauf von dieser Adresse). UID: CHE-280.781.291 MwSt.<\/p>",
-          "style__selector": "cyber",
-          "product_counter_text": "Cyber Days endet in:",
-          "date__selector": "2022-12-04 23:59:59",
+          "style__selector": "none",
+          "product_counter_text": "Wir verpacken Ihre Bestellung in:",
+          "date__selector": "none",
           "show_product_counter": true
         }
       },

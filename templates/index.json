@@ -27,17 +27,17 @@
     "d5a11eca-5605-44b4-87cc-3722323405c9": {
       "type": "hero-blackdays",
       "settings": {
-        "style__selector": "cyber",
+        "style__selector": "none",
         "page_width": "full_width",
         "height": "medium",
         "newvideo_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Cover.mp4?v=1637326801",
         "show_overlay": true,
         "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
         "image_position": "center center",
-        "video_title": "",
-        "svg_selector": "cyberdays",
+        "video_title": "<strong><span class=\"first\">Anodyne®<\/span><\/strong>",
+        "svg_selector": "none",
         "text_size": "medium",
-        "text_description": "<p>Cyber  Days - <strong>Sparen Sie bis zu 80% <\/strong>- Billiger geht's nicht<\/p>",
+        "text_description": "<p><strong>Verbessere jetzt die Haltung und lindere Verspannungen <\/strong><\/p>",
         "text_description_size": "medium",
         "button_label": "Männer",
         "button_link": "shopify:\/\/collections\/manner",
@@ -45,9 +45,9 @@
         "second_button_link": "shopify:\/\/collections\/frauen",
         "show_scrolldown": true,
         "show_emark": true,
-        "bottom_counter_text": "Cyber Days endet in:",
-        "date__selector": "2022-12-04 23:59:59",
-        "show_bottom_counter": true
+        "bottom_counter_text": "Wir verpacken Ihre Bestellung in:",
+        "date__selector": "none",
+        "show_bottom_counter": false
       }
     },
     "1656942069989ae2c9": {
@@ -260,7 +260,7 @@
         "title": "Beliebte Produkte",
         "subtitle": "",
         "section_style": "section-blank",
-        "style__selector": "cyber",
+        "style__selector": "none",
         "home_featured_products": "posture-shirt",
         "rows": "2",
         "desktop_grid": "4",

@@ -10914,7 +10914,9 @@ body:not(.dbtfy-wish_list-destroy) {
     }
   }
 }
-
+.Icon--anodyne__vendor .anodyne--name{
+  fill: $cAccent;
+}
 .scrolldown {
   z-index: 2;
   position: absolute;
@@ -11456,6 +11458,30 @@ body:not(.dbtfy-wish_list-destroy) {
     100% {
       -webkit-transform: rotateX(0deg);
               transform: rotateX(0deg);
+    }
+  }
+  .product-counter-container{
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    border: 1px solid #f9f9f9;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:$gutter-sm;
+    gap:10px;
+    p {
+      padding-top:13px;
+      font-weight:600;
+    }
+    .inner{
+      color: $cAccent;
+      font-weight: bold;
+    }
+    #product__counter{
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+  
     }
   }
 .profile {
