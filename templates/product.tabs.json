@@ -28,6 +28,8 @@
         "description_style": "section-border",
         "text_alignment": "",
         "text_alignment_mobile": "small--text-center",
+        "product_counter_text": "<p>Wir verpacken Ihre Bestellung in:<\/p>",
+        "show_product_counter": true,
         "show_animation_banner": true,
         "animation_banner_text": "<p>Gratis Versand für Einkäufe über 59 CHF.<\/p>",
         "show_discount_notification": true,

@@ -52,6 +52,58 @@ function toggleAccordion(el) {
 	}
 }
 
+//tabs section
+const tabItems = document.querySelectorAll('.tab-item');
+const tabContentItems = document.querySelectorAll('.content-body');
+function selectItem(e) {
+  removeBorder();
+  removeShow();
+  this.classList.add('tab-active');
+  const tabContentItem = document.querySelector(`#${this.id}-content`);
+  tabContentItem.classList.add('show-active');
+}
+
+function removeBorder() {
+  tabItems.forEach(item => {
+    item.classList.remove('tab-active');
+  });
+}
+// Remove show class from all content items
+function removeShow() {
+  tabContentItems.forEach(item => {
+    item.classList.remove('show-active');
+  });
+}
+// Listen for tab item click
+tabItems.forEach(item => {
+  item.addEventListener('click', selectItem);
+});
+
+// relief tabs
+const homeTabBtns = document.querySelectorAll('.home-tabs__wrapper-btns-btn');
+const homeTabItems = document.querySelectorAll('.home-tabs__wrapper-content-img');
+
+function selectHomeTabContents(e) {
+  removeActiveHomeTabClass();
+  removeActiveHomeTabItemClass();
+  this.classList.add('active');
+  const homeTabContentItems = document.querySelector(`#${this.id}-content`);
+  homeTabContentItems.classList.add('active');
+}
+
+homeTabBtns.forEach(tabbtn => tabbtn.addEventListener('click', selectHomeTabContents));
+
+const removeActiveHomeTabClass = () => {
+  homeTabBtns.forEach(tabbtn => {
+    tabbtn.classList.remove('active')
+  })
+}
+const removeActiveHomeTabItemClass = () => {
+  homeTabItems.forEach(homeTabItem => {
+    homeTabItem.classList.remove('active')
+  })
+}
+
 // product counter scripts 
 const counter = document.getElementById("product__counter");
 if(counter){

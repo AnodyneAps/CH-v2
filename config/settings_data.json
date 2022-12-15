@@ -781,9 +781,6 @@
           "show_shopify_footer": false,
           "show_debutify_footer": false,
           "custom_credential": "<p>Anodyne GmbH, Bahnstrasse 25, 8603 Schwerzenbach, Switzerland (Kein Verkauf von dieser Adresse). UID: CHE-280.781.291 MwSt.<\/p>",
-          "style__selector": "none",
-          "product_counter_text": "Wir verpacken Ihre Bestellung in:",
-          "date__selector": "none",
           "show_product_counter": true
         }
       },

@@ -34,8 +34,8 @@
         "show_overlay": true,
         "image": "shopify:\/\/shop_images\/Skaermbillede_2021-11-18_kl._14.03.24.png",
         "image_position": "center center",
-        "video_title": "<strong><span class=\"first\">Anodyne®<\/span><\/strong>",
-        "svg_selector": "none",
+        "video_title": "",
+        "svg_selector": "anodyne__vendor",
         "text_size": "medium",
         "text_description": "<p><strong>Verbessere jetzt die Haltung und lindere Verspannungen <\/strong><\/p>",
         "text_description_size": "medium",
@@ -46,8 +46,7 @@
         "show_scrolldown": true,
         "show_emark": true,
         "bottom_counter_text": "Wir verpacken Ihre Bestellung in:",
-        "date__selector": "none",
-        "show_bottom_counter": false
+        "show_bottom_counter": true
       }
     },
     "1656942069989ae2c9": {
