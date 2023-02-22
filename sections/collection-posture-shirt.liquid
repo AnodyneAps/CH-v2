@@ -1,0 +1,50 @@
+{%- if collection.image != blank -%}
+  {%- render "collection-posture-shirt" with collection as collection -%}
+{%- endif -%}
+
+
+{% schema %}
+  {
+    "name": "collection posture shirt",
+    "class": "hero-section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Trustpilot stars banner"
+      },
+      {
+        "type": "text",
+        "id": "stars_text",
+        "label": "Add text to collection"
+      },
+      {
+        "type": "image_picker",
+        "id": "collection_stars",
+        "label": "Add a png picture in 400x52px"
+      },
+      {
+        "type": "text",
+        "id": "stars_url",
+        "label": "Add external link to collection eks. https://www.trustpilot.com/"
+      }, {
+        "type": "text",
+        "id": "collection_bullets-title",
+        "label": "Right bullets title"
+      }
+    ],
+    "max_blocks": 5,
+    "blocks": [
+      {
+        "name": "Collection bullets",
+        "type": "collect_bullets",
+        "settings": [
+          {
+            "type": "text",
+            "id": "collection_bullet",
+            "label": "collection bullet text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,8 +1,10 @@
 {%- capture column_width -%}
   {%- render 'block-width' -%}
 {%- endcapture -%}
-
-<div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %} {{ section.settings.section_style }}" data-section-id="{{ section.id }}" data-section-type="quotes-section">
+{%- if collection.handle == 'posture-shirt' -%}
+  {%- assign postureQuotes = 'quotes__posture-shirt' -%}
+{%- endif -%}
+<div id="section-{{ section.id }}" class="{% unless section.settings.show_on_desktop %} medium--hide large--hide{% endunless %} {% unless section.settings.show_on_mobile %} small--hide{% endunless %} {{ section.settings.section_style }}  {{ postureQuotes }}" data-section-id="{{ section.id }}" data-section-type="quotes-section">
   <div class="box frontpage-quotes-box">
     <div class="wrapper">
 

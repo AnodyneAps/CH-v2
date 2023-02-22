@@ -291,11 +291,6 @@
 
           </div>
           {%- render "pagination" with paginate as paginate -%}
-          {%- unless collection.description == blank -%}
-            <p class="collection-description text-lead">
-              {{ collection.description }}
-            </p>
-          {%- endunless -%}
         {%- endpaginate -%}
       </div>
     </div>

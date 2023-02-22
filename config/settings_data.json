@@ -1,7 +1,7 @@
 {
   "current": {
-    "sticky_header": true,
-    "sticky_announcement_bar": true,
+    "sticky_header": false,
+    "sticky_announcement_bar": false,
     "height_header": 100,
     "height_header_mobile": 70,
     "icon": "material-icons-outlined",
@@ -32,7 +32,8 @@
     "textbox_cart_notification": "<strong> Unsere Garantie: <\/strong> Testen Sie unsere Produkte in aller Ruhe während 14 Tagen. Der Rückversand bei Anodyne® ist kostenfrei.",
     "textbox_custom_drawer_icon": "",
     "cart_notes_enable": false,
-    "color_announcement_bg": "#353535",
+    "color_announcement_bg": "#eaeaea",
+    "color_announcement_text": "#000000",
     "color_nav_border": "#f4f4f4",
     "color_nav_text": "#252525",
     "color_default": "#f7f7f7",
@@ -67,6 +68,7 @@
     "color_transparent_nav_text": "#f7f7f7",
     "opacity_overlay": 16,
     "favicon": "shopify:\/\/shop_images\/Favicon.png",
+    "google_tag_manager_id": "GTM-MHXTTLB",
     "share_facebook": false,
     "share_twitter": false,
     "share_pinterest": false,
@@ -552,25 +554,25 @@
       "announcement": {
         "type": "announcement",
         "blocks": {
-          "announcement-0": {
+          "82893cc1-5e92-46bd-a94d-7204271ffa01": {
             "type": "message",
             "settings": {
               "title": "",
-              "announcement_text": "<p>Professioneller Service<\/p>"
+              "announcement_text": "<p>14 Tage Rückgaberecht<\/p>"
             }
           },
           "c4676b39-a890-441a-b56f-27f60a8d0ad9": {
             "type": "message",
             "settings": {
               "title": "",
-              "announcement_text": "<p>Kostenlose Rückgabe<\/p>"
+              "announcement_text": "<p>Gratis Versand für Einkaufe über 59 CHF<\/p>"
             }
           },
-          "82893cc1-5e92-46bd-a94d-7204271ffa01": {
+          "announcement-0": {
             "type": "message",
             "settings": {
               "title": "",
-              "announcement_text": "<p>Verlängerter Rückgaberecht bis 9. Jan. 2023<\/p>"
+              "announcement_text": "<p>Kostenloser Umtausch<\/p>"
             }
           },
           "1845e2c6-d475-470e-81ff-6bb64b635172": {
@@ -591,9 +593,9 @@
           }
         },
         "block_order": [
-          "announcement-0",
-          "c4676b39-a890-441a-b56f-27f60a8d0ad9",
           "82893cc1-5e92-46bd-a94d-7204271ffa01",
+          "c4676b39-a890-441a-b56f-27f60a8d0ad9",
+          "announcement-0",
           "1845e2c6-d475-470e-81ff-6bb64b635172",
           "ed921cc9-429d-455b-86d4-1b6382ef61e7"
         ],
@@ -602,10 +604,10 @@
           "show_announcement": true,
           "small_announcement_text": false,
           "show_social": false,
-          "email": true,
-          "phone": true,
-          "left_message": "<p>Wir optimieren Ihre Körperhaltung<\/p>",
-          "right_message": "<p><a href=\"\/pages\/kontakt\" target=\"_blank\" title=\"Kontakt\">Kontakt<\/a><\/p>",
+          "email": false,
+          "phone": false,
+          "left_message": "",
+          "right_message": "",
           "announcement_autoplayspeed": 3
         }
       },

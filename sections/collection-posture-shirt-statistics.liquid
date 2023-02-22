@@ -1,0 +1,101 @@
+<div class="statistics">
+  <div class="box statistics__box">
+    <div class="wrapper statistics__wrapper">
+      <div class="statistics__header">
+
+        <div class="section__header">
+          <div class="statistics__title-wrapper">
+            {%- unless section.settings.statistic_title_intro == blank -%}
+              <h2 class="statistics__title">{{ section.settings.statistic_title_intro }}
+              </h2>
+            {%- endunless -%}
+
+            <div class="statistic__main-text">
+              {%- unless section.settings.statistic_text_intro == blank -%}
+                {{ section.settings.statistic_text_intro }}
+              {%- endunless -%}
+            </div>
+
+            <div class="statistics__icons-wrapper">
+              <div class="statistics__left-icon">
+                {%- unless section.settings.statistic_icon_one == blank -%}
+                  <img
+                    src="{{ section.settings.statistic_icon_one | img_url: '200x200' }}"
+                    alt="Statistics icon"
+                    class="statistics__icon">
+                {%- endunless -%}
+                {%- unless section.settings.statistic_text_one == blank -%}
+                  {{ section.settings.statistic_text_one }}
+                {%- endunless -%}
+              </div>
+              <div class="statistics__right-icon">
+                {%- unless section.settings.statistic_icon_two == blank -%}
+                  <img
+                    src="{{ section.settings.statistic_icon_two | img_url: '200x200' }}"
+                    alt="Statistics icon"
+                    class="statistics__icon">
+                {%- endunless -%}
+                {%- unless section.settings.statistic_text_two == blank -%}
+                  {{ section.settings.statistic_text_two }}
+                {%- endunless -%}
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Collection statistics",
+    "class": "section_statistics",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Statistics",
+        "info": "Add your statistics about collection"
+      },
+      {
+        "type": "text",
+        "id": "statistic_title_intro",
+        "label": "Statistics main intro text",
+        "default": "Anodyne Kundenumfrage"
+      },
+      {
+        "type": "richtext",
+        "id": "statistic_text_intro",
+        "label": "Statistics main intro text",
+        "default": "<p>Add max two paragragh text here...</p>"
+      },
+      {
+        "type": "image_picker",
+        "id": "statistic_icon_one",
+        "label": "Add statistics graphic size 400x400px recommended"
+      }, {
+        "type": "richtext",
+        "id": "statistic_text_one",
+        "label": "statistics first message text",
+        "default": "<p>Free shipping worldwide | 30-Day free returns</p>"
+      }, {
+        "type": "image_picker",
+        "id": "statistic_icon_two",
+        "label": "Add statistics graphic size 400x400px recommended"
+      }, {
+        "type": "richtext",
+        "id": "statistic_text_two",
+        "label": "statistics second message text",
+        "default": "<p>Free shipping worldwide | 30-Day free returns</p>"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Collection statistics",
+        "category": "Advanced layout"
+      }
+    ]
+  }
+{% endschema %}

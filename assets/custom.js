@@ -278,5 +278,30 @@ flipCard.append(topFlip, bottomFlip);
 }
 }
 
+//_ANNOUNCEMENT_SECTION
+var carousel = $(".slick-posture-announcement");
 
+var options = {
+  adaptiveHeight: true,
+  arrows: false,
+  dots: carousel.data("showdots"),
+  fade: true,
+  infinite: false,
+  mobileFirst: true,
+ 	autoplay: carousel.data("autoplayusps"),
+  autoplaySpeed:carousel.data("autoplayspeed"),
+  rows: 0,
+  slidesToScroll: 1,
+  slidesToShow: 1,
+  speed: 0,
+  zIndex: 75
+};
 
+var addAnimationClass = true;
+
+carousel.on('beforeChange', function(e, slick, current, next) {
+  var current = carousel.find('.slick-slide')[current];
+  var next = carousel.find('.slick-slide')[next];
+});
+
+carousel.not('.slick-initialized').slick(options);

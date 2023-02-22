@@ -2749,6 +2749,18 @@ h6 {font-size: $headerSize6}
 .h5 {@extend h5}
 .h6 {@extend h6}
 
+// hide classes
+@media screen and (max-width: 769px) {
+  .hidden-pocket {
+    display: none !important;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .hidden-lap-and-up {
+    display: none !important;
+  }
+}
 /*================ _Links ================*/
 a {
   color: $colorBodyText;
@@ -3737,6 +3749,9 @@ button {
       background-image: linear-gradient(90deg, #e6f4f2 0%, #e7f4f2 100%);
     }
   }
+}
+.quotes__posture-shirt {
+  margin-top: -60px;
 }
 .slick {
   .grid__item{
@@ -5244,7 +5259,7 @@ cite {
 /*================ _Section_header ================*/
 .section-header {
   .trustpilot__logo{
-    margin-bottom: -3rem !important;
+    margin-bottom: -1rem !important;
   }
 }
 .section-header,
@@ -5970,6 +5985,50 @@ cite {
   }
 }
 
+/*============posture-shirt usps=====*/
+.posture-shirt__announcement {
+  text-align: center;
+  .ps__usps {
+    margin-top: -60px;
+  }
+  .ps-announcement-grid {
+
+  }
+  .ps__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  flex-direction: column;
+    span {
+      font-size: 2rem;
+      color: $cPrimary;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  } 
+.ps-carousel {
+margin-top: 30px;
+
+  .ps__item-m {
+    padding:2rem 0;
+    min-height: 165px;
+    margin: 0 30px;
+    span {
+      font-size: 2rem;
+      color: $cPrimary;
+    }
+    p {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+  }
+
+}
+
+}
 /*================ _Header ================*/
 .header-section {
   position: relative;
@@ -11744,7 +11803,32 @@ body:not(.dbtfy-wish_list-destroy) {
     }
   }
 }
-
+/* posture shirt - collection styeles */ 
+.collection-posture-shirt-container {
+  margin-bottom: -30px;
+}
+.custom-posture-shirt-wrapper{
+  padding-top: 60px;
+  @include screenUp($postSmall){
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:60px;
+  }
+  .collection-column-one-container,
+  .collection-posture-shirt-title-wrapper{
+      @include screenUp($postSmall){
+      flex: 1;
+      }
+   }
+.collection-posture-shirt-title-wrapper{
+  .collection-item {
+    p{
+      margin-bottom: 5px;
+    }
+  }
+} 
+}
 .custom-media-wrapper{
   display: flex;
   justify-content: center;
@@ -12499,6 +12583,91 @@ body:not(.dbtfy-wish_list-destroy) {
     }
     .scrolldown{
       top: 115%;
+    }
+  }
+}
+/* ====== statistics === */
+
+.statistics {
+background-color: #f7f7f7;
+text-align: center;
+.statistics__title {
+font-size:2rem;
+text-align: center;
+margin: $gutter 0 $gutter-lg 0;
+}
+.statistics__icons-wrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+text-align: center;
+  @include screenUp($postSmall){
+    flex-direction: row;
+  }
+.statistics__left-icon,
+.statistics__right-icon{
+    flex: 1;
+    width: 100%;
+  margin-bottom:20px;
+  }
+}
+}
+
+/* ===== expert testimonials ==== */
+.expert-testimonial {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  @include screenUp($postSmall){
+    width: 60%;
+  }
+  blockquote {
+    position: relative;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin:30px 0;
+    isolation: isolate;
+    color: lighten($cTextGray,25%);
+    @include screenUp($postSmall){
+    font-size: 1.5rem;
+    }
+    &::after,
+    &::before{
+      position: absolute;
+      font-family: sans-serif;
+      color: lighten($cTextGray,72%);;
+      font-size:180px;
+      z-index: -1;
+    }
+    &::after{
+      content: close-quote;
+      top:-65px;
+      left:1%;
+    }
+    &::before{
+      content: open-quote;
+      bottom:-50px;
+      right:34%;
+    }
+  }
+
+  .et-wrapper {
+    .author__name,
+    .company__name{
+      color: $cPrimary;
+    }
+    .company__name{
+      margin-bottom:5px;
+    }
+    .author_image{
+      border-radius:50%;
+      border: 1px solid $cPrimary;
+    }
+    .company_logo {
+      width: 140px;
+      margin-top: -10px;
     }
   }
 }

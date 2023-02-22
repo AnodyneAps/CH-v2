@@ -44,9 +44,9 @@
         "second_button_label": "Frauen",
         "second_button_link": "shopify:\/\/collections\/frauen",
         "show_scrolldown": true,
-        "show_emark": true,
+        "show_emark": false,
         "bottom_counter_text": "Wir verpacken Ihre Bestellung in:",
-        "show_bottom_counter": true
+        "show_bottom_counter": false
       }
     },
     "1656942069989ae2c9": {
@@ -158,16 +158,16 @@
             "title": "Warum haltungskorrigierende Kleidung von Anodyne® wählen?",
             "code": "<p>Mit <a href=\"\/\"><span style=\"text-decoration:underline\">haltungskorrigierender Kleidung<\/span><\/a> von Anodyne® können Sie auf einfache und unbeschwerte Weise eine bessere Körperhaltung bekommen, sowie Schmerzen und Verspannungen im Nacken, Schultern und Rücken reduzieren. Anodyne® haltungskorrigierende Kleidung hilft Ihnen Ihr Körperbewusstsein zu verbessern und kann sowohl sitzend im Büro oder aktiver auf der Arbeit, auf Reisen oder zum Training verwendet werden. Anodyne® ist ein europäischer Produzent und Händler von das <a href=\"\/collections\/posture-shirt\"><span style=\"text-decoration:underline\">Posture Shirt<\/span><\/a>. Die Technologie wurde entwickelt vom us-amerikanischen Hersteller AlignMed - der einzige Produzent haltungskorrigierender Kleidung, die bei USA´s FDA (Behörde für u.a. Medizinalprodukte), registriert ist. Anodyne® haltungskorrigierende Kleidung ist die einzige Kleidung, die sowohl FDA-registriert und in Europa als medizinisches Hilfsmittel (Klasse 1) MDR\/CE-registriert ist. Dies ist Ihre Garantie dafür, dass Anodyne´s Produkte die Vorschriften für medizinische Hilfsmittel erfüllen.<\/p>",
             "text_alignment": "text-center",
-            "status1_number": "+100.000",
+            "status1_number": "+300.000",
             "status1_label": "Zufriedene Kunden",
             "status1_link": "shopify:\/\/collections\/alle-produkte",
-            "status2_number": "+500.000",
+            "status2_number": "+600.000",
             "status2_label": "Weltweit verkaufte Produkte",
             "status2_link": "shopify:\/\/collections\/alle-produkte",
             "status3_number": "+8",
             "status3_label": "Jahre Erfahrung",
             "status3_link": "shopify:\/\/collections\/alle-produkte",
-            "status4_number": "+80",
+            "status4_number": "+50",
             "status4_label": "Verfügbare Produkte",
             "status4_link": "shopify:\/\/collections\/alle-produkte",
             "vendor_image_position": "center center",
@@ -193,12 +193,12 @@
           "type": "quote",
           "settings": {
             "title": "",
-            "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
+            "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
             "icon": "format_quote",
             "quote": "<p>Ich bin sehr zufrieden mit dem Produkt. Es hilft mir sehr gut bei meine Schulter und Nacken Verspannungen. Ich kann es nur weiter empfehlen<\/p>",
             "author": "Conny G.",
-            "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_128x32_29d2c67b-7589-41e0-abef-3c0338c3a49f.png",
-            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
+            "stars_pic": "shopify:\/\/shop_images\/anodyne-stars.png",
+            "quotes_link": "https:\/\/de.trustpilot.com\/review\/www.anodyne-shop.ch?stars=5",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
@@ -207,12 +207,12 @@
           "type": "quote",
           "settings": {
             "title": "",
-            "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
+            "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
             "icon": "format_quote",
             "quote": "<p>Superschnelle Lieferung, unkomplizierte Rücksendung und genau so schnell neue Grösse geliefert. Jetzt passt es und hilft echt!<\/p>",
             "author": "Miriam F.",
-            "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_128x32_29d2c67b-7589-41e0-abef-3c0338c3a49f.png",
-            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
+            "stars_pic": "shopify:\/\/shop_images\/anodyne-stars.png",
+            "quotes_link": "https:\/\/de.trustpilot.com\/review\/www.anodyne-shop.ch?stars=5",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
@@ -221,12 +221,12 @@
           "type": "quote",
           "settings": {
             "title": "",
-            "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
+            "quote_image": "shopify:\/\/shop_images\/Quotationmarks.png",
             "icon": "format_quote",
             "quote": "<p>Super Product, sehr zufrieden. Lieferung sehr schnell, innerhalb ein Tag. Danke und immer wieder bestellen.<\/p>",
             "author": "Giuseppe P.",
-            "stars_pic": "shopify:\/\/shop_images\/trustedshops_128x32_128x32_29d2c67b-7589-41e0-abef-3c0338c3a49f.png",
-            "quotes_link": "https:\/\/www.trustedshops.ch\/bewertung\/info_XE571F261ADE9439296991B18509E2D95.html",
+            "stars_pic": "shopify:\/\/shop_images\/anodyne-stars.png",
+            "quotes_link": "https:\/\/de.trustpilot.com\/review\/www.anodyne-shop.ch?stars=5",
             "text_alignment": "text-center",
             "text_alignment_mobile": "text-center"
           }
@@ -240,7 +240,6 @@
       "settings": {
         "show_on_desktop": true,
         "show_on_mobile": true,
-        "trustpilot_imagetitle": "shopify:\/\/shop_images\/Trustedshops_logo_300x100_7167dada-f670-4d71-a50e-b349b60b9a09.png",
         "title": "",
         "subtitle": "",
         "section_style": "section-blank",
