@@ -158,7 +158,9 @@
     {%- liquid
       unless emptyState
         if product != blank
-          render "dbtfy-collection-addtocart" with product as product, sold_out: sold_out
+          if collection.handle contains 'posture-shirt'
+            render "dbtfy-collection-addtocart" with product as product, sold_out: sold_out
+          endif
         endif
       endunless
     -%}

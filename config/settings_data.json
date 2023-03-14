@@ -103,7 +103,7 @@
     "dbtfy_order_feedback": false,
     "dbtfy_social_discount": false,
     "dbtfy_wish_list": false,
-    "dbtfy_collection_addtocart": false,
+    "dbtfy_collection_addtocart": true,
     "dbtfy_collection_filters": false,
     "dbtfy_color_swatches": true,
     "dbtfy_custom_currencies": false,
