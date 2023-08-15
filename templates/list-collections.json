@@ -1,11 +1,270 @@
 {
   "sections": {
     "main": {
-      "type": "list-collections-template",
-      "settings": {}
+      "type": "main-list-collections",
+      "blocks": {
+        "915db04c-cf4e-45cc-989c-f331a89f7873": {
+          "type": "collection",
+          "settings": {
+            "collection": "restposten",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "666e27f9-9682-4289-895e-82cc691d822b": {
+          "type": "collection",
+          "settings": {
+            "collection": "bestseller",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "887d80bf-b4b1-4e45-b33c-a722262f07fd": {
+          "type": "collection",
+          "settings": {
+            "collection": "frauen",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "560a82dd-9711-4118-8e7a-d76e2762b73b": {
+          "type": "collection",
+          "settings": {
+            "collection": "manner",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "ea11fbf4-f45a-41b5-ae58-9bafafcea64d": {
+          "type": "collection",
+          "settings": {
+            "collection": "posture-shirt",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "7b829f4b-1f87-4e72-b4f8-da9f016cd78e": {
+          "type": "collection",
+          "settings": {
+            "collection": "ruckenstutze",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "dd604076-571e-4dd7-802d-291cb4ea2695": {
+          "type": "collection",
+          "settings": {
+            "collection": "schulterstutze",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "f76ab255-2d18-46ae-b507-994c7bc55648": {
+          "type": "collection",
+          "settings": {
+            "collection": "hilfsmittel",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "ef2a7b17-60b6-48fe-b755-a33cec665a87": {
+          "type": "collection",
+          "settings": {
+            "collection": "alle-produkte",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "915db04c-cf4e-45cc-989c-f331a89f7873",
+        "666e27f9-9682-4289-895e-82cc691d822b",
+        "887d80bf-b4b1-4e45-b33c-a722262f07fd",
+        "560a82dd-9711-4118-8e7a-d76e2762b73b",
+        "ea11fbf4-f45a-41b5-ae58-9bafafcea64d",
+        "7b829f4b-1f87-4e72-b4f8-da9f016cd78e",
+        "dd604076-571e-4dd7-802d-291cb4ea2695",
+        "f76ab255-2d18-46ae-b507-994c7bc55648",
+        "ef2a7b17-60b6-48fe-b755-a33cec665a87"
+      ],
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "7a1de581-5cb4-4e2e-b754-ca8b550e3187": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"de-CH\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"64356ba3a32b6caee5a47b54\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"de\">\n  <a href=\"https:\/\/ch.trustpilot.com\/review\/anodyne.ch\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "template--18587075871045__8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32-1681882116df57bd22-0": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Bei Anodyne® können Sie alle Produkte für 14 Tage zu testen und so den Effekt am eigenen Körper spüren. Rückversand ist kostenlos. Sie erhalten den vollen Betrag zurück.",
+            "title": "✅ Rückgaberecht",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "template--18587075871045__8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32-1681882116df57bd22-2": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Zögern Sie bitte nicht, uns bei Fragen jederzeit zu kontaktieren. Gerne unterstützen wir Sie telefonisch unter 044 551 01 31 oder per E-Mail info@anodyne.ch",
+            "title": "✅ Professioneller Service",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "be9de394-e250-4530-8483-bd1322addf30": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Wir versenden Ihr Paket mit A-Post aus unserem Lager in Zürich. So erhalten Sie Ihre Produkte in 1-2 Werktagen.",
+            "title": "✅ Schnelle Lieferung",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "0a83e17b-c46f-4321-b9d2-a54dfee43391": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Unsere Kunden lieben Anodyne. Bis heute haben wir in Europa über 300'000 zufriedene Kunden.",
+            "title": "✅ 300'000+ Kunden",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "3ebc2200-e927-41ab-847f-5319fc80b73c": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Für alle Bestellungen über CHF 59 profitieren Sie bei Anodyne® von kostenlosem Versand.",
+            "title": "✅ Gratis Versand",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "c8e87a51-691d-4a22-addd-5cadb4d18edb": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Ihre Zufriedenheit liegt uns am Herzen. Wenn Sie mit Ihrem Produkt nicht 100% zufrieden sind, können Sie dieses kostenlos umtauschen oder retournieren.",
+            "title": "✅ Zufriedenheitsgarantie",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "template--18587075871045__8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32-1681882116df57bd22-0",
+        "template--18587075871045__8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32-1681882116df57bd22-2",
+        "be9de394-e250-4530-8483-bd1322addf30",
+        "0a83e17b-c46f-4321-b9d2-a54dfee43391",
+        "3ebc2200-e927-41ab-847f-5319fc80b73c",
+        "c8e87a51-691d-4a22-addd-5cadb4d18edb"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "small",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4a7f8dd2-c703-450d-8383-58f9cfe2d556": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--18587075871045__4a7f8dd2-c703-450d-8383-58f9cfe2d556-16818068074a20a897-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bestseller",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18587075871045__4a7f8dd2-c703-450d-8383-58f9cfe2d556-16818068074a20a897-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Kundenfavoriten",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 3,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7a1de581-5cb4-4e2e-b754-ca8b550e3187",
+    "8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32",
+    "4a7f8dd2-c703-450d-8383-58f9cfe2d556"
   ]
 }

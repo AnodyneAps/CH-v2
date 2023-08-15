@@ -1,51 +1,364 @@
 {
   "sections": {
     "main": {
-      "type": "product-template",
-      "settings": {}
+      "type": "main-product",
+      "blocks": {
+        "a8a3f231-8a84-4354-a9fd-4d9059951169": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"de-CH\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"64356ba3a32b6caee5a47b54\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/ch.trustpilot.com\/review\/anodyne.ch\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
+          }
+        },
+        "673267c3-003b-4577-a422-a251ebd2d09f": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<br>"
+          }
+        },
+        "00302c62-cfad-4969-982d-ecc6bafa935d": {
+          "type": "short-description",
+          "settings": {
+            "show_short_description": true
+          }
+        },
+        "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b": {
+          "type": "swatch_colors",
+          "settings": {
+            "show_colors": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "variant_image",
+            "show_size_chart_page": true
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "7d730f1e-03a8-4b58-8b66-855e35aabc99": {
+          "type": "quantity_discounts",
+          "disabled": true,
+          "settings": {
+            "show_quantity_discounts": true
+          }
+        },
+        "12735dc9-3907-4582-bc82-4d993f4fc873": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "#398e82",
+            "atc_button_text_color": "#fcfcfc",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "e9a1324d-cd34-4057-bdfd-da6a338cdd55": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-return-box",
+            "custom_icon": "shopify:\/\/shop_images\/product-return.png",
+            "custom_icon_width": 40,
+            "content": "<p>Kostenloser Umtausch<\/p>"
+          }
+        },
+        "38a65de0-7ad2-4f39-bbf0-91f5c2d8998d": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-fast-delivery",
+            "custom_icon": "shopify:\/\/shop_images\/delivery.png",
+            "custom_icon_width": 40,
+            "content": "<p>Gratis Versand für Einkäufe über 59 CHF<\/p>"
+          }
+        },
+        "f01fc0df-89a2-4754-8dd8-7826438720c7": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-like",
+            "custom_icon": "shopify:\/\/shop_images\/free_delivery.png",
+            "custom_icon_width": 40,
+            "content": "<p>14 Tage Rückgaberecht<\/p>"
+          }
+        },
+        "9bc733f1-eaa9-4aeb-8e4b-6d0b7edf7a4f": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon": "shopify:\/\/shop_images\/happy.png",
+            "custom_icon_width": 40,
+            "content": "<p>Zufriedenheitsgarantie<\/p>"
+          }
+        },
+        "fdb2642a-ca08-4ae9-ab9b-2cbd3dac4190": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/registreringer_ch.jpg",
+            "image_alignment": "center",
+            "image_width": 350
+          }
+        },
+        "3949e64b-3ef3-462f-8cb5-9cfb151811cd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ch_payment_methods_ny_b76c8959-046e-4d2f-8624-251bc9be5db9.jpg",
+            "image_alignment": "center",
+            "image_width": 340
+          }
+        }
+      },
+      "block_order": [
+        "a8a3f231-8a84-4354-a9fd-4d9059951169",
+        "673267c3-003b-4577-a422-a251ebd2d09f",
+        "00302c62-cfad-4969-982d-ecc6bafa935d",
+        "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b",
+        "variant_picker",
+        "quantity_selector",
+        "7d730f1e-03a8-4b58-8b66-855e35aabc99",
+        "12735dc9-3907-4582-bc82-4d993f4fc873",
+        "e9a1324d-cd34-4057-bdfd-da6a338cdd55",
+        "38a65de0-7ad2-4f39-bbf0-91f5c2d8998d",
+        "f01fc0df-89a2-4754-8dd8-7826438720c7",
+        "9bc733f1-eaa9-4aeb-8e4b-6d0b7edf7a4f",
+        "fdb2642a-ca08-4ae9-ab9b-2cbd3dac4190",
+        "3949e64b-3ef3-462f-8cb5-9cfb151811cd"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": false,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_share_buttons": false,
+        "help_page": "",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "show_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "product_counter_text": "<p>Wir verpacken Ihre Bestellung in:<\/p>",
+        "show_product_counter": true,
+        "show_product_trustpilot_widget": false
+      }
     },
-    "upsell-bundles": {
-      "type": "dbtfy-upsell-bundles",
-      "settings": {}
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "6a6d631c-d930-4476-987c-345e048e409c": {
+          "type": "content",
+          "settings": {
+            "title": "Zufriedenheit",
+            "content": "<h3>Umtausch oder Retoure – so einfach gehts!<\/h3><p>Anodyne® bietet 100% Zufriedenheitsgarantie und <strong>14 Tage Retournierungsrecht<\/strong>. So können Sie Anodyne® Produkte in Ruhe ausprobieren und den Effekt selbst spüren – bevor Sie sich zum Kauf entscheiden.<\/p><p>Wünschen Sie Produkte umzutauschen oder zu retournieren, werden die Kosten der Retoure von Anodyne® übernommen. Im Paket finden Sie ein vorbezahltes Retourlabel der Post. Retournieren Sie uns Ihre Bestellung innerhalb 14 Tage nach Erhalt. Wir behandeln Retouren nach Erhalt innerhalb von 1-2 Werktagen.<\/p><p><strong>Umtausch:<\/strong><\/p><ol><li>Beiliegendes Umtauschformular lesen und ausfüllen. <\/li><li>Produkt(e) in Versandbeutel oder Karton legen. Umtauschformular beilegen.<\/li><li>Beiliegendes Label der Post auf Paket kleben (altes Versandlabel überkleben).<\/li><li>Paket bei einer Postfiliale in Ihrer Nähe aufgeben.<\/li><\/ol><p><strong>Retoure<\/strong>:<\/p><ol><li>Beiliegendes Retourformular lesen und ausfüllen<\/li><li>Produkt(e) in Versandbeutel oder Karton legen. Retourformular beilegen.<\/li><li>Beiliegendes Label der Post auf Paket kleben (altes Versandlabel überkleben).<\/li><li>Paket bei einer Postfiliale in Ihrer Nähe aufgeben.<\/li><\/ol><p><em>Beachten Sie bitte, dass es in einzelnen Fällen 8-10 Tage dauern kann, bis die Rückvergütung auf Ihrem Konto eingeht.<\/em><\/p>",
+            "page": "tilfredshedsgaranti"
+          }
+        },
+        "36823c84-927f-45eb-be9f-067bdc376163": {
+          "type": "content",
+          "settings": {
+            "title": "Kundenbewertungen",
+            "content": "",
+            "page": "anodyne-kundenbewertungen"
+          }
+        },
+        "145099a8-56fc-4928-9ff1-a0b55addb0c8": {
+          "type": "content",
+          "settings": {
+            "title": "Lieferung",
+            "content": "",
+            "page": "versand-und-retoure"
+          }
+        },
+        "133b0265-f52d-42d9-b1c6-a1a24613bc29": {
+          "type": "content",
+          "settings": {
+            "title": "Registrierungen",
+            "content": "",
+            "page": "registrierungen"
+          }
+        },
+        "995a2072-180d-4c51-a603-208dc03f3bb4": {
+          "type": "liquid",
+          "settings": {
+            "title": "",
+            "liquid": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "6a6d631c-d930-4476-987c-345e048e409c",
+        "36823c84-927f-45eb-be9f-067bdc376163",
+        "145099a8-56fc-4928-9ff1-a0b55addb0c8",
+        "133b0265-f52d-42d9-b1c6-a1a24613bc29",
+        "995a2072-180d-4c51-a603-208dc03f3bb4"
+      ],
+      "settings": {
+      }
     },
-    "pricing-table": {
-      "type": "dbtfy-pricing-table",
-      "settings": {}
+    "6c6901df-cb46-40b6-a9c0-0673d0dc2942": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"de-CH\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"64356ba3a32b6caee5a47b54\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"de\">\n  <a href=\"https:\/\/ch.trustpilot.com\/review\/anodyne.ch\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4141dc15-6c36-4021-a2a1-980bf9d671c9": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "template--18587076067653__4141dc15-6c36-4021-a2a1-980bf9d671c9-1681882116df57bd22-0": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Bei Anodyne® können Sie alle Produkte für 14 Tage zu testen und so den Effekt am eigenen Körper spüren. Rückversand ist kostenlos. Sie erhalten den vollen Betrag zurück.",
+            "title": "✅ Rückgaberecht",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "template--18587076067653__4141dc15-6c36-4021-a2a1-980bf9d671c9-1681882116df57bd22-2": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Zögern Sie bitte nicht, uns bei Fragen jederzeit zu kontaktieren. Gerne unterstützen wir Sie telefonisch unter 044 551 01 31 oder per E-Mail info@anodyne.ch",
+            "title": "✅ Professioneller Service",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "d586b713-a44c-498d-b1e1-0c3bc315b251": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Wir versenden Ihr Paket mit A-Post aus unserem Lager in Zürich. So erhalten Sie Ihre Produkte in 1-2 Werktagen.",
+            "title": "✅ Schnelle Lieferung",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "7b76ec00-829b-4cbd-91f4-29fc1b2596e2": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Unsere Kunden lieben Anodyne. Bis heute haben wir in Europa über 300'000 zufriedene Kunden.",
+            "title": "✅ 300'000+ Kunden",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "d77be6af-2972-41f3-bdfc-e97b8fc081b1": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Für alle Bestellungen über CHF 59 profitieren Sie bei Anodyne® von kostenlosem Versand.",
+            "title": "✅ Gratis Versand",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "290acaab-6907-478b-b459-9d6ad421a2ba": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Ihre Zufriedenheit liegt uns am Herzen. Wenn Sie mit Ihrem Produkt nicht 100% zufrieden sind, können Sie dieses kostenlos umtauschen oder retournieren.",
+            "title": "✅ Zufriedenheitsgarantie",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "template--18587076067653__4141dc15-6c36-4021-a2a1-980bf9d671c9-1681882116df57bd22-0",
+        "template--18587076067653__4141dc15-6c36-4021-a2a1-980bf9d671c9-1681882116df57bd22-2",
+        "d586b713-a44c-498d-b1e1-0c3bc315b251",
+        "7b76ec00-829b-4cbd-91f4-29fc1b2596e2",
+        "d77be6af-2972-41f3-bdfc-e97b8fc081b1",
+        "290acaab-6907-478b-b459-9d6ad421a2ba"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "medium",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "settings": {}
+      "settings": {
+        "subheading": "",
+        "title": "Andere Kunden kauften auch",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     },
-    "review-widget": {
-      "type": "product-review-widget",
-      "settings": {}
-    },
-    "faq-section": {
-      "type": "dbtfy-faq-section",
-      "settings": {}
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {}
-    },
-    "back-to-collection": {
-      "type": "product-back-to-collection",
-      "settings": {}
-    },
-    "quotes": {
-      "type": "quotes",
-      "settings": {}
+    "167567262859be62b8": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "upsell-bundles",
-    "pricing-table",
+    "product-content",
+    "6c6901df-cb46-40b6-a9c0-0673d0dc2942",
+    "4141dc15-6c36-4021-a2a1-980bf9d671c9",
     "product-recommendations",
-    "review-widget",
-    "faq-section",
-    "related-products",
-    "back-to-collection",
-    "quotes"
+    "167567262859be62b8"
   ]
 }

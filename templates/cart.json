@@ -1,11 +1,54 @@
 {
   "sections": {
     "main": {
-      "type": "page-cart-content",
-      "settings": {}
+      "type": "main-cart",
+      "blocks": {
+        "totals": {
+          "type": "totals",
+          "settings": {
+          }
+        },
+        "order_note": {
+          "type": "order_note",
+          "disabled": true,
+          "settings": {
+            "open_by_default": false
+          }
+        }
+      },
+      "block_order": [
+        "totals",
+        "order_note"
+      ],
+      "settings": {
+        "show_payment_methods": true,
+        "show_shipping_estimator": true,
+        "shipping_estimator_default_country": "Denmark",
+        "empty_button_link": "shopify:\/\/collections\/all"
+      }
+    },
+    "cart-recommendations": {
+      "type": "cart-recommendations",
+      "settings": {
+        "title": "Das könnte Sie auch interessieren"
+      }
+    },
+    "e4185d86-49aa-4d35-bb0d-a870ae069416": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "cart-recommendations",
+    "e4185d86-49aa-4d35-bb0d-a870ae069416"
   ]
 }

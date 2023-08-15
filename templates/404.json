@@ -1,8 +1,9 @@
 {
   "sections": {
     "main": {
-      "type": "page-not-found-content",
-      "settings": {}
+      "type": "main-not-found",
+      "settings": {
+      }
     }
   },
   "order": [

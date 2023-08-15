@@ -1,65 +1,40 @@
-{%- if section.settings.collection_show_description -%}
-  <div class="bottom-description">
-    {%- if section.settings.columns_main_title != blank -%}
-      <h1 class="bottom-description__title">{{ section.settings.columns_main_title }}</h1>
+<section>
+  {%- comment -%}
+  ------------------------------------------------------------------------------------------
+  collection header and description
+  ------------------------------------------------------------------------------------------
+  {%- endcomment -%}<div class="container">
+    {%- if section.settings.show_collection_title -%}
+      <h1 class="heading h1">{{ collection.title }}</h1>
     {%- endif -%}
-    <div class="bottom-description__seo-text">
-      {%- if section.settings.column_one != blank -%}
-        <div class="cols col-one">{{ section.settings.column_one }}</div>
-      {%- endif -%}
-      {%- if section.settings.column_two != blank -%}
-        <div class="cols col-one">{{ section.settings.column_two }}</div>
-      {%- endif -%}
-    </div>
-  </div>
-{%- else -%}
-  {%- unless collection.description == blank -%}
-    <div class="box">
-      <div class="wrapper">
-        <p class="collection-description text-lead">
-          {{ collection.description }}
-        </p>
+
+    {%- if section.settings.show_collection_description and collection.description != blank -%}
+      <div>
+        {{- collection.description -}}
       </div>
-    </div>
-  {%- endunless -%}
-{%- endif -%}
-
-
-
+    {%- endif -%}
+  </div>
+</section>
 {% schema %}
   {
-    "name": "Collection Description",
-    "class": "collection-description",
+    "name": "Collection description",
+    "class": "shopify-section--collection-description",
     "settings": [
       {
-        "type": "header",
-        "content": "Columns"
-      },
-      {
         "type": "checkbox",
-        "id": "collection_show_description",
-        "label": "show bottom custom description",
-        "default": false
-      },
-      {
-        "type": "text",
-        "id": "columns_main_title",
-        "label": "Add main title to the columns"
-      },
-      {
-        "type": "richtext",
-        "id": "column_one",
-        "label": "<p>Column one</p>"
+        "id": "show_collection_title",
+        "label": "Show collection title",
+        "default": true
       }, {
-        "type": "richtext",
-        "id": "column_two",
-        "label": "<p>Column two</p>"
+        "type": "checkbox",
+        "id": "show_collection_description",
+        "label": "Show collection description",
+        "default": true
       }
     ],
     "presets": [
       {
-        "name": "Collection Description",
-        "category": "text"
+        "name": "Collection description"
       }
     ]
   }

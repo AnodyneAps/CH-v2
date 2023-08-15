@@ -1,367 +1,311 @@
 {
   "sections": {
     "main": {
-      "type": "dbtfy-faq-section",
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "faq": {
+      "type": "faq",
       "blocks": {
-        "57e36e78-1798-46a5-ae4a-832ccca61f0d": {
-          "type": "category_block",
+        "e2fd04e2-32a2-4613-b098-e6eda16bce25": {
+          "type": "category",
           "settings": {
-            "title": "Produkte",
-            "dbtfy_faq_category": "Produkte",
-            "dbtfy_faq_icons": ""
+            "title": "Produkte"
           }
         },
-        "6fe87ae9-bf18-43b2-bdb1-581ef1f521bf": {
-          "type": "text_block",
+        "2d9accc5-e38d-4795-b2f5-f64b9d9a114c": {
+          "type": "question",
           "settings": {
-            "title": "",
-            "dbtfy_faq_page_open_1": false,
-            "dbtfy_faq_page_icon_1": "",
-            "question_1": "Was ist haltungskorrigierende Kleidung von Anodyne® und wie funktionierts?",
-            "text_1": "<p>Die haltungskorrigierende Kleidung von Anodyne® wurde entwickelt, um das Muskelgedächtnis zu stimulieren und die Körperhaltung zu verbessern. Das Posture-Shirt von Anodyne® tragen zur Schaffung eines konstanten Informationsflusses bei, der zwischen 20.000 und 80.000 Nervenrezeptoren in einem Quadratzentimeter Haut hin und her läuft. Das Ergebnis ist, dass die Muskeln vom Gehirn dazu angeregt werden, aktiv zu werden, so dass Sie selbst Ihre Körperhaltung verbessern, indem Sie Ihre Muskeln stärken. Um den Effekt zu maximieren, empfehlen wir, körperlich aktiv zu sein.<\/p>",
-            "dbtfy_faq_page_open_2": false,
-            "dbtfy_faq_page_icon_2": "",
-            "question_2": "Was ist der Unterschied zwischen dem Posture Shirt und dem BH von Anodyne® und dem der Mitbewerber?",
-            "text_2": "<p>Die haltungskorrigierende Kleidung von Anodyne ist von der FDA als Medizinprodukt zertifiziert und hat ebenfalls die MDR\/CE-Kennzeichnung, Medical Class 1, erhalten.<br\/><\/p><p>Wenn Sie sich die Produkte der Mitbewerber ansehen, müssen Sie unbedingt nach diesen Zertifizierungen suchen. Wenn sie sie nicht haben, liegt in der Regel auch kein dokumentierter nachhaltiger Effekt der Kleidung vor. Bei Kleidung, die Effekt auf die Körperhaltung haben soll, ist es wichtig kontrollierte und dokumentierte Produkte zu wählen.<\/p>",
-            "dbtfy_faq_page_open_3": false,
-            "dbtfy_faq_page_icon_3": "",
-            "question_3": "Was ist der Unterschied zwischen dem Anodyne® Posture-Shirt und dem Anodyne-BH?",
-            "text_3": "<p>Das Posture Shirt® verfügt über zwei NeuroBands, die über die Schulter laufen und eines, das den gesamten Bereich der Wirbelsäule bedeckt, während der Anodyne-BH nur ein NeuroBand pro Seite, das um das Schulterblatt verläuft, hat. Im Allgemeinen können Sie davon ausgehen, dass das Hemd mehr Unterstützung bekommt, aber für viele Frauen reicht die Unterstützung des BHs aus, um die gewünschte Körperhaltung zu erreichen. Der BH ist häufig die Wahl für Frauen, die ein diskreteres Produkt unter der Kleidung haben möchten, beispielsweise für Arbeitszwecke, da der BH einfach den normalen BH ersetzt.<br\/><\/p><p>Im Zweifelsfall können Sie immer beide Produkte ausprobieren und unsere 14-tägige Testphase nutzen, in der Sie Produkte zurückgeben können, die Sie nicht behalten möchten.<\/p>",
-            "dbtfy_faq_page_open_4": false,
-            "dbtfy_faq_page_icon_4": "",
-            "question_4": "Wie sehe ich eine Verbesserung in meiner Haltung?",
-            "text_4": "<p>Wenn Sie die richtige Größe haben, werden Sie beim Tragen des Posture Shirts oder BHs sofort einen Unterschied in Ihrer Körperhaltung spüren und feststellen. Um den Effekt zu sehen, wenn Sie das Hemd nicht tragen, ist der Zeitrahmen etwas länger und ist sehr von der Ausgangslage abhängig. Ihr Körper braucht Zeit, um die Fähigkeit zu erlernen, die richtige Körperhaltung zu halten. Wenn Sie das Posture Shirt tragen, werden Sie ständig subtil daran erinnert Ihre Körperhaltung auszurichten. Dies führt zum Aufbau vom „Muskelgedächtnis“, sodass Sie Ihre Körperhaltung auch dann ausrichten, wenn Sie das Posture Shirt nicht tragen.<br\/><\/p><p>Durch das Tragen der haltungskorrigierenden Kleidung und das Ausführen Ihrer normalen Aktivitäten wie Gehen, Arbeiten, Training (Fitness, Reiten, Radfahren, Laufen usw.) wird der Lerneffekt auf die verbesserte Körperhaltung durch Bewegung verstärkt. Die Bewegungen, die Sie an einem normalen Tag am häufigsten ausführen, haben den größten Einfluss darauf, wie schnell sich das Muskelgedächtnis verändert. Abhängig von diesen Faktoren, zusammen mit der Häufigkeit und Dauer des Gebrauchs Ihres Posture Shirts oder BHs, werden Sie die körperlichen Veränderungen nach dem Tragen des Hemdes für etwa 60 bis 90 Tage optimal bemerken. Den anfänglichen Effekt werden Sie allerdings bereits innerhalb Ihrer 14-tägigen Testphase feststellen.<\/p>",
-            "dbtfy_faq_page_open_5": false,
-            "dbtfy_faq_page_icon_5": "",
-            "question_5": "Erlebe ich weniger Schmerzen und \/ oder verbessere ich meine Haltung?",
-            "text_5": "<p>Es ist wahrscheinlich, dass Sie weniger Rückenschmerzen, Schulter- und Nackenschmerzen haben, wenn Sie unser Produkt tragen. Eine große Mehrheit der Menschen, die unser Posture Shirt oder den Anodyne-BH verwenden, verbessern ihre Haltung. Ob dies auch für Sie gilt, können wir nicht garantieren. Deshalb geben wir Ihnen 14 Tage Zeit, um es selbst auszuprobieren. Sie werden entweder Teil der Mehrheit sein, die die Vorteile des Produkts zu spüren bekommt, aber Sie können auch einer der Unglücklichen sein, die 4%, die das Produkt zurückgeben, da sie keine Verbesserung spüren.<br\/><\/p><p>Um Ihre Chancen auf ein erfolgreiches Erlebnis zu erhöhen, empfehlen wir Ihnen, dem Produkt wirklich eine Chance zu geben. Wenn Sie beispielsweise seit vielen Jahren Rückenschmerzen haben, sollten Sie nicht davon ausgehen, dass diese vollständig verschwinden, nachdem Sie das Hemd zwei Stunden lang getragen haben. Profitieren Sie von Ihrer 14-tägigen Testphase und verpflichten Sie sich dazu. Tragen Sie es in der ersten Woche jeden Tag, beginnen Sie mit 1-2 Stunden und erhöhen Sie die Nutzung auf 2-4 Stunden. Nach dieser ersten Woche tragen Sie es für 8-10 Stunden 3-4 mal pro Woche. Wie fühlst du dich nach 4 Wochen? Wahrscheinlich spüren Sie eine Verringerung Ihrer Schmerzen und eine Verbesserung Ihrer Haltung. Wenn nicht, dann mach dir keine Sorgen. Senden Sie das Produkt einfach für eine volle Rückerstattung zurück.<\/p><p>Zögern Sie nicht, sich mit unserem Kundendienst in Verbindung zu setzen, wenn Sie während Ihres Testzeitraums (oder sogar nach Ablauf dieses Zeitraums) Ratschläge zur Verwendung erhalten möchten. Unser Ziel ist es, dass Sie dieses Produkt am Ende lieben, so dass Sie es an Familie, Freunde und Kollegen weiterempfehlen werden. Daher haben wir ein großes Interesse daran, Ihnen zu helfen, das bestmögliche Ergebnis zu erzielen!<\/p>",
-            "dbtfy_faq_page_open_6": false,
-            "dbtfy_faq_page_icon_6": "",
-            "question_6": "Wie lange hält mein Anodyne®-Produkt?",
-            "text_6": "<p>Die Lebensdauer Ihres Anodyne-Produkts hängt davon ab, wie Sie es pflegen, und wie bei allen anderen Kleidungsstücken zeigt auch diese Kleidung Gebrauchsspuren, je nachdem, wie oft Sie sie tragen.<br\/><\/p><p>Es ist wichtig, dass Sie die Pflegeanleitung befolgen. Wir empfehlen Handwäsche. Das Produkt darf nicht im Trockner getrocknet werden, da dadurch die NeuroBands® und die Elastizität beschädigt werden. Die NeuroBands® sind die Besonderheit, die in das Posture Shirt integriert ist und die Rückmeldung an Ihren Körper gibt, wenn Ihre Haltung nicht optimal ist.<\/p><p>Wenn Sie das Produkt gemäß den Pflegeanweisungen pflegen, sollte das Produkt bis zu 700 Wäschen halten. Der Verschleiß ist immer stark von der Nutzung und Pflege abhängig.<\/p>",
-            "dbtfy_faq_page_open_7": false,
-            "dbtfy_faq_page_icon_7": "",
-            "question_7": "",
-            "text_7": "",
-            "dbtfy_faq_page_open_8": false,
-            "dbtfy_faq_page_icon_8": "",
-            "question_8": "",
-            "text_8": "",
-            "dbtfy_faq_page_open_9": false,
-            "dbtfy_faq_page_icon_9": "",
-            "question_9": "",
-            "text_9": "",
-            "dbtfy_faq_page_open_10": false,
-            "dbtfy_faq_page_icon_10": "",
-            "question_10": "",
-            "text_10": ""
+            "title": "Was ist haltungskorrigierende Kleidung von Anodyne® und wie funktionierts?",
+            "answer": "<p>Die haltungskorrigierende Kleidung von Anodyne® wurde entwickelt, um das Muskelgedächtnis zu stimulieren und die Körperhaltung zu verbessern. Das Posture-Shirt von Anodyne® tragen zur Schaffung eines konstanten Informationsflusses bei, der zwischen 20.000 und 80.000 Nervenrezeptoren in einem Quadratzentimeter Haut hin und her läuft. Das Ergebnis ist, dass die Muskeln vom Gehirn dazu angeregt werden, aktiv zu werden, so dass Sie selbst Ihre Körperhaltung verbessern, indem Sie Ihre Muskeln stärken. Um den Effekt zu maximieren, empfehlen wir, körperlich aktiv zu sein.<\/p>"
           }
         },
-        "9104836f-5fd9-4fe1-8486-6c66231032b1": {
-          "type": "category_block",
+        "3a156e70-5fd2-41e3-ac76-0c764bb81136": {
+          "type": "question",
           "settings": {
-            "title": "Die Optimale Größe",
-            "dbtfy_faq_category": "Die Optimale Größe",
-            "dbtfy_faq_icons": ""
+            "title": "Was ist der Unterschied zwischen dem Posture Shirt und dem BH von Anodyne® und dem der Mitbewerber?",
+            "answer": "<p>Die haltungskorrigierende Kleidung von Anodyne ist von der FDA als Medizinprodukt zertifiziert und hat ebenfalls die MDR\/CE-Kennzeichnung, Medical Class 1, erhalten.<br\/><\/p><p>Wenn Sie sich die Produkte der Mitbewerber ansehen, müssen Sie unbedingt nach diesen Zertifizierungen suchen. Wenn sie sie nicht haben, liegt in der Regel auch kein dokumentierter nachhaltiger Effekt der Kleidung vor. Bei Kleidung, die Effekt auf die Körperhaltung haben soll, ist es wichtig kontrollierte und dokumentierte Produkte zu wählen.<\/p>"
           }
         },
-        "babc1ce4-e723-4514-aea2-17d4c348c7f6": {
-          "type": "text_block",
+        "437590f3-e345-43b7-8342-9351425d09f2": {
+          "type": "question",
           "settings": {
-            "title": "",
-            "dbtfy_faq_page_open_1": false,
-            "dbtfy_faq_page_icon_1": "",
-            "question_1": "Welche Größe soll ich wählen?",
-            "text_1": "<p>Die richtige Größe ist der Schlüssel, um die Vorteile unseres Posture-Shirts und unseres AlignMe-Büstenhalters nutzen zu können. Für jedes Produkt wird eine Größentabelle aufgeführt. Wenn Ihre Messungen zwischen zwei Größen erfasst werden, sollten Sie immer die kleinere wählen. Der schlimmste Fall ist, dass wir einen Austausch durchführen müssen, aber in 9 von 10 Fällen ist die Entscheidung für eine kleinere Größe, wenn zwischen den Größen, die richtige Entscheidung ist. Wenn Sie gut in die Größe passen, bleiben Sie bei dieser Größe. Wenn Sie normalerweise eine Nummer größer sind, weil Sie eine lockere Passform mögen, wenden Sie diese Methode nicht an, wenn Sie sich für die Haltung entscheiden. Das Produkt muss eng auf Sie sitzen, um zu arbeiten. Im Zweifelsfall zögern Sie nicht uns zu kontaktieren.<\/p>",
-            "dbtfy_faq_page_open_2": false,
-            "dbtfy_faq_page_icon_2": "",
-            "question_2": "Wie kann ich sehen, ob ich die richtige Größe habe?",
-            "text_2": "<p>Das Posture Shirt sollte eng am Körper anliegen, damit es die richtige Wirkung erzielt. Sie können am einfachsten feststellen, ob das Posture Shirt zu groß oder zu klein ist, indem Sie die NeuroBands um die Schultern betrachten. Die NeuroBands™ sind die fünf Felder mit variabler Elastizität, die auf den Körper abgebildet werden, um die kontraktiven Eigenschaften der Muskeln zu spiegeln. Die Abbildungen unten zeigen eine Abbildung der bestmöglichen Passform.<br\/><br\/>Falten die NeuroBands™ in Ihrem Posture Shirt? Wenn ja, empfehlen wir Ihnen, es gegen eine kleinere Größe auszutauschen. Wenn Sie sich bezüglich der Größe nicht sicher sind, wenden Sie sich bitte an unseren Kundenservice.<\/p>",
-            "dbtfy_faq_page_open_3": false,
-            "dbtfy_faq_page_icon_3": "",
-            "question_3": "Mein Posture Shirt \/ Anodyne-BH ist (sehr) eng, ist er zu klein?",
-            "text_3": "<p>Die Posture-Shirts und Anodyne-BHs von Anodyne sollten eng anliegen, um effektiv zu sein, aber sie sollten sich nicht sehr unangenehm eng anfühlen. Wenn Sie nach dem Anziehen keine Bewegungsfreiheit haben, ist sie möglicherweise zu klein. Am besten wenden Sie sich an den Kundenservice und führen Sie ein Gespräch mit ihnen, damit Sie die richtige Größe ermitteln können. Wenn Sie Ihre Brust- \/ Brustgröße vor dem Anruf in Zoll messen konnten, sind sie in einer besseren Position, um Sie zu beraten. Sie können auch ein Foto von der Rückseite senden, in dem Sie das Hemd tragen. Dann können Sie leicht erkennen, dass das Produkt richtig auf Sie sitzt.<\/p>",
-            "dbtfy_faq_page_open_4": false,
-            "dbtfy_faq_page_icon_4": "",
-            "question_4": "",
-            "text_4": "",
-            "dbtfy_faq_page_open_5": false,
-            "dbtfy_faq_page_icon_5": "",
-            "question_5": "",
-            "text_5": "",
-            "dbtfy_faq_page_open_6": false,
-            "dbtfy_faq_page_icon_6": "",
-            "question_6": "",
-            "text_6": "",
-            "dbtfy_faq_page_open_7": false,
-            "dbtfy_faq_page_icon_7": "",
-            "question_7": "",
-            "text_7": "",
-            "dbtfy_faq_page_open_8": false,
-            "dbtfy_faq_page_icon_8": "",
-            "question_8": "",
-            "text_8": "",
-            "dbtfy_faq_page_open_9": false,
-            "dbtfy_faq_page_icon_9": "",
-            "question_9": "",
-            "text_9": "",
-            "dbtfy_faq_page_open_10": false,
-            "dbtfy_faq_page_icon_10": "",
-            "question_10": "",
-            "text_10": ""
+            "title": "Was ist der Unterschied zwischen dem Anodyne® Posture-Shirt und dem Anodyne-BH?",
+            "answer": "<p>Das Posture Shirt® verfügt über zwei NeuroBands, die über die Schulter laufen und eines, das den gesamten Bereich der Wirbelsäule bedeckt, während der Anodyne-BH nur ein NeuroBand pro Seite, das um das Schulterblatt verläuft, hat. Im Allgemeinen können Sie davon ausgehen, dass das Hemd mehr Unterstützung bekommt, aber für viele Frauen reicht die Unterstützung des BHs aus, um die gewünschte Körperhaltung zu erreichen. Der BH ist häufig die Wahl für Frauen, die ein diskreteres Produkt unter der Kleidung haben möchten, beispielsweise für Arbeitszwecke, da der BH einfach den normalen BH ersetzt.<br\/><\/p><p>Im Zweifelsfall können Sie immer beide Produkte ausprobieren und unsere 14-tägige Testphase nutzen, in der Sie Produkte zurückgeben können, die Sie nicht behalten möchten.<\/p>"
           }
         },
-        "a9c5eaf0-3850-4641-839d-103d186a0c5c": {
-          "type": "category_block",
+        "574b8848-8528-4534-b23f-c1b915d7539c": {
+          "type": "question",
           "settings": {
-            "title": "Gebrauchsanweisung",
-            "dbtfy_faq_category": "Gebrauchsanweisung",
-            "dbtfy_faq_icons": ""
+            "title": "Wie sehe ich eine Verbesserung in meiner Haltung?",
+            "answer": "<p>Wenn Sie die richtige Größe haben, werden Sie beim Tragen des Posture Shirts oder BHs sofort einen Unterschied in Ihrer Körperhaltung spüren und feststellen. Um den Effekt zu sehen, wenn Sie das Hemd nicht tragen, ist der Zeitrahmen etwas länger und ist sehr von der Ausgangslage abhängig. Ihr Körper braucht Zeit, um die Fähigkeit zu erlernen, die richtige Körperhaltung zu halten. Wenn Sie das Posture Shirt tragen, werden Sie ständig subtil daran erinnert Ihre Körperhaltung auszurichten. Dies führt zum Aufbau vom „Muskelgedächtnis“, sodass Sie Ihre Körperhaltung auch dann ausrichten, wenn Sie das Posture Shirt nicht tragen.<br\/><\/p><p>Durch das Tragen der haltungskorrigierenden Kleidung und das Ausführen Ihrer normalen Aktivitäten wie Gehen, Arbeiten, Training (Fitness, Reiten, Radfahren, Laufen usw.) wird der Lerneffekt auf die verbesserte Körperhaltung durch Bewegung verstärkt. Die Bewegungen, die Sie an einem normalen Tag am häufigsten ausführen, haben den größten Einfluss darauf, wie schnell sich das Muskelgedächtnis verändert. Abhängig von diesen Faktoren, zusammen mit der Häufigkeit und Dauer des Gebrauchs Ihres Posture Shirts oder BHs, werden Sie die körperlichen Veränderungen nach dem Tragen des Hemdes für etwa 60 bis 90 Tage optimal bemerken. Den anfänglichen Effekt werden Sie allerdings bereits innerhalb Ihrer 14-tägigen Testphase feststellen.<\/p>"
           }
         },
-        "1b8cb777-3982-472e-8019-b89abc537634": {
-          "type": "text_block",
+        "9ebc1ac4-8b27-4c88-8408-39e6a5e5a088": {
+          "type": "question",
           "settings": {
-            "title": "",
-            "dbtfy_faq_page_open_1": false,
-            "dbtfy_faq_page_icon_1": "",
-            "question_1": "Wie ziehe ich das Hemd an und ab?",
-            "text_1": "<p>Ein enganliegendes Posture Shirt zu tragen, unterscheidet sich erheblich von einem lockeren T-Shirt. <br\/><br\/><strong>Tipp:<\/strong> Wenn Sie vorhaben, das Hemd für das Fitnessstudio zu tragen, empfehlen wir das T-Shirt mit Reißverschluss, da es ziemlich schwierig sein kann, das Hemd auszuziehen, wenn Sie viel schwitzen. Wenn Sie bereits eine Pullover-Version des Hemdes gekauft haben, ist der beste Tipp, um es nach einer schweißtreibenden Übung auszuziehen, es so hoch wie möglich aufzurollen und dann das Hemd mit einer Hand über den Kopf zu ziehen.<\/p>",
-            "dbtfy_faq_page_open_2": false,
-            "dbtfy_faq_page_icon_2": "",
-            "question_2": "Wann sollte ich meine Anodyne®-Kleidung tragen?",
-            "text_2": "<p>Wenn Sie zum ersten Mal die haltungskorrigierende Kleidung von Anodyne® tragen, empfehlen wir langsam zu beginnen. Eine Tragedauer von 1-2 Stunden am Tag, innerhalb der ersten Woche, funktioniert für die Meisten. Versuchen Sie, es zu Zeiten zu verwenden, an denen Sie die meiste Unterstützung benötigen. Wenn dies also beim Gehen oder Sitzen vor einem Computer ist, verwenden Sie es dann. Nach einer Woche können Sie das Posture Shirt 8-10 Stunden lang tragen oder wie lange es für Sie persönlich passend ist. Tragen Sie die haltungskorrigierende Kleidung bei sportlichen Aktivitäten, wenn Sie während Ihrer Übungen oft eine schlechte Haltung einnehmen.<\/p>",
-            "dbtfy_faq_page_open_3": false,
-            "dbtfy_faq_page_icon_3": "",
-            "question_3": "Gibt es Personen, die die Anodyne®-Produkte nicht verwenden sollten?",
-            "text_3": "<p>Wir sind stolz darauf, dass unsere Produkte als medizinisches Hilfsmittel zertifiziert sind. Dies bedeutet, dass unser Produkt ordnungsgemäßen Tests unterzogen wurde, was es zu einer sicheren und zuverlässigen Option macht. Dies bedeutet jedoch nicht, dass unser Produkt für jeden etwas ist.<br\/><\/p><p>Wir empfehlen immer, einen Physiotherapeuten, einen Arzt usw. zu konsultieren, wenn Sie an schwerwiegenden Erkrankungen oder physiologischen Einschränkungen leiden. Wir arbeiten mit vielen medizinischen Spezialisten zusammen. Falls Ihr Spezialist \/ Physiotherapeut \/ Arzt unser Produkt nicht kennt, darf er sich gerne an uns wenden, um mehr über unsere Produkte zu erfahren.<\/p><p>Wenn Sie sich kürzlich einer Operation unterzogen haben, sollten Sie mit einem Arzt oder Physiotherapeuten \/ Osteopath \/ Chiropraktiker besprechen, ob es zu früh ist an Ihrer Haltung zu arbeiten. Bei Mobilitätsproblemen an den Schultern empfehlen wir das Posture Shirt Zipper oder für Frauen entweder das Posture Shirt mit Zipper oder den BH, da das An- und Ausziehen in diesen Modellen einfacher ist.<\/p><p>Generell raten wir Kindern und Jugendlichen unter 17 Jahren nicht, die Produkte ohne vorherige Beratung eines Arztes oder Physiotherapeuten zu verwenden.<\/p>",
-            "dbtfy_faq_page_open_4": false,
-            "dbtfy_faq_page_icon_4": "",
-            "question_4": "Wie lange sollte ich mein Posture Shirt tragen?",
-            "text_4": "<p>Auf diese Frage gibt es keine absolute Antwort. Es hängt alles von Ihrem Ausgangspunkt ab. Sind Sie schon sehr aktiv, hatten Sie kürzlich eine Operation usw.?<br\/><\/p><p>Im Allgemeinen empfehlen wir, das Posture Shirt in der ersten Woche täglich bis zu zwei Stunden zu tragen und dann die Nutzung zu erhöhen. Wenn Sie innerhalb der ersten paar Stunden Müdigkeit verspüren, nehmen Sie sie für diesen Tag ab und versuchen Sie es am nächsten Tag erneut. Für einige ist es am besten, wenn Sie mit einer halben Stunde beginnen und dann langsam aufbauen, während andere es ab dem ersten Tag für zwei Stunden tragen können. Da Sie Muskeln aktivieren, die ansonsten lange Zeit inaktiv waren (oder einfach nur falsch angewendet) leichte Muskelkater können das Ergebnis in der ersten Woche sein, aber denken Sie daran, dass dies etwas Gutes ist. Es bedeutet, dass Ihre Muskeln arbeiten.<\/p><p>Wenn Sie auch am ersten Tag keine Muskelschmerzen haben und definitiv die richtige Größe haben, dann sehen Sie, wie es geht, wenn Sie es 4 Stunden lang tragen. Wenn Sie am nächsten Morgen aufwachen und das Gefühl haben, sehr schmerzende Muskeln zu haben, machen Sie an diesem Tag eine Pause und starten Sie am nächsten Tag wieder, vielleicht für eine etwas kürzere Zeit.<\/p><p>Nach der ersten Woche haben sich Ihre Muskeln daran gewöhnt, aktiviert zu werden, und Sie können das Hemd länger tragen. Die meisten Leute werden es für einen ganzen Arbeitstag tragen. Wenn Sie anfangen, es für so lange Zeit zu tragen, bauen Sie schnell das Muskelgedächtnis auf, was bedeutet, dass Sie Ihre Haltung selbst ausrichten, selbst wenn Sie das Hemd nicht tragen. Wenn Sie das Gefühl haben, dass Sie Ihre Haltung ausrichten, auch wenn Sie das Hemd nicht tragen, können Sie die Verwendung des Hemdes auf 3-4 Male pro Woche reduzieren.<\/p><p>Im Folgenden haben wir einen Plan für den typischen Erstanwender eines Haltungskorrektur-Shirts mit regelmäßigen Haltungsproblemen aufgrund von Nachgiebigkeit erstellt:<\/p><p>Woche 1:<\/p><p>Tag 1-3: Tragen Sie es 1-2 Stunden lang (wenn Sie nach dem ersten Tag keine Wunden verspüren, dann verdoppeln Sie die Zeit mit dem Tragen).<\/p><p>Tag 4-7: Tragen Sie es täglich für 2 Stunden (wenn Sie keinen Schmerz empfinden, dann verdoppeln Sie den Betrag, wenn Sie Stunden damit verwenden).<\/p><p>Tag 8 und mehr: Tragen Sie es 3-4 mal pro Woche, 8-10 Stunden pro Tag. Wenn Sie sich durch das Tragen in Ihren Muskeln überfordert fühlen, reduzieren Sie die Stunden, zum Beispiel auf 4-6 Stunden, und bauen Sie sie langsam auf 8-10 Stunden auf.<\/p><p>Wenn Sie Zweifel haben, was für Sie am besten ist, zögern Sie nicht, uns zu kontaktieren, und wir beraten Sie gerne.<\/p>",
-            "dbtfy_faq_page_open_5": false,
-            "dbtfy_faq_page_icon_5": "",
-            "question_5": "Wie kann ich meine Anodyne®-Produkte am besten pflegen?",
-            "text_5": "<p>Das Posture-Shirt und der Anodyne-BH können bei 30 Grad von Hand gewaschen werden. Es ist absolut wichtig, dass die Produkte nicht im Trockner getrocknet werden, da dadurch die Wirksamkeit der Neurobands zerstört wird. Außerdem sollte kein Weichspüler verwendet werden, da dies die Leistung der Neurobands beeinträchtigt. Die Produkte trocknen dankenswerterweise schnell, wenn sie über Nacht frei gehängt werden.<\/p>",
-            "dbtfy_faq_page_open_6": false,
-            "dbtfy_faq_page_icon_6": "",
-            "question_6": "",
-            "text_6": "",
-            "dbtfy_faq_page_open_7": false,
-            "dbtfy_faq_page_icon_7": "",
-            "question_7": "",
-            "text_7": "",
-            "dbtfy_faq_page_open_8": false,
-            "dbtfy_faq_page_icon_8": "",
-            "question_8": "",
-            "text_8": "",
-            "dbtfy_faq_page_open_9": false,
-            "dbtfy_faq_page_icon_9": "",
-            "question_9": "",
-            "text_9": "",
-            "dbtfy_faq_page_open_10": false,
-            "dbtfy_faq_page_icon_10": "",
-            "question_10": "",
-            "text_10": ""
+            "title": "Erlebe ich weniger Schmerzen und \/ oder verbessere ich meine Haltung?",
+            "answer": "<p>Es ist wahrscheinlich, dass Sie weniger Rückenschmerzen, Schulter- und Nackenschmerzen haben, wenn Sie unser Produkt tragen. Eine große Mehrheit der Menschen, die unser Posture Shirt oder den Anodyne-BH verwenden, verbessern ihre Haltung. Ob dies auch für Sie gilt, können wir nicht garantieren. Deshalb geben wir Ihnen 14 Tage Zeit, um es selbst auszuprobieren. Sie werden entweder Teil der Mehrheit sein, die die Vorteile des Produkts zu spüren bekommt, aber Sie können auch einer der Unglücklichen sein, die 4%, die das Produkt zurückgeben, da sie keine Verbesserung spüren.<br\/><\/p><p>Um Ihre Chancen auf ein erfolgreiches Erlebnis zu erhöhen, empfehlen wir Ihnen, dem Produkt wirklich eine Chance zu geben. Wenn Sie beispielsweise seit vielen Jahren Rückenschmerzen haben, sollten Sie nicht davon ausgehen, dass diese vollständig verschwinden, nachdem Sie das Hemd zwei Stunden lang getragen haben. Profitieren Sie von Ihrer 14-tägigen Testphase und verpflichten Sie sich dazu. Tragen Sie es in der ersten Woche jeden Tag, beginnen Sie mit 1-2 Stunden und erhöhen Sie die Nutzung auf 2-4 Stunden. Nach dieser ersten Woche tragen Sie es für 8-10 Stunden 3-4 mal pro Woche. Wie fühlst du dich nach 4 Wochen? Wahrscheinlich spüren Sie eine Verringerung Ihrer Schmerzen und eine Verbesserung Ihrer Haltung. Wenn nicht, dann mach dir keine Sorgen. Senden Sie das Produkt einfach für eine volle Rückerstattung zurück.<\/p><p>Zögern Sie nicht, sich mit unserem Kundendienst in Verbindung zu setzen, wenn Sie während Ihres Testzeitraums (oder sogar nach Ablauf dieses Zeitraums) Ratschläge zur Verwendung erhalten möchten. Unser Ziel ist es, dass Sie dieses Produkt am Ende lieben, so dass Sie es an Familie, Freunde und Kollegen weiterempfehlen werden. Daher haben wir ein großes Interesse daran, Ihnen zu helfen, das bestmögliche Ergebnis zu erzielen!<\/p>"
           }
         },
-        "079117c4-bb29-43c3-b697-1348aa425203": {
-          "type": "category_block",
+        "214e50a8-5659-4041-90c3-ccfe6be92843": {
+          "type": "question",
           "settings": {
-            "title": "Lieferung",
-            "dbtfy_faq_category": "Lieferung",
-            "dbtfy_faq_icons": ""
+            "title": "Wie lange hält mein Anodyne®-Produkt?",
+            "answer": "<p>Die Lebensdauer Ihres Anodyne-Produkts hängt davon ab, wie Sie es pflegen, und wie bei allen anderen Kleidungsstücken zeigt auch diese Kleidung Gebrauchsspuren, je nachdem, wie oft Sie sie tragen.<br\/><\/p><p>Es ist wichtig, dass Sie die Pflegeanleitung befolgen. Wir empfehlen Handwäsche. Das Produkt darf nicht im Trockner getrocknet werden, da dadurch die NeuroBands® und die Elastizität beschädigt werden. Die NeuroBands® sind die Besonderheit, die in das Posture Shirt integriert ist und die Rückmeldung an Ihren Körper gibt, wenn Ihre Haltung nicht optimal ist.<\/p><p>Wenn Sie das Produkt gemäß den Pflegeanweisungen pflegen, sollte das Produkt bis zu 700 Wäschen halten. Der Verschleiß ist immer stark von der Nutzung und Pflege abhängig.<\/p>"
           }
         },
-        "9eb785de-f345-4d5b-98eb-82edfae904c5": {
-          "type": "text_block",
+        "4c747078-9ae1-40ef-8bca-a507c6155321": {
+          "type": "category",
           "settings": {
-            "title": "",
-            "dbtfy_faq_page_open_1": false,
-            "dbtfy_faq_page_icon_1": "",
-            "question_1": "Ich habe mein Paket noch nicht erhalten. Was soll ich tun?",
-            "text_1": "<p>Wenn seit der Bestätigung, dass Ihr Produkt versandt wurde, 5 Arbeitstage vergangen sind und Sie es noch nicht erhalten haben, wenden Sie sich bitte an uns, damit wir den Fall untersuchen können. Sollte ein Paket beim Versand abhandenkommen, werden wir Ihr Paket selbstverständlich ersetzen und Ihnen schnellstmöglich ein neues Paket zusenden.<\/p>",
-            "dbtfy_faq_page_open_2": false,
-            "dbtfy_faq_page_icon_2": "",
-            "question_2": "Wie lange dauert die Lieferung?",
-            "text_2": "<p>Wir geben unser Bestes die bestellten Produkte, bei Bestellungen, die vor 14.00 Uhr eingegangen sind, am selben Tag zu versenden. In sehr geschäftigen Zeiten wird der Versand möglicherweise nicht vor dem nächsten Tag erfolgen. <br\/><br\/>Hinweis: Wir versenden nicht an Wochenenden.<\/p>",
-            "dbtfy_faq_page_open_3": false,
-            "dbtfy_faq_page_icon_3": "",
-            "question_3": "",
-            "text_3": "",
-            "dbtfy_faq_page_open_4": false,
-            "dbtfy_faq_page_icon_4": "",
-            "question_4": "",
-            "text_4": "",
-            "dbtfy_faq_page_open_5": false,
-            "dbtfy_faq_page_icon_5": "",
-            "question_5": "",
-            "text_5": "",
-            "dbtfy_faq_page_open_6": false,
-            "dbtfy_faq_page_icon_6": "",
-            "question_6": "",
-            "text_6": "",
-            "dbtfy_faq_page_open_7": false,
-            "dbtfy_faq_page_icon_7": "",
-            "question_7": "",
-            "text_7": "",
-            "dbtfy_faq_page_open_8": false,
-            "dbtfy_faq_page_icon_8": "",
-            "question_8": "",
-            "text_8": "",
-            "dbtfy_faq_page_open_9": false,
-            "dbtfy_faq_page_icon_9": "",
-            "question_9": "",
-            "text_9": "",
-            "dbtfy_faq_page_open_10": false,
-            "dbtfy_faq_page_icon_10": "",
-            "question_10": "",
-            "text_10": ""
+            "title": "Die Optimale Größe"
           }
         },
-        "80bfff8a-7895-4c2a-adfd-838b323e19c7": {
-          "type": "category_block",
+        "be5e229f-c9ea-4845-aecc-773418f19c72": {
+          "type": "question",
           "settings": {
-            "title": "Bestellungen & Zahlung",
-            "dbtfy_faq_category": "Bestellungen & Zahlung",
-            "dbtfy_faq_icons": ""
+            "title": "Welche Größe soll ich wählen?",
+            "answer": "<p>Die richtige Größe ist der Schlüssel, um die Vorteile unseres Posture-Shirts und unseres AlignMe-Büstenhalters nutzen zu können. Für jedes Produkt wird eine Größentabelle aufgeführt. Wenn Ihre Messungen zwischen zwei Größen erfasst werden, sollten Sie immer die kleinere wählen. Der schlimmste Fall ist, dass wir einen Austausch durchführen müssen, aber in 9 von 10 Fällen ist die Entscheidung für eine kleinere Größe, wenn zwischen den Größen, die richtige Entscheidung ist. Wenn Sie gut in die Größe passen, bleiben Sie bei dieser Größe. Wenn Sie normalerweise eine Nummer größer sind, weil Sie eine lockere Passform mögen, wenden Sie diese Methode nicht an, wenn Sie sich für die Haltung entscheiden. Das Produkt muss eng auf Sie sitzen, um zu arbeiten. Im Zweifelsfall zögern Sie nicht uns zu kontaktieren.<\/p>"
           }
         },
-        "7c90ef0e-56de-436e-8656-75227b7a4172": {
-          "type": "text_block",
+        "529ae1dc-f1f1-41f1-81fa-9dca7fab29ac": {
+          "type": "question",
           "settings": {
-            "title": "",
-            "dbtfy_faq_page_open_1": false,
-            "dbtfy_faq_page_icon_1": "",
-            "question_1": "Welche Zahlungsmöglichkeiten bieten Sie an?",
-            "text_1": "<p>Sie können von unserer Website aus mit Kreditkarte, Debitkarte, PayPal und Powerpay einkaufen. Leider können Sie weder telefonisch noch per Scheck bezahlen.<\/p>",
-            "dbtfy_faq_page_open_2": false,
-            "dbtfy_faq_page_icon_2": "",
-            "question_2": "Was ist Klarna und wie funktioniert eine Zahlung über diese Option?",
-            "text_2": "<p>Mit Klarna können Sie Ihre Bestellung 14 Tage nach Versand bezahlen. Das bedeutet, dass Sie das Produkt in den Händen halten können, bevor Sie sich entscheiden, ob Sie es kaufen möchten.<br\/><\/p><p>Sie erhalten zwei Tage vor Fälligkeit Ihrer Zahlung eine Erinnerung. Außerdem erhalten Sie E-Mail-Erinnerungen, weswegen es wichtig ist, dass Sie Ihre Telefonnummer und E-Mail-Adresse korrekt eingeben.<\/p><p>Die Zahlungsbedingungen von 14 Tagen haben keinen Einfluss auf Ihr 14-tägiges Widerrufsrecht. Sollten Sie die Klarna-Rechnung bereits bezahlt haben und wünschen Sie von Ihrem Widerrufsrecht Gebrauch zu machen, senden Sie die erworbenen Produkte an uns, innerhalb der 14 Tage Widerrufsrecht, zurück. Unser Kundenservice wird daraufhin die Klarna-Rechnung stornieren und Sie erhalten eine Rückerstattung von Klarna.<\/p>",
-            "dbtfy_faq_page_open_3": false,
-            "dbtfy_faq_page_icon_3": "",
-            "question_3": "Kann ich meine Bestellung ändern?",
-            "text_3": "<p>Wenn Ihre Bestellung noch nicht versendet wurde, können wir Änderungen für Sie vornehmen. Nehmen Sie so schnell wie möglich Kontakt mit uns auf. Wenn Sie uns nicht anrufen können, senden Sie uns eine E-Mail an info@anodyne.ch.<\/p>",
-            "dbtfy_faq_page_open_4": false,
-            "dbtfy_faq_page_icon_4": "",
-            "question_4": "Ich habe gerade eine Bestellung aufgegeben. Kann ich das stornieren?",
-            "text_4": "<p>Wenn Ihre Bestellung noch nicht gesendet wurde, können Sie sich an den Kundendienst wenden und wir können Ihre Bestellung löschen.<br\/><\/p><p>Wenn Ihr Paket bereits versendet wurde, können Sie es zurückschicken. Sobald wir das Paket in unserem Lager erhalten, bearbeiten wir die Rückerstattung.<\/p>",
-            "dbtfy_faq_page_open_5": false,
-            "dbtfy_faq_page_icon_5": "",
-            "question_5": "Ich habe das falsche Produkt erhalten. Was mache ich?",
-            "text_5": "<p>Das Versandteam von Anodyne verpackt jährlich Tausende von Produkten. Leider kann es vorkommen, dass Sie ein falsches Produkt erhalten, z. B. ein Pullover-Shirt, selbst wenn Sie eines mit Reißverschluss bestellt haben. Das tut uns natürlich sehr leid. Fehler wie diese kosten uns Geld, da wir für alle Sendungen bezahlen müssen. Daher tun wir unser Bestes, um diese Fehler zu vermeiden. Wenn Sie zu den Unglücklichen gehören, denen dies passiert ist, verwenden Sie bitte das in Ihrem Paket beiliegenden Retourlabel oder laden Sie hier ein kostenfreies<br\/><br\/>Senden Sie das Produkt zusammen mit dem Rücksendeformular mit Ihrem Namen, der Bestellnummer und dem Umtauschgrund (und geben Sie einfach an, dass wir es versandt haben Ihnen das falsche Produkt) und wir werden es priorisieren, dass Ihnen ein neues Produkt ohne Verzögerung zugestellt wird.<\/p>",
-            "dbtfy_faq_page_open_6": false,
-            "dbtfy_faq_page_icon_6": "",
-            "question_6": "Habe ich eine Garantie für meine Anodyne®-Produkte?",
-            "text_6": "<p>Ja, gemäß dem Consumer Rights Act haben Sie eine Garantie von 6 Monaten.<br\/><\/p><p>Wenn das Produkt fehlerhaft ist, werden wir es umtauschen, solange Sie die Pflegeanleitung befolgt haben. Wenn es sich um das Posture-Shirt und den Anodyne-BH handelt, dürfen diese Produkte weder trocknergetrocknet noch über 30 Grad im Hand gewaschen werden.<\/p><p>Wenn Sie zu den wenigen gehören, die mit einem fehlerhaften Produkt kein Glück haben, dann setzen Sie sich so schnell wie möglich mit uns in Verbindung.<\/p>",
-            "dbtfy_faq_page_open_7": false,
-            "dbtfy_faq_page_icon_7": "",
-            "question_7": "",
-            "text_7": "",
-            "dbtfy_faq_page_open_8": false,
-            "dbtfy_faq_page_icon_8": "",
-            "question_8": "",
-            "text_8": "",
-            "dbtfy_faq_page_open_9": false,
-            "dbtfy_faq_page_icon_9": "",
-            "question_9": "",
-            "text_9": "",
-            "dbtfy_faq_page_open_10": false,
-            "dbtfy_faq_page_icon_10": "",
-            "question_10": "",
-            "text_10": ""
+            "title": "Wie kann ich sehen, ob ich die richtige Größe habe?",
+            "answer": "<p>Das Posture Shirt sollte eng am Körper anliegen, damit es die richtige Wirkung erzielt. Sie können am einfachsten feststellen, ob das Posture Shirt zu groß oder zu klein ist, indem Sie die NeuroBands um die Schultern betrachten. Die NeuroBands™ sind die fünf Felder mit variabler Elastizität, die auf den Körper abgebildet werden, um die kontraktiven Eigenschaften der Muskeln zu spiegeln. Die Abbildungen unten zeigen eine Abbildung der bestmöglichen Passform.<br\/><br\/>Falten die NeuroBands™ in Ihrem Posture Shirt? Wenn ja, empfehlen wir Ihnen, es gegen eine kleinere Größe auszutauschen. Wenn Sie sich bezüglich der Größe nicht sicher sind, wenden Sie sich bitte an unseren Kundenservice.<\/p>"
           }
         },
-        "8ec65aa5-9eea-4f79-a7d3-717a748b7597": {
-          "type": "category_block",
+        "32ef9f0c-dab5-4c45-b70e-25e5f178daef": {
+          "type": "question",
           "settings": {
-            "title": "Rückgabe & Umtausch",
-            "dbtfy_faq_category": "Rückgabe & Umtausch",
-            "dbtfy_faq_icons": ""
+            "title": "Mein Posture Shirt \/ Anodyne-BH ist (sehr) eng, ist er zu klein?",
+            "answer": "<p>Die Posture-Shirts und Anodyne-BHs von Anodyne sollten eng anliegen, um effektiv zu sein, aber sie sollten sich nicht sehr unangenehm eng anfühlen. Wenn Sie nach dem Anziehen keine Bewegungsfreiheit haben, ist sie möglicherweise zu klein. Am besten wenden Sie sich an den Kundenservice und führen Sie ein Gespräch mit ihnen, damit Sie die richtige Größe ermitteln können. Wenn Sie Ihre Brust- \/ Brustgröße vor dem Anruf in Zoll messen konnten, sind sie in einer besseren Position, um Sie zu beraten. Sie können auch ein Foto von der Rückseite senden, in dem Sie das Hemd tragen. Dann können Sie leicht erkennen, dass das Produkt richtig auf Sie sitzt.<\/p>"
           }
         },
-        "59a897bf-47ac-421d-b512-536204fcd430": {
-          "type": "text_block",
+        "e26dde86-030f-4af5-b954-e6d7c29645dc": {
+          "type": "category",
           "settings": {
-            "title": "",
-            "dbtfy_faq_page_open_1": false,
-            "dbtfy_faq_page_icon_1": "",
-            "question_1": "Was genau bedeutet eine 14-tägige Testphase?",
-            "text_1": "<p>Es bedeutet genau das! Bei Anodyne® können Sie das Produkt in Ihren Alltagssituationen testen. Tragen Sie das Hemd bei der Arbeit, beim Gehen oder im Fitnessstudio. Waschen Sie es bei Bedarf (beachten Sie jedoch die Pflegeanleitung). Wenn Sie aus irgendeinem Grund mit Ihrem Produkt von Anodyne nicht zufrieden sind, können Sie es innerhalb von 14 Tagen für eine volle Rückerstattung zurückgeben. Die Rückerstattung des Geldes für ein zurückgesandtes Produkt wird nur dann akzeptiert, wenn es getrocknet oder mit Weichspüler gewaschen wurde, da dies die Leistung des Hemdes beeinträchtigt und wir das Produkt nicht wiederverkaufen Verwendung bei Veranstaltungen als Demo-Produkt.<\/p>",
-            "dbtfy_faq_page_open_2": false,
-            "dbtfy_faq_page_icon_2": "",
-            "question_2": "Kann ich meine bestellten Produkte umtauschen?",
-            "text_2": "<p>Ja, wenn Sie sich noch in der 14-tägigen Testphase befinden. Füllen Sie das Rücksendeformular mit Ihrem Namen, der Bestellnummer und der Größe aus, in die Sie umtauschen möchten. Wir werden dieses so schnell wie möglich bearbeiten, nachdem wir das Paket erhalten haben. Sobald Sie Ihr neues Produkt erhalten haben, beginnt eine 14-tägige Testphase. Wenn Sie Zweifel an Ihrer Größe haben, wenden Sie sich bitte an unseren Kundenservice, damit er Ihnen bei der Auswahl der richtigen Größe behilflich sein kann, um einen mehrfachen Austausch zu vermeiden!<\/p>",
-            "dbtfy_faq_page_open_3": false,
-            "dbtfy_faq_page_icon_3": "",
-            "question_3": "Kann ich die bestellten Produkte zurücksenden?",
-            "text_3": "<p>Wir geben ein 14-tägiges gesetzliches Widerrufsrecht. Das bedeutet, dass Sie innerhalb der ersten 14 Tage das von Ihnen bestellte Produkt zurückgeben können und eine volle Rückerstattung erhalten. Bitte füllen Sie das Rücksendeformular mit Ihrem Namen, der Bestellnummer und mit der Information aus, dass Sie das Produkt zur Erstattung zurücksenden oder das Produkt gegen eine andere Größe oder ein anderes Produkt umtauschen möchten.<\/p>",
-            "dbtfy_faq_page_open_4": false,
-            "dbtfy_faq_page_icon_4": "",
-            "question_4": "Muss ich bezahlen, wenn ich innerhalb meiner 14-tägigen Testphase etwas tauschen möchte?",
-            "text_4": "<p>Der Rückversand Ihres Produktes ist kostenlos. Haben Sie Versand mit Die Schweizerische Post gewählt, liegt dem Paket ein kostenfreies Retourlabel bei. In den meisten Fällen werden nur Umtausch in eine andere Größe für dasselbe Produkt vorgenommen und es sind keine Rückerstattungen oder zusätzliche Zahlungen erforderlich. Wenn Sie gegen ein billigeres Produkt tauschen, erstatten wir Ihnen die Differenz. Wenn Sie Ihr Produkt gegen ein teureres Produkt eintauschen möchten, müssen Sie Ihr aktuelles Produkt für eine Rückerstattung zurücksenden. Dann können Sie das gewünschte Produkt auf unserer Website bestellen.<\/p>",
-            "dbtfy_faq_page_open_5": false,
-            "dbtfy_faq_page_icon_5": "",
-            "question_5": "Wie kann ich meine Bestellung zurücksenden?",
-            "text_5": "<p>Füllen Sie auf dem Rücksendeformular Ihren Namen, die Bestellnummer und die Informationen aus, dass Sie das Produkt zur Erstattung zurücksenden oder das Produkt gegen eine andere Größe oder ein anderes Produkt austauschen möchten. <br\/><br\/>Haben Sie Versand mit Die Schweizerische Post gewählt, liegt dem Paket ein kostenfreies Retourlabel bei.<\/p>",
-            "dbtfy_faq_page_open_6": false,
-            "dbtfy_faq_page_icon_6": "",
-            "question_6": "Zahle ich für die Rückgabe oder den Umtausch eines Produktes?",
-            "text_6": "<p>Nein der Rückversand ist kostenfrei.<\/p>",
-            "dbtfy_faq_page_open_7": false,
-            "dbtfy_faq_page_icon_7": "",
-            "question_7": "Mein neu erhaltenes Produkt ist beschädigt oder defekt. Was mache ich?",
-            "text_7": "<p>Bei Anodyne® geben wir unser Bestes, um sicherzustellen, dass alle Produkte in gutem Zustand geliefert werden. Es kann jedoch immer ein Fabrikfehler auftreten. Wenn Sie ein beschädigtes oder defektes Produkt erhalten, wenden Sie sich bitte so schnell wie möglich an den Kundendienst. Innerhalb der 14-tägigen Testphase stellen wir sicher, dass Sie ein neues Produkt erhalten.<\/p>",
-            "dbtfy_faq_page_open_8": false,
-            "dbtfy_faq_page_icon_8": "",
-            "question_8": "Ich habe meinen Artikel zurückgegeben. Wann bekomme ich mein Geld zurück?",
-            "text_8": "<p>Normalerweise erhalten wir Ihr Paket nach 5-7 Werktagen in unserem Lager. Wir bemühen uns, Erstattungen noch am selben Tag zu bearbeiten, an dem wir die Pakete erhalten. Wenn Sie mit PayPal bezahlt haben, erhalten Sie das Geld innerhalb weniger Minuten nach Erhalt unserer E-Mail zur Bestätigung der Rückerstattung auf Ihr PayPal-Konto zurück.<br\/><\/p><p>Wenn Sie mit einer Kreditkarte oder Debitkarte gekauft haben, dauert es in der Regel 2 bis 5 Tage, bis das Geld Ihr Bankkonto erreicht.<\/p><p>Wenn Sie Ihre Bestellung mit einer Karte mit Klarna bezahlt haben, erfolgt die Rückerstattung innerhalb von 14 Tagen nach der Stornierung durch Anodyne auf dieselbe Karte. Sobald Sie eine E-Mail mit der Information erhalten, dass Ihre Bestellung storniert wurde, dauert es 14 Tage, bis Klarna Ihre Erstattung bearbeitet.<\/p>",
-            "dbtfy_faq_page_open_9": false,
-            "dbtfy_faq_page_icon_9": "",
-            "question_9": "Ich habe mein Produkt geschenkt bekommen. Kann ich den Kaufbetrag meinem Konto gutschreiben lassen?",
-            "text_9": "<p>Leider erlauben uns die Finanzinstitute nicht, Geld auf ein anderes Konto als auf das Konto zurückzuerstatten, auf dem das Geld ursprünglich eingenommen wurde. Wenn das Produkt nicht etwas für Sie ist und Sie die Person, die Ihnen das Produkt geschenkt hat, nicht als Geschenk verwenden möchten, können Sie das Produkt gegen ein anderes Produkt eintauschen.<\/p>",
-            "dbtfy_faq_page_open_10": false,
-            "dbtfy_faq_page_icon_10": "",
-            "question_10": "",
-            "text_10": ""
+            "title": "Gebrauchsanweisung"
+          }
+        },
+        "8a87efe8-b282-4bbc-a1fb-26799f294c29": {
+          "type": "question",
+          "settings": {
+            "title": "Wie ziehe ich das Hemd an und ab?",
+            "answer": "<p>Ein enganliegendes Posture Shirt zu tragen, unterscheidet sich erheblich von einem lockeren T-Shirt. <br\/><br\/><strong>Tipp:<\/strong> Wenn Sie vorhaben, das Hemd für das Fitnessstudio zu tragen, empfehlen wir das T-Shirt mit Reißverschluss, da es ziemlich schwierig sein kann, das Hemd auszuziehen, wenn Sie viel schwitzen. Wenn Sie bereits eine Pullover-Version des Hemdes gekauft haben, ist der beste Tipp, um es nach einer schweißtreibenden Übung auszuziehen, es so hoch wie möglich aufzurollen und dann das Hemd mit einer Hand über den Kopf zu ziehen.<\/p>"
+          }
+        },
+        "b64f067a-cbe5-4194-b8b0-3c1dc4c89857": {
+          "type": "question",
+          "settings": {
+            "title": "Wann sollte ich meine Anodyne®-Kleidung tragen?",
+            "answer": "<p>Wenn Sie zum ersten Mal die haltungskorrigierende Kleidung von Anodyne® tragen, empfehlen wir langsam zu beginnen. Eine Tragedauer von 1-2 Stunden am Tag, innerhalb der ersten Woche, funktioniert für die Meisten. Versuchen Sie, es zu Zeiten zu verwenden, an denen Sie die meiste Unterstützung benötigen. Wenn dies also beim Gehen oder Sitzen vor einem Computer ist, verwenden Sie es dann. Nach einer Woche können Sie das Posture Shirt 8-10 Stunden lang tragen oder wie lange es für Sie persönlich passend ist. Tragen Sie die haltungskorrigierende Kleidung bei sportlichen Aktivitäten, wenn Sie während Ihrer Übungen oft eine schlechte Haltung einnehmen.<\/p>"
+          }
+        },
+        "9a4d99e9-e50e-40bc-ae50-9b75a84686d8": {
+          "type": "question",
+          "settings": {
+            "title": "Gibt es Personen, die die Anodyne®-Produkte nicht verwenden sollten?",
+            "answer": "<p>Wir sind stolz darauf, dass unsere Produkte als medizinisches Hilfsmittel zertifiziert sind. Dies bedeutet, dass unser Produkt ordnungsgemäßen Tests unterzogen wurde, was es zu einer sicheren und zuverlässigen Option macht. Dies bedeutet jedoch nicht, dass unser Produkt für jeden etwas ist.<br\/><\/p><p>Wir empfehlen immer, einen Physiotherapeuten, einen Arzt usw. zu konsultieren, wenn Sie an schwerwiegenden Erkrankungen oder physiologischen Einschränkungen leiden. Wir arbeiten mit vielen medizinischen Spezialisten zusammen. Falls Ihr Spezialist \/ Physiotherapeut \/ Arzt unser Produkt nicht kennt, darf er sich gerne an uns wenden, um mehr über unsere Produkte zu erfahren.<\/p><p>Wenn Sie sich kürzlich einer Operation unterzogen haben, sollten Sie mit einem Arzt oder Physiotherapeuten \/ Osteopath \/ Chiropraktiker besprechen, ob es zu früh ist an Ihrer Haltung zu arbeiten. Bei Mobilitätsproblemen an den Schultern empfehlen wir das Posture Shirt Zipper oder für Frauen entweder das Posture Shirt mit Zipper oder den BH, da das An- und Ausziehen in diesen Modellen einfacher ist.<\/p><p>Generell raten wir Kindern und Jugendlichen unter 17 Jahren nicht, die Produkte ohne vorherige Beratung eines Arztes oder Physiotherapeuten zu verwenden.<\/p>"
+          }
+        },
+        "f114f092-0edf-4d29-b255-7916694bc3be": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange sollte ich mein Posture Shirt tragen?",
+            "answer": "<p>Auf diese Frage gibt es keine absolute Antwort. Es hängt alles von Ihrem Ausgangspunkt ab. Sind Sie schon sehr aktiv, hatten Sie kürzlich eine Operation usw.?<br\/><\/p><p>Im Allgemeinen empfehlen wir, das Posture Shirt in der ersten Woche täglich bis zu zwei Stunden zu tragen und dann die Nutzung zu erhöhen. Wenn Sie innerhalb der ersten paar Stunden Müdigkeit verspüren, nehmen Sie sie für diesen Tag ab und versuchen Sie es am nächsten Tag erneut. Für einige ist es am besten, wenn Sie mit einer halben Stunde beginnen und dann langsam aufbauen, während andere es ab dem ersten Tag für zwei Stunden tragen können. Da Sie Muskeln aktivieren, die ansonsten lange Zeit inaktiv waren (oder einfach nur falsch angewendet) leichte Muskelkater können das Ergebnis in der ersten Woche sein, aber denken Sie daran, dass dies etwas Gutes ist. Es bedeutet, dass Ihre Muskeln arbeiten.<\/p><p>Wenn Sie auch am ersten Tag keine Muskelschmerzen haben und definitiv die richtige Größe haben, dann sehen Sie, wie es geht, wenn Sie es 4 Stunden lang tragen. Wenn Sie am nächsten Morgen aufwachen und das Gefühl haben, sehr schmerzende Muskeln zu haben, machen Sie an diesem Tag eine Pause und starten Sie am nächsten Tag wieder, vielleicht für eine etwas kürzere Zeit.<\/p><p>Nach der ersten Woche haben sich Ihre Muskeln daran gewöhnt, aktiviert zu werden, und Sie können das Hemd länger tragen. Die meisten Leute werden es für einen ganzen Arbeitstag tragen. Wenn Sie anfangen, es für so lange Zeit zu tragen, bauen Sie schnell das Muskelgedächtnis auf, was bedeutet, dass Sie Ihre Haltung selbst ausrichten, selbst wenn Sie das Hemd nicht tragen. Wenn Sie das Gefühl haben, dass Sie Ihre Haltung ausrichten, auch wenn Sie das Hemd nicht tragen, können Sie die Verwendung des Hemdes auf 3-4 Male pro Woche reduzieren.<\/p><p>Im Folgenden haben wir einen Plan für den typischen Erstanwender eines Haltungskorrektur-Shirts mit regelmäßigen Haltungsproblemen aufgrund von Nachgiebigkeit erstellt:<\/p><p>Woche 1:<\/p><p>Tag 1-3: Tragen Sie es 1-2 Stunden lang (wenn Sie nach dem ersten Tag keine Wunden verspüren, dann verdoppeln Sie die Zeit mit dem Tragen).<\/p><p>Tag 4-7: Tragen Sie es täglich für 2 Stunden (wenn Sie keinen Schmerz empfinden, dann verdoppeln Sie den Betrag, wenn Sie Stunden damit verwenden).<\/p><p>Tag 8 und mehr: Tragen Sie es 3-4 mal pro Woche, 8-10 Stunden pro Tag. Wenn Sie sich durch das Tragen in Ihren Muskeln überfordert fühlen, reduzieren Sie die Stunden, zum Beispiel auf 4-6 Stunden, und bauen Sie sie langsam auf 8-10 Stunden auf.<\/p><p>Wenn Sie Zweifel haben, was für Sie am besten ist, zögern Sie nicht, uns zu kontaktieren, und wir beraten Sie gerne.<\/p>"
+          }
+        },
+        "1a5a70c0-f544-40ac-8e6d-9536f2ea0a49": {
+          "type": "question",
+          "settings": {
+            "title": "Wie kann ich meine Anodyne®-Produkte am besten pflegen?",
+            "answer": "<p>Das Posture-Shirt und der Anodyne-BH können bei 30 Grad von Hand gewaschen werden. Es ist absolut wichtig, dass die Produkte nicht im Trockner getrocknet werden, da dadurch die Wirksamkeit der Neurobands zerstört wird. Außerdem sollte kein Weichspüler verwendet werden, da dies die Leistung der Neurobands beeinträchtigt. Die Produkte trocknen dankenswerterweise schnell, wenn sie über Nacht frei gehängt werden.<\/p>"
+          }
+        },
+        "8ff62975-ff77-411b-838d-271777f50eed": {
+          "type": "category",
+          "settings": {
+            "title": "Lieferung"
+          }
+        },
+        "ec3fd3e7-83a7-49a1-81b9-170171b46378": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe mein Paket noch nicht erhalten. Was soll ich tun?",
+            "answer": "<p>Wenn seit der Bestätigung, dass Ihr Produkt versandt wurde, 5 Arbeitstage vergangen sind und Sie es noch nicht erhalten haben, wenden Sie sich bitte an uns, damit wir den Fall untersuchen können. Sollte ein Paket beim Versand abhandenkommen, werden wir Ihr Paket selbstverständlich ersetzen und Ihnen schnellstmöglich ein neues Paket zusenden.<\/p>"
+          }
+        },
+        "048a6926-8409-4cc2-a536-71b0f06c3838": {
+          "type": "question",
+          "settings": {
+            "title": "Wie lange dauert die Lieferung?",
+            "answer": "<p>Wir geben unser Bestes die bestellten Produkte, bei Bestellungen, die vor 14.00 Uhr eingegangen sind, am selben Tag zu versenden. In sehr geschäftigen Zeiten wird der Versand möglicherweise nicht vor dem nächsten Tag erfolgen. <br\/><br\/>Hinweis: Wir versenden nicht an Wochenenden.<\/p>"
+          }
+        },
+        "b5e2af0c-5610-47f3-8adc-ec524e348269": {
+          "type": "category",
+          "settings": {
+            "title": "Bestellungen & Zahlung"
+          }
+        },
+        "bf2adf18-7994-48a6-9cae-0904158c80c4": {
+          "type": "question",
+          "settings": {
+            "title": "Welche Zahlungsmöglichkeiten bieten Sie an?",
+            "answer": "<p>Sie können von unserer Website aus mit Kreditkarte, Twint, PostFinance, Debitkarte, PayPal und Powerpay einkaufen. Leider können Sie weder telefonisch noch per Scheck bezahlen.<\/p>"
+          }
+        },
+        "28989744-ff6d-428c-aa7a-c736db6001a2": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich meine Bestellung ändern?",
+            "answer": "<p>Wenn Ihre Bestellung noch nicht versendet wurde, können wir Änderungen für Sie vornehmen. Nehmen Sie so schnell wie möglich Kontakt mit uns auf. Wenn Sie uns nicht anrufen können, senden Sie uns eine E-Mail an info@anodyne.ch.<\/p>"
+          }
+        },
+        "0e5844a1-181e-44c2-8073-236dbed1f433": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe gerade eine Bestellung aufgegeben. Kann ich das stornieren?",
+            "answer": "<p>Wenn Ihre Bestellung noch nicht gesendet wurde, können Sie sich an den Kundendienst wenden und wir können Ihre Bestellung löschen.<br\/><\/p><p>Wenn Ihr Paket bereits versendet wurde, können Sie es zurückschicken. Sobald wir das Paket in unserem Lager erhalten, bearbeiten wir die Rückerstattung.<\/p>"
+          }
+        },
+        "f6dc7d06-758b-4007-a013-f1d99b68cab8": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe das falsche Produkt erhalten. Was mache ich?",
+            "answer": "<p>Das Versandteam von Anodyne verpackt jährlich Tausende von Produkten. Leider kann es vorkommen, dass Sie ein falsches Produkt erhalten, z. B. ein Pullover-Shirt, selbst wenn Sie eines mit Reißverschluss bestellt haben. Das tut uns natürlich sehr leid. Fehler wie diese kosten uns Geld, da wir für alle Sendungen bezahlen müssen. Daher tun wir unser Bestes, um diese Fehler zu vermeiden. Wenn Sie zu den Unglücklichen gehören, denen dies passiert ist, verwenden Sie bitte das in Ihrem Paket beiliegenden Retourlabel oder laden Sie hier ein kostenfreies<br\/><br\/>Senden Sie das Produkt zusammen mit dem Rücksendeformular mit Ihrem Namen, der Bestellnummer und dem Umtauschgrund (und geben Sie einfach an, dass wir es versandt haben Ihnen das falsche Produkt) und wir werden es priorisieren, dass Ihnen ein neues Produkt ohne Verzögerung zugestellt wird.<\/p>"
+          }
+        },
+        "3c95ec47-647d-4113-865f-ca0d9723e27c": {
+          "type": "question",
+          "settings": {
+            "title": "Habe ich eine Garantie für meine Anodyne®-Produkte?",
+            "answer": "<p>Ja, gemäß dem Consumer Rights Act haben Sie eine Garantie von 6 Monaten.<br\/><\/p><p>Wenn das Produkt fehlerhaft ist, werden wir es umtauschen, solange Sie die Pflegeanleitung befolgt haben. Wenn es sich um das Posture-Shirt und den Anodyne-BH handelt, dürfen diese Produkte weder trocknergetrocknet noch über 30 Grad im Hand gewaschen werden.<\/p><p>Wenn Sie zu den wenigen gehören, die mit einem fehlerhaften Produkt kein Glück haben, dann setzen Sie sich so schnell wie möglich mit uns in Verbindung.<\/p>"
+          }
+        },
+        "fb9a542c-ec7f-482c-9fd5-6b6b3f2b20d5": {
+          "type": "category",
+          "settings": {
+            "title": "Rückgabe & Umtausch"
+          }
+        },
+        "4ad7de8b-882d-457e-b531-950f980be6b1": {
+          "type": "question",
+          "settings": {
+            "title": "Was genau bedeutet eine 14-tägige Testphase?",
+            "answer": "<p>Es bedeutet genau das! Bei Anodyne® können Sie das Produkt in Ihren Alltagssituationen testen. Tragen Sie das Hemd bei der Arbeit, beim Gehen oder im Fitnessstudio. Waschen Sie es bei Bedarf (beachten Sie jedoch die Pflegeanleitung). Wenn Sie aus irgendeinem Grund mit Ihrem Produkt von Anodyne nicht zufrieden sind, können Sie es innerhalb von 14 Tagen für eine volle Rückerstattung zurückgeben. Die Rückerstattung des Geldes für ein zurückgesandtes Produkt wird nur dann akzeptiert, wenn es getrocknet oder mit Weichspüler gewaschen wurde, da dies die Leistung des Hemdes beeinträchtigt und wir das Produkt nicht wiederverkaufen Verwendung bei Veranstaltungen als Demo-Produkt.<\/p>"
+          }
+        },
+        "55aa3daf-aa0e-4c31-bad0-b12c7cee571b": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich meine bestellten Produkte umtauschen?",
+            "answer": "<p>Ja, wenn Sie sich noch in der 14-tägigen Testphase befinden. Füllen Sie das Rücksendeformular mit Ihrem Namen, der Bestellnummer und der Größe aus, in die Sie umtauschen möchten. Wir werden dieses so schnell wie möglich bearbeiten, nachdem wir das Paket erhalten haben. Sobald Sie Ihr neues Produkt erhalten haben, beginnt eine 14-tägige Testphase. Wenn Sie Zweifel an Ihrer Größe haben, wenden Sie sich bitte an unseren Kundenservice, damit er Ihnen bei der Auswahl der richtigen Größe behilflich sein kann, um einen mehrfachen Austausch zu vermeiden!<\/p>"
+          }
+        },
+        "37995f13-687b-4248-a4de-8c757e890c7d": {
+          "type": "question",
+          "settings": {
+            "title": "Kann ich die bestellten Produkte zurücksenden?",
+            "answer": "<p>Wir geben ein 14-tägiges gesetzliches Widerrufsrecht. Das bedeutet, dass Sie innerhalb der ersten 14 Tage das von Ihnen bestellte Produkt zurückgeben können und eine volle Rückerstattung erhalten. Bitte füllen Sie das Rücksendeformular mit Ihrem Namen, der Bestellnummer und mit der Information aus, dass Sie das Produkt zur Erstattung zurücksenden oder das Produkt gegen eine andere Größe oder ein anderes Produkt umtauschen möchten.<\/p>"
+          }
+        },
+        "7893ceca-7ba4-4252-a7b7-350485785340": {
+          "type": "question",
+          "settings": {
+            "title": "Muss ich bezahlen, wenn ich innerhalb meiner 14-tägigen Testphase etwas tauschen möchte?",
+            "answer": "<p>Der Rückversand Ihres Produktes ist kostenlos. Haben Sie Versand mit Die Schweizerische Post gewählt, liegt dem Paket ein kostenfreies Retourlabel bei. In den meisten Fällen werden nur Umtausch in eine andere Größe für dasselbe Produkt vorgenommen und es sind keine Rückerstattungen oder zusätzliche Zahlungen erforderlich. Wenn Sie gegen ein billigeres Produkt tauschen, erstatten wir Ihnen die Differenz. Wenn Sie Ihr Produkt gegen ein teureres Produkt eintauschen möchten, müssen Sie Ihr aktuelles Produkt für eine Rückerstattung zurücksenden. Dann können Sie das gewünschte Produkt auf unserer Website bestellen.<\/p>"
+          }
+        },
+        "885b7ddd-7ddd-4ef9-a8c8-edc4fe8fc733": {
+          "type": "question",
+          "settings": {
+            "title": "Wie kann ich meine Bestellung zurücksenden?",
+            "answer": "<p>Füllen Sie auf dem Rücksendeformular Ihren Namen, die Bestellnummer und die Informationen aus, dass Sie das Produkt zur Erstattung zurücksenden oder das Produkt gegen eine andere Größe oder ein anderes Produkt austauschen möchten. <br\/><br\/>Haben Sie Versand mit Die Schweizerische Post gewählt, liegt dem Paket ein kostenfreies Retourlabel bei.<\/p>"
+          }
+        },
+        "260c1a73-7631-4c7d-994b-d533b3268074": {
+          "type": "question",
+          "settings": {
+            "title": "Zahle ich für die Rückgabe oder den Umtausch eines Produktes?",
+            "answer": "<p>Nein der Rückversand ist kostenfrei.<\/p>"
+          }
+        },
+        "b73f9535-e684-4dde-b48e-daf66cd12bd9": {
+          "type": "question",
+          "settings": {
+            "title": "Mein neu erhaltenes Produkt ist beschädigt oder defekt. Was mache ich?",
+            "answer": "<p>Bei Anodyne® geben wir unser Bestes, um sicherzustellen, dass alle Produkte in gutem Zustand geliefert werden. Es kann jedoch immer ein Fabrikfehler auftreten. Wenn Sie ein beschädigtes oder defektes Produkt erhalten, wenden Sie sich bitte so schnell wie möglich an den Kundendienst. Innerhalb der 14-tägigen Testphase stellen wir sicher, dass Sie ein neues Produkt erhalten.<\/p>"
+          }
+        },
+        "73d52290-2765-49cf-b2c6-7095794c020d": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe meinen Artikel zurückgegeben. Wann bekomme ich mein Geld zurück?",
+            "answer": "<p>Normalerweise erhalten wir Ihr Paket nach 5-7 Werktagen in unserem Lager. Wir bemühen uns, Erstattungen noch am selben Tag zu bearbeiten, an dem wir die Pakete erhalten. Wenn Sie mit PayPal bezahlt haben, erhalten Sie das Geld innerhalb weniger Minuten nach Erhalt unserer E-Mail zur Bestätigung der Rückerstattung auf Ihr PayPal-Konto zurück.<br\/><\/p>"
+          }
+        },
+        "892a3f8f-9783-40f2-ad26-31ccd03e6c38": {
+          "type": "question",
+          "settings": {
+            "title": "Ich habe mein Produkt geschenkt bekommen. Kann ich den Kaufbetrag meinem Konto gutschreiben lassen?",
+            "answer": "<p>Leider erlauben uns die Finanzinstitute nicht, Geld auf ein anderes Konto als auf das Konto zurückzuerstatten, auf dem das Geld ursprünglich eingenommen wurde. Wenn das Produkt nicht etwas für Sie ist und Sie die Person, die Ihnen das Produkt geschenkt hat, nicht als Geschenk verwenden möchten, können Sie das Produkt gegen ein anderes Produkt eintauschen.<\/p>"
           }
         }
       },
       "block_order": [
-        "57e36e78-1798-46a5-ae4a-832ccca61f0d",
-        "6fe87ae9-bf18-43b2-bdb1-581ef1f521bf",
-        "9104836f-5fd9-4fe1-8486-6c66231032b1",
-        "babc1ce4-e723-4514-aea2-17d4c348c7f6",
-        "a9c5eaf0-3850-4641-839d-103d186a0c5c",
-        "1b8cb777-3982-472e-8019-b89abc537634",
-        "079117c4-bb29-43c3-b697-1348aa425203",
-        "9eb785de-f345-4d5b-98eb-82edfae904c5",
-        "80bfff8a-7895-4c2a-adfd-838b323e19c7",
-        "7c90ef0e-56de-436e-8656-75227b7a4172",
-        "8ec65aa5-9eea-4f79-a7d3-717a748b7597",
-        "59a897bf-47ac-421d-b512-536204fcd430"
+        "e2fd04e2-32a2-4613-b098-e6eda16bce25",
+        "2d9accc5-e38d-4795-b2f5-f64b9d9a114c",
+        "3a156e70-5fd2-41e3-ac76-0c764bb81136",
+        "437590f3-e345-43b7-8342-9351425d09f2",
+        "574b8848-8528-4534-b23f-c1b915d7539c",
+        "9ebc1ac4-8b27-4c88-8408-39e6a5e5a088",
+        "214e50a8-5659-4041-90c3-ccfe6be92843",
+        "4c747078-9ae1-40ef-8bca-a507c6155321",
+        "be5e229f-c9ea-4845-aecc-773418f19c72",
+        "529ae1dc-f1f1-41f1-81fa-9dca7fab29ac",
+        "32ef9f0c-dab5-4c45-b70e-25e5f178daef",
+        "e26dde86-030f-4af5-b954-e6d7c29645dc",
+        "8a87efe8-b282-4bbc-a1fb-26799f294c29",
+        "b64f067a-cbe5-4194-b8b0-3c1dc4c89857",
+        "9a4d99e9-e50e-40bc-ae50-9b75a84686d8",
+        "f114f092-0edf-4d29-b255-7916694bc3be",
+        "1a5a70c0-f544-40ac-8e6d-9536f2ea0a49",
+        "8ff62975-ff77-411b-838d-271777f50eed",
+        "ec3fd3e7-83a7-49a1-81b9-170171b46378",
+        "048a6926-8409-4cc2-a536-71b0f06c3838",
+        "b5e2af0c-5610-47f3-8adc-ec524e348269",
+        "bf2adf18-7994-48a6-9cae-0904158c80c4",
+        "28989744-ff6d-428c-aa7a-c736db6001a2",
+        "0e5844a1-181e-44c2-8073-236dbed1f433",
+        "f6dc7d06-758b-4007-a013-f1d99b68cab8",
+        "3c95ec47-647d-4113-865f-ca0d9723e27c",
+        "fb9a542c-ec7f-482c-9fd5-6b6b3f2b20d5",
+        "4ad7de8b-882d-457e-b531-950f980be6b1",
+        "55aa3daf-aa0e-4c31-bad0-b12c7cee571b",
+        "37995f13-687b-4248-a4de-8c757e890c7d",
+        "7893ceca-7ba4-4252-a7b7-350485785340",
+        "885b7ddd-7ddd-4ef9-a8c8-edc4fe8fc733",
+        "260c1a73-7631-4c7d-994b-d533b3268074",
+        "b73f9535-e684-4dde-b48e-daf66cd12bd9",
+        "73d52290-2765-49cf-b2c6-7095794c020d",
+        "892a3f8f-9783-40f2-ad26-31ccd03e6c38"
       ],
       "settings": {
-        "show_on_desktop": true,
-        "show_on_mobile": true,
+        "show_navigation": true,
         "title": "",
-        "subtitle": "",
-        "section_style": "section-border",
-        "dbtfy_faq_searchbox": true,
-        "dbtfy_faq_search_placeholder": "Søg efter spørgsmål...",
-        "text_alignment": "text-left",
-        "text_alignment_mobile": "text-left",
-        "dbtfy_faq_bannerbox": true,
-        "dbtfy_faq_banner_icon": "live_help",
-        "dbtfy_faq_banner_text": "Konnten Sie die Antwort auf Ihre Frage nicht finden?",
-        "dbtfy_faq_banner_subtitle": "Wir stehen immer bereit Ihnen zu helfen, vor, während und nach Ihrer Bestellung. Scheuen Sie sich nicht uns zu kontaktieren, falls Sie Fragen haben. Wir bestreben uns Ihre Fragen werktags innerhalb von 24 Stunden zu beantworten.",
-        "dbtfy_faq_btn": "Kontaktieren Sie uns",
-        "dbtfy_faq_link": "shopify:\/\/pages\/kontakt"
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "faq"
   ]
 }

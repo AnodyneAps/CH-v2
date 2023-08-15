@@ -1,22 +1,25 @@
-<!-- /snippets/pagination.liquid -->
 {%- if paginate.pages > 1 -%}
-  {%- render 'dbtfy-infinite-scroll' with paginate as paginate -%}
+  <page-pagination {% if use_ajax %}ajax{% endif %} class="pagination">
+    <nav class="pagination__nav">
+      {%- if paginate.previous -%}
+        <a class="pagination__nav-item" rel="prev" aria-label="{{ 'general.pagination.previous_page' | t }}" data-page="{{ paginate.current_page | minus: 1 }}" href="{{ paginate.previous.url }}{{ hash }}">
+          {%- render 'icon' with 'nav-arrow-left', direction_aware: true -%}
+        </a>
+      {%- endif -%}
 
-  {%- capture previous_label -%}
-    <span aria-label="{{ 'general.pagination.previous' | t }}" title="{{ 'general.pagination.previous' | t }}">
-      <span class="{{ settings.icon }}" aria-hidden="true">arrow_back</span>
-    </span>
-  {%- endcapture -%}
+      {%- for part in paginate.parts -%}
+        {%- if part.is_link -%}
+          <a href="{{ part.url }}{{ hash }}" data-page="{{ part.title }}" class="pagination__nav-item heading heading--small" aria-label="{{ 'general.pagination.go_to_page' | t: page: part.title }}">{{ part.title }}</a>
+        {%- else -%}
+          <span class="pagination__nav-item heading heading--small" {% if part.title == paginate.current_page %}aria-current="page" {% endif %}>{{ part.title }}</span>
+        {%- endif -%}
+      {%- endfor -%}
 
-  {%- capture next_label -%}
-    <span aria-label="{{ 'general.pagination.next' | t }}" title="{{ 'general.pagination.next' | t }}">
-      <span class="{{ settings.icon }}" aria-hidden="true">arrow_forward</span>
-    </span>
-  {%- endcapture -%}
-
-  <div class="pagination text-center spacer-top-lg {{ class }}">
-    <div class="inline-list">
-      {{- paginate | default_pagination: previous: previous_label, next: next_label | strip_newlines -}}
-    </div>
-  </div>
+      {%- if paginate.next -%}
+        <a class="pagination__nav-item" rel="next" aria-label="{{ 'general.pagination.next_page' | t }}" data-page="{{ paginate.current_page | plus: 1 }}" href="{{ paginate.next.url }}{{ hash }}">
+          {%- render 'icon' with 'nav-arrow-right', direction_aware: true -%}
+        </a>
+      {%- endif -%}
+    </nav>
+  </page-pagination>
 {%- endif -%}

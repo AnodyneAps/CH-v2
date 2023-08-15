@@ -1,1106 +1,743 @@
 {
   "current": {
-    "sticky_header": false,
-    "sticky_announcement_bar": false,
-    "height_header": 100,
-    "height_header_mobile": 70,
-    "icon": "material-icons-outlined",
-    "grid_product_truncate": false,
-    "collection_grid_card": false,
-    "collection_grid_products_count": false,
-    "collection_grid_animation": true,
-    "collection_grid_button_style": "",
-    "word_count": 33,
-    "show_currency_selector": false,
-    "localization_position": "header",
-    "newsletter_name": false,
-    "newsletter_optin": false,
-    "section_height": "small",
-    "section_height_mobile": "small",
-    "border_radius": 1,
-    "button_padding_x": 30,
-    "button_padding_y": 15,
-    "show_top_button": false,
-    "top_button_mobile": false,
-    "top_button_position": "right",
-    "page_wrapper": "1248",
-    "payment_icon_size": 24,
-    "sale_type": "percentage",
-    "browsing_link": "shopify:\/\/collections\/alle-produkte",
-    "zindex_drawer": "999",
-    "cart_message_enable": false,
-    "textbox_cart_notification": "<strong> Unsere Garantie: <\/strong> Testen Sie unsere Produkte in aller Ruhe während 14 Tagen. Der Rückversand bei Anodyne® ist kostenfrei.",
-    "textbox_custom_drawer_icon": "",
-    "cart_notes_enable": false,
-    "color_announcement_bg": "#eaeaea",
-    "color_announcement_text": "#000000",
-    "color_nav_border": "#f4f4f4",
-    "color_nav_text": "#252525",
-    "color_default": "#f7f7f7",
-    "color_border": "#f4f4f4",
-    "color_headings": "#252525",
-    "color_body_text": "#353535",
-    "color_primary": "#398e82",
-    "color_secondary": "#398e82",
-    "color_input": "#f1f1f1",
-    "color_drawer_bg": "#f7f7f7",
-    "color_drawer_default": "#eaeaea",
-    "color_drawer_border": "#f4f4f4",
-    "color_drawer_text": "#252525",
-    "color_drawer_primary": "#398e82",
-    "color_drawer_button_text": "#eaeaea",
-    "color_drawer_secondary": "#398e82",
-    "color_drawer_input": "#ffffff",
-    "color_drawer_errors": "#FF0000",
-    "color_drawer_sales_price": "#f48400",
-    "color_drawer_overlay": "#202020",
-    "color_drawer_overlay_opacity": 50,
-    "color_footer_bg": "#252525",
-    "color_footer_default": "#bbe4e1",
-    "color_footer_border": "#444444",
-    "color_footer_primary": "#398e82",
-    "color_footer_button_text": "#ff8900",
-    "color_footer_secondary": "#398e82",
-    "color_footer_input": "#398e82",
-    "color_footer_errors": "#FF0000",
-    "color_footer_sales_price": "#398e82",
-    "color_overlay": "#252525",
-    "color_transparent_nav_text": "#f7f7f7",
-    "opacity_overlay": 16,
+    "icon_stroke_width": 2,
+    "button_border_radius": 0,
+    "block_border_radius": "none",
+    "vertical_spacing": "large",
+    "heading_color": "#454545",
+    "text_color": "#454545",
+    "background": "#ffffff",
+    "secondary_background": "#eaeaea",
+    "success_color": "#398e82",
+    "error_color": "#de2a2a",
+    "header_background": "#39708e",
+    "header_text_color": "#ffffff",
+    "footer_background": "#282828",
+    "footer_text_color": "#ffffff",
+    "primary_button_background": "#398e82",
+    "primary_button_text_color": "#ffffff",
+    "secondary_button_background": "#398e82",
+    "secondary_button_text_color": "#ffffff",
+    "product_rating_color": "#f6a429",
+    "product_on_sale_accent": "#398e82",
+    "product_sold_out_accent": "#f29571",
+    "product_custom_label_background": "#4c8168",
+    "product_custom_label_2_background": "#39708e",
+    "product_custom_label_3_background": "#f6a429",
+    "product_in_stock_text_color": "#45ce60",
+    "product_low_stock_text_color": "#de2a2a",
+    "heading_font": "century_gothic_n4",
+    "heading_font_size": "small",
+    "heading_text_transform": "normal",
+    "text_font": "nunito_sans_n4",
+    "text_font_size": 16,
+    "currency_code_enabled": false,
+    "show_image_zoom": false,
+    "stagger_products_apparition": true,
+    "round_color_swatches": false,
+    "show_vendor": false,
+    "show_secondary_image": false,
+    "product_add_to_cart": true,
+    "show_product_rating": false,
+    "discount_mode": "percentage",
+    "product_color_display": "count",
+    "product_image_size": "tall",
+    "cart_type": "drawer",
+    "cart_icon": "shopping_cart",
+    "cart_show_free_shipping_threshold": true,
+    "cart_free_shipping_threshold": "59",
+    "social_facebook": "https:\/\/www.facebook.com\/anodyne.ch",
+    "social_instagram": "https:\/\/www.instagram.com\/anodyne.dach",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCFLDlWEPVUrvsuNjVt6sXJg",
     "favicon": "shopify:\/\/shop_images\/Favicon.png",
-    "google_tag_manager_id": "GTM-MHXTTLB",
-    "share_facebook": false,
-    "share_twitter": false,
-    "share_pinterest": false,
-    "share_whatsapp": false,
-    "share_email": false,
-    "share_messenger": false,
-    "social_facebook_link": "https:\/\/www.facebook.com\/anodyne.dk",
-    "social_instagram_link": "https:\/\/www.instagram.com\/anodyne.dk",
-    "header_family": "poppins_n4",
-    "header_font_size": 32,
-    "header_font_size_big": 50,
-    "header_spacing": 0.1,
-    "accent_family": "avenir_next_n4",
-    "accent_spacing": 0.1,
-    "button_uppercase": true,
-    "base_family": "avenir_next_n4",
-    "base_font_size": 15,
-    "dbtfy_cart_reminder": false,
-    "dbtfy_quantity_breaks": false,
-    "dbtfy_upsell_bundles": false,
-    "dbtfy_cart_discount": false,
-    "dbtfy_cart_favicon": false,
-    "dbtfy_delivery_time": false,
-    "dbtfy_inactive_tab_message": false,
-    "dbtfy_inventory_quantity": false,
-    "dbtfy_sales_countdown": false,
-    "dbtfy_skip_cart": false,
-    "dbtfy_sticky_addtocart": false,
-    "dbtfy_back_in_stock": true,
-    "dbtfy_instagram_feed": false,
-    "dbtfy_newsletter_popup": false,
-    "dbtfy_order_feedback": false,
-    "dbtfy_social_discount": false,
-    "dbtfy_wish_list": false,
-    "dbtfy_collection_addtocart": true,
-    "dbtfy_collection_filters": false,
-    "dbtfy_color_swatches": true,
-    "dbtfy_custom_currencies": false,
-    "dbtfy_delivery_date": false,
-    "dbtfy_mega_menu": true,
-    "dbtfy_order_tracking": false,
-    "dbtfy_product_tabs": true,
-    "dbtfy_quick_compare": false,
-    "dbtfy_quick_view": false,
-    "dbtfy_recently_viewed": false,
-    "dbtfy_size_chart": false,
-    "dbtfy_agree_to_terms": true,
-    "agree_to_terms_text": "<p>Ich akzeptiere die <a href=\"\/policies\/terms-of-service\" title=\"Terms of Service\">Geschäftsbedingungen<\/a> <\/p>",
-    "dbtfy_cookie_box": false,
-    "dbtfy_shop_protect": false,
-    "dbtfy_addtocart_animation_type": "pulse",
-    "dbtfy_addtocart_animation_interval": 10,
-    "dbtfy_back_in_stock_btn_animation": true,
-    "dbtfy_infinite_scroll_options": "scroll",
-    "dbtfy_inventory_quantity_threshold": 20,
-    "dbtfy_menu_bar_link_list": "main-menu",
-    "dbtfy_menu_bar_desktop": false,
-    "dbtfy_menu_bar_mobile": false,
-    "dbtfy_newsletter_floating_bar": false,
-    "dbtfy_newsletter_popup_image_whole": false,
-    "dbtfy_newsletter_popup_exit_intent": true,
-    "dbtfy_newsletter_popup_discount_name": "R6QG34",
-    "dbtfy_newsletter_popup_discount_amount": "10",
-    "dbtfy_social_discount_reward_code": "20GWS15",
-    "dbtfy_social_discount_reward_amount": "10",
-    "dbtfy_trust_badge_cart": false,
-    "dbtfy_trust_badge_text_small": true,
-    "dbtfy_trust_badge_image": "shopify:\/\/shop_images\/payment_logo_ch_816dd034-e7a0-44aa-b75a-a789a68aad48.jpg",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Anodyne_black_medium_b3e6f7d9-335a-4d83-9634-eae733697d89.png",
-    "checkout_accent_color": "#398e82",
+    "checkout_logo_image": "shopify:\/\/shop_images\/anodyne_logo_new.png",
+    "checkout_sidebar_background_color": "#f5f5f5",
+    "checkout_accent_color": "#39708e",
     "checkout_button_color": "#398e82",
-    "hero_header": false,
-    "color_accent": "#f48400",
-    "color_drawer_error_text": "#f48400",
-    "custom_quantity_breaks": true,
-    "dbtfy_cart_countdown": true,
-    "dbtfy_live_view": false,
-    "dbtfy_sales_pop": false,
-    "synced_variant_image": false,
-    "dbtfy_agree_text": "<p>Ich akzeptiere die <a href=\"https:\/\/www.anodyne-shop.de\/policies\/terms-of-service\" title=\"https:\/\/www.anodyne-shop.de\/policies\/terms-of-service\">Geschäftsbedingungen<\/a><\/p>",
-    "dbtfy_agree_warning_text": "<p>Sie müssen die Geschäftsbedingungen akzeptieren<\/p>",
-    "dbtfy_agree_order_title": "Ich akzeptiere die Geschäftsbedingungen",
-    "dbtfy_agree_order_yes_answer": "Ja",
-    "dbtfy_back_in_stock_richtext": "<p>Benachrichtigung erhalten, sobald das Produkt auf Lager ist<\/p>",
-    "dbtfy_back_in_stock_btn": "Bitte benachrichtigen",
-    "dbtfy_back_in_stock_success": "<p>Wir benachrichtigen Sie, sobald das Produkt auf Lager ist.<\/p>",
-    "dbtfy_back_in_stock_body_prefix": "Benachrichtigung erhalten, sobald",
-    "dbtfy_back_in_stock_body_suffix": "auf Lager ist",
-    "dbtfy_cart_countdown_time_mins": 20,
-    "dbtfy_cart_countdown_prefix": "Ihre Produkte sind für",
-    "dbtfy_cart_countdown_suffix": "reserviert. Bestellen Sie jetzt!",
-    "dbtfy_cart_countdown_icon_over": "update",
-    "dbtfy_cart_countdown_msg_over": "Bestellen Sie bevor Ihre Produkte ausverkauft sind",
-    "dbtfy_cart_discount_label": "Rabattcode",
-    "dbtfy_cart_discount_placeholder": "Geben Sie hier Ihren Rabattcode ein",
-    "dbtfy_cart_discount_apply_button_label": "Rabattcode verwenden",
-    "nlify_cart_notification": "<strong>Unsere Garantie: <\/strong>Testen Sie unsere Produkte in aller Ruhe während 30 Tagen. Der Rückversand bei Anodyne® ist kostenfrei.",
-    "nlify_custom_drawer_icon": "",
-    "dbtfy_cart_goal_before_text": "Noch",
-    "dbtfy_cart_goal_amount": "59",
-    "dbtfy_cart_goal_after_text": "bis gratis Versand",
-    "dbtfy_cart_goal_reached_text": "Gratis Versand!",
-    "dbtfy_cart_discount_savings_label": "Gesamtersparnis",
-    "dbtfy_inactive_tab_message_text_first": "👕 up to 50% off",
-    "dbtfy_inactive_tab_message_text_second": "👕 Anodyne discounts",
-    "dbtfy_floating_bar_text": "",
-    "dbtfy_newsletter_popup_title": "Erhalten Sie einen 10% Rabattcode",
-    "dbtfy_newsletter_popup_text": "<p>Melden Sie sich unseren Newsletter an und erhalten Sie einen <strong>10% Rabattcode<\/strong> für <strong>ALLE <\/strong>Produkte!<\/p>",
-    "dbtfy_newsletter_popup_close": "Nein, danke",
-    "dbtfy_newsletter_popup_title_success": "Vielen Dank für Ihre Anmeldung",
-    "dbtfy_newsletter_popup_text_success": "<p>Geben Sie den Rabattcode im Warenkorb ein, und erhalten Sie 10% auf ALLE Produkte.<\/p>",
-    "dbtfy_newsletter_popup_reward_button": "Rabattcode verwenden",
-    "dbtfy_order_feedback_select_title": "Wie haben Sie uns gefunden?",
-    "dbtfy_order_feedback_default_options": "Bitte wählen Sie eine",
-    "dbtfy_order_feedback_select_options": "Physiotherapeut\/in, Social Media, Google, Amazon",
-    "dbtfy_order_feedback_error_message": "Bitte wählen Sie unten eine Option",
-    "dbtfy_order_feedback_other_option": "Andere",
-    "dbtfy_order_feedback_other_placeholder": "Andernfalls, nämlich",
-    "dbtfy_order_feedback_error_message_other": "Bitte füllen Sie das folgende Textfeld aus",
-    "dbtfy_order_feedback_title": "Wie haben Sie uns gefunden?",
-    "dbtfy_order_feedback_other_title": "Wie haben Sie uns gefunden?",
-    "dbtfy_recently_viewed_title": "Zuletzt gesehen",
-    "dbtfy_smart_search_products": "Producten",
-    "dbtfy_smart_search_collections": "Collecties",
-    "dbtfy_smart_search_articles": "Artikelen",
-    "dbtfy_smart_search_pages": "Pagina's",
-    "dbtfy_smart_search_all": "Laat alle resultaten zien",
-    "dbtfy_social_discount_link": "Teilen und 10% Rabatt erhalten",
-    "dbtfy_social_discount_popup_title": "Teilen und 10% Rabatt erhalten",
-    "dbtfy_social_discount_popup_text": "Teilen Sie dies mit Ihren Freunden und erhalten Sie 10% Rabatt",
-    "dbtfy_social_discount_reward_title": "Vielen Dank für das Teilen",
-    "dbtfy_social_discount_reward_text": "<p>Kopieren Sie den untenstehenden Rabattcode und fügen Sie ihn in Ihren Warenkorb ein, um Ihren Rabatt zu erhalten<\/p>",
-    "dbtfy_social_discount_reward_button": "Rabattcode verwenden",
-    "dbtfy_trust_badge_text": "Garantiert sicherer und zuverlässiger Checkout",
-    "dbtfy_wish_list_add_text": "Zur Wunschzettel hinzufügen",
-    "dbtfy_wish_list_remove_text": "Von Wunschzettel entfernen",
-    "dbtfy_wish_list_empty_text": "Ihr Wunschzettel ist derzeit leer.",
-    "dbtfy_wish_list_share_label": "Wunschzettel teilen",
-    "custom_inventory_quantity": true,
+    "checkout_error_color": "#de2a2a",
+    "accent_color": "#405de6",
     "sections": {
-      "dbtfy-upsell-popup": {
-        "type": "dbtfy-upsell-popup",
-        "settings": {
-          "dbtfy_upsell_popup_width": "",
-          "dbtfy_upsell_popup_description": "See product details",
-          "dbtfy_upsell_popup_cart": "Nein danke",
-          "dbtfy_upsell_popup_checkout": "Zur Kasse gehen →",
-          "text_alignment": "text-center",
-          "dbtfy_upsell_popup_range": 75
-        }
-      },
-      "dbtfy-quantity-breaks": {
-        "type": "dbtfy-quantity-breaks",
+      "announcement-bar": {
+        "type": "announcement-bar",
         "blocks": {
-          "3ecae9fd-6b11-4a20-84b1-0e99e2faaaa2": {
-            "type": "product-break",
+          "84a66898-6f13-468b-9b3d-f2582eab4702": {
+            "type": "message",
             "settings": {
+              "text": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"de-CH\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"64356ba3a32b6caee5a47b54\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/ch.trustpilot.com\/review\/anodyne.ch\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+              "learn_more_text": "Learn more",
               "title": "",
-              "product_break_show_on_product_page": true,
-              "product_break_visibility": "collection",
-              "product_break_collection": "posture-shirt",
-              "product_break_types": "",
-              "product_break_tags": "",
-              "product_break_product": "",
-              "product_break_range_1": 2,
-              "product_break_discount_code_1": "Test2",
-              "product_break_discount_amount_1": "10",
-              "product_break_discount_type_1": "$",
-              "product_break_range_2": 3,
-              "product_break_discount_code_2": "Test3",
-              "product_break_discount_amount_2": "12",
-              "product_break_discount_type_2": "$",
-              "product_break_range_3": 2,
-              "product_break_discount_code_3": "",
-              "product_break_discount_amount_3": "",
-              "product_break_discount_type_3": "%",
-              "product_break_range_4": 2,
-              "product_break_discount_code_4": "",
-              "product_break_discount_amount_4": "",
-              "product_break_discount_type_4": "%",
-              "product_break_range_5": 2,
-              "product_break_discount_code_5": "",
-              "product_break_discount_amount_5": "",
-              "product_break_discount_type_5": "%"
-            }
-          },
-          "8893dfdd-3b93-46ae-af01-1c25d217f5fc": {
-            "type": "cart-break",
-            "settings": {
-              "title": "",
-              "cart_break_range_1": 2,
-              "cart_break_discount_code_1": "",
-              "cart_break_discount_amount_1": "",
-              "cart_break_discount_type_1": "%",
-              "cart_break_range_2": 2,
-              "cart_break_discount_code_2": "",
-              "cart_break_discount_amount_2": "",
-              "cart_break_discount_type_2": "%",
-              "cart_break_range_3": 2,
-              "cart_break_discount_code_3": "",
-              "cart_break_discount_amount_3": "",
-              "cart_break_discount_type_3": "%",
-              "cart_break_range_4": 2,
-              "cart_break_discount_code_4": "",
-              "cart_break_discount_amount_4": "",
-              "cart_break_discount_type_4": "%",
-              "cart_break_range_5": 2,
-              "cart_break_discount_code_5": "",
-              "cart_break_discount_amount_5": "",
-              "cart_break_discount_type_5": "%",
-              "cart_break_range_6": 2,
-              "cart_break_discount_code_6": "",
-              "cart_break_discount_amount_6": "",
-              "cart_break_discount_type_6": "%",
-              "cart_break_range_7": 2,
-              "cart_break_discount_code_7": "",
-              "cart_break_discount_amount_7": "",
-              "cart_break_discount_type_7": "%",
-              "cart_break_range_8": 2,
-              "cart_break_discount_code_8": "",
-              "cart_break_discount_amount_8": "",
-              "cart_break_discount_type_8": "%",
-              "cart_break_range_9": 2,
-              "cart_break_discount_code_9": "",
-              "cart_break_discount_amount_9": "",
-              "cart_break_discount_type_9": "%",
-              "cart_break_range_10": 2,
-              "cart_break_discount_code_10": "",
-              "cart_break_discount_amount_10": "",
-              "cart_break_discount_type_10": "%"
+              "content": "",
+              "button_text": "",
+              "button_link": ""
             }
           }
         },
         "block_order": [
-          "3ecae9fd-6b11-4a20-84b1-0e99e2faaaa2",
-          "8893dfdd-3b93-46ae-af01-1c25d217f5fc"
+          "84a66898-6f13-468b-9b3d-f2582eab4702"
         ],
         "settings": {
-          "dbtfy_quantity_breaks_single_text": "Buy _COUNT_: _PRICE_ _SAVED_AMOUNT_",
-          "dbtfy_quantity_breaks_price_type": "total_price",
-          "dbtfy_quantity_breaks_more_discount_text_before": "Add",
-          "dbtfy_quantity_breaks_more_discount_text_after": "more item to unlock",
-          "dbtfy_quantity_breaks_more_discount_text_after_percentage": "off",
-          "dbtfy_quantity_breaks_highest_discount_text": "Highest discount applied!"
-        }
-      },
-      "dbtfy-cart-upsell": {
-        "type": "dbtfy-cart-upsell",
-        "blocks": {
-          "044ae220-77bb-4e0f-bf98-ca576e03c1e0": {
-            "type": "cart-item-upsell",
-            "disabled": true,
-            "settings": {
-              "title": "Basic Skulderstøtte tilkøb",
-              "specific_upsell_replace_item_1": "add",
-              "specific_upsell_title_1": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_1": "anodyne-bh",
-              "specific_upsell_product_offer_1": "geradehalter-basic",
-              "specific_upsell_btn_title_1": "Hinzufügen",
-              "specific_upsell_replace_item_2": "add",
-              "specific_upsell_title_2": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_2": "womens-posture-shirt-schwarz",
-              "specific_upsell_product_offer_2": "geradehalter-basic",
-              "specific_upsell_btn_title_2": "Hinzufügen",
-              "specific_upsell_replace_item_3": "add",
-              "specific_upsell_title_3": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_3": "mens-posture-shirt-schwarz",
-              "specific_upsell_product_offer_3": "geradehalter-basic",
-              "specific_upsell_btn_title_3": "Hinzufügen",
-              "specific_upsell_replace_item_4": "add",
-              "specific_upsell_title_4": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_4": "womens-posture-shirt-weiss",
-              "specific_upsell_product_offer_4": "geradehalter-basic",
-              "specific_upsell_btn_title_4": "Hinzufügen",
-              "specific_upsell_replace_item_5": "add",
-              "specific_upsell_title_5": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_5": "mens-posture-shirt-weiss",
-              "specific_upsell_product_offer_5": "geradehalter-basic",
-              "specific_upsell_btn_title_5": "Hinzufügen",
-              "specific_upsell_replace_item_6": "add",
-              "specific_upsell_title_6": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_6": "womens-posture-shirt-zipper-schwarz",
-              "specific_upsell_product_offer_6": "geradehalter-basic",
-              "specific_upsell_btn_title_6": "Hinzufügen",
-              "specific_upsell_replace_item_7": "add",
-              "specific_upsell_title_7": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_7": "mens-posture-shirt-zipper-schwarz",
-              "specific_upsell_product_offer_7": "geradehalter-basic",
-              "specific_upsell_btn_title_7": "Hinzufügen",
-              "specific_upsell_replace_item_8": "add",
-              "specific_upsell_title_8": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_8": "womens-posture-shirt-zipper-weiss",
-              "specific_upsell_product_offer_8": "geradehalter-basic",
-              "specific_upsell_btn_title_8": "Hinzufügen",
-              "specific_upsell_replace_item_9": "add",
-              "specific_upsell_title_9": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_9": "mens-posture-shirt-zipper-weiss",
-              "specific_upsell_product_offer_9": "geradehalter-basic",
-              "specific_upsell_btn_title_9": "Hinzufügen",
-              "specific_upsell_replace_item_10": "add",
-              "specific_upsell_title_10": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_10": "womens-posture-shirt-burgund",
-              "specific_upsell_product_offer_10": "geradehalter-basic",
-              "specific_upsell_btn_title_10": "Hinzufügen"
-            }
-          },
-          "f98348a9-d1df-4a7e-a63e-6125fd7063fd": {
-            "type": "cart-item-upsell",
-            "disabled": true,
-            "settings": {
-              "title": "Basic Skulderstøtte tilkøb",
-              "specific_upsell_replace_item_1": "add",
-              "specific_upsell_title_1": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_1": "womens-posture-shirt-nude",
-              "specific_upsell_product_offer_1": "geradehalter-basic",
-              "specific_upsell_btn_title_1": "Hinzufügen",
-              "specific_upsell_replace_item_2": "add",
-              "specific_upsell_title_2": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_2": "womens-posture-shirt-zipper-nude",
-              "specific_upsell_product_offer_2": "geradehalter-basic",
-              "specific_upsell_btn_title_2": "Hinzufügen",
-              "specific_upsell_replace_item_3": "add",
-              "specific_upsell_title_3": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_3": "lendengurt",
-              "specific_upsell_product_offer_3": "geradehalter-basic",
-              "specific_upsell_btn_title_3": "Hinzufügen",
-              "specific_upsell_replace_item_4": "add",
-              "specific_upsell_title_4": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_4": "back-stretcher",
-              "specific_upsell_product_offer_4": "geradehalter-basic",
-              "specific_upsell_btn_title_4": "Hinzufügen",
-              "specific_upsell_replace_item_5": "add",
-              "specific_upsell_title_5": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_5": "massagepistole-mini",
-              "specific_upsell_product_offer_5": "geradehalter-basic",
-              "specific_upsell_btn_title_5": "Hinzufügen",
-              "specific_upsell_replace_item_6": "add",
-              "specific_upsell_title_6": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_6": "ruckenkissen",
-              "specific_upsell_product_offer_6": "geradehalter-basic",
-              "specific_upsell_btn_title_6": "Hinzufügen",
-              "specific_upsell_replace_item_7": "add",
-              "specific_upsell_title_7": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_7": "sitzkissen",
-              "specific_upsell_product_offer_7": "geradehalter-basic",
-              "specific_upsell_btn_title_7": "Hinzufügen",
-              "specific_upsell_replace_item_8": "add",
-              "specific_upsell_title_8": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_8": "gel-lign-channeling-feet",
-              "specific_upsell_product_offer_8": "geradehalter-basic",
-              "specific_upsell_btn_title_8": "Hinzufügen",
-              "specific_upsell_replace_item_9": "add",
-              "specific_upsell_title_9": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_9": "backjoy-posture",
-              "specific_upsell_product_offer_9": "geradehalter-basic",
-              "specific_upsell_btn_title_9": "Hinzufügen",
-              "specific_upsell_replace_item_10": "add",
-              "specific_upsell_title_10": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_10": "backjoy-comfort-sohlen",
-              "specific_upsell_product_offer_10": "geradehalter-basic",
-              "specific_upsell_btn_title_10": "Hinzufügen"
-            }
-          },
-          "3a4ee167-92c2-4a06-bb14-4bdfcabad6b3": {
-            "type": "cart-item-upsell",
-            "disabled": true,
-            "settings": {
-              "title": "Basic Skulderstøtte tilkøb",
-              "specific_upsell_replace_item_1": "add",
-              "specific_upsell_title_1": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_1": "alignme-capri-blau",
-              "specific_upsell_product_offer_1": "geradehalter-basic",
-              "specific_upsell_btn_title_1": "Hinzufügen",
-              "specific_upsell_replace_item_2": "add",
-              "specific_upsell_title_2": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_2": "alignme-capri-grau",
-              "specific_upsell_product_offer_2": "geradehalter-basic",
-              "specific_upsell_btn_title_2": "Hinzufügen",
-              "specific_upsell_replace_item_3": "add",
-              "specific_upsell_title_3": "<strong>Sparen Sie 35%<\/strong> - Fügen Sie eine Basis Geradehalter für nur €29 hinzu (normal €45).",
-              "specific_upsell_product_trigger_3": "alignme-capri-grun",
-              "specific_upsell_product_offer_3": "geradehalter-basic",
-              "specific_upsell_btn_title_3": "Hinzufügen",
-              "specific_upsell_replace_item_4": "add",
-              "specific_upsell_title_4": "",
-              "specific_upsell_product_trigger_4": "",
-              "specific_upsell_product_offer_4": "",
-              "specific_upsell_btn_title_4": "",
-              "specific_upsell_replace_item_5": "add",
-              "specific_upsell_title_5": "",
-              "specific_upsell_product_trigger_5": "",
-              "specific_upsell_product_offer_5": "",
-              "specific_upsell_btn_title_5": "",
-              "specific_upsell_replace_item_6": "add",
-              "specific_upsell_title_6": "",
-              "specific_upsell_product_trigger_6": "",
-              "specific_upsell_product_offer_6": "",
-              "specific_upsell_btn_title_6": "",
-              "specific_upsell_replace_item_7": "add",
-              "specific_upsell_title_7": "",
-              "specific_upsell_product_trigger_7": "",
-              "specific_upsell_product_offer_7": "",
-              "specific_upsell_btn_title_7": "",
-              "specific_upsell_replace_item_8": "add",
-              "specific_upsell_title_8": "",
-              "specific_upsell_product_trigger_8": "",
-              "specific_upsell_product_offer_8": "",
-              "specific_upsell_btn_title_8": "",
-              "specific_upsell_replace_item_9": "add",
-              "specific_upsell_title_9": "",
-              "specific_upsell_product_trigger_9": "",
-              "specific_upsell_product_offer_9": "",
-              "specific_upsell_btn_title_9": "",
-              "specific_upsell_replace_item_10": "add",
-              "specific_upsell_title_10": "",
-              "specific_upsell_product_trigger_10": "",
-              "specific_upsell_product_offer_10": "",
-              "specific_upsell_btn_title_10": ""
-            }
-          }
-        },
-        "block_order": [
-          "044ae220-77bb-4e0f-bf98-ca576e03c1e0",
-          "f98348a9-d1df-4a7e-a63e-6125fd7063fd",
-          "3a4ee167-92c2-4a06-bb14-4bdfcabad6b3"
-        ],
-        "settings": {
-          "dbtfy_cart_upsell_button_style": "btn--primary"
-        }
-      },
-      "dbtfy-color-swatches": {
-        "type": "dbtfy-color-swatches",
-        "settings": {
-        }
-      },
-      "dbtfy-bullet-points": {
-        "type": "dbtfy-bullet-points",
-        "settings": {
-          "dbtfy_bullet_points_position": "under-addtocart-button",
-          "dbtfy_bullet_points_alignment": "left",
-          "dbtfy_bullet_points_display_type": "inline"
-        }
-      },
-      "dbtfy-sales-countdown": {
-        "type": "dbtfy-sales-countdown",
-        "settings": {
-          "dbtfy_sales_countdown_icons": "local_fire_department",
-          "dbtfy_sales_countdown_prefix": "Sale ends in",
-          "dbtfy_sales_countdown_suffix": "",
-          "dbtfy_sales_countdown_d": "d",
-          "dbtfy_sales_countdown_h": "h",
-          "dbtfy_sales_countdown_m": "m",
-          "dbtfy_sales_countdown_s": "s"
-        }
-      },
-      "dbtfy-delivery-time": {
-        "type": "dbtfy-delivery-time",
-        "settings": {
-          "dbtfy_delivery_time_position": "under-addtocart-button"
-        }
-      },
-      "dbtfy-size-chart": {
-        "type": "dbtfy-size-chart",
-        "settings": {
-          "dbtfy_size_chart_icon": "straighten",
-          "dbtfy_size_chart_title": "Size chart",
-          "dbtfy_size_chart_width": "large"
-        }
-      },
-      "drawer-menu": {
-        "type": "drawer-menu",
-        "settings": {
-          "drawer_link_toggle": true,
-          "email": true,
-          "phone": true,
-          "show_social_medias": true,
-          "hide_menu_icon": true,
-          "title": "Menu",
-          "drawer_top_link_list": "mobile-menu",
-          "drawer_bottom_link_list": ""
-        }
-      },
-      "announcement": {
-        "type": "announcement",
-        "blocks": {
-          "82893cc1-5e92-46bd-a94d-7204271ffa01": {
-            "type": "message",
-            "settings": {
-              "title": "",
-              "announcement_text": "<p>14 Tage Rückgaberecht<\/p>"
-            }
-          },
-          "c4676b39-a890-441a-b56f-27f60a8d0ad9": {
-            "type": "message",
-            "settings": {
-              "title": "",
-              "announcement_text": "<p>Gratis Versand für Einkaufe über 59 CHF<\/p>"
-            }
-          },
-          "announcement-0": {
-            "type": "message",
-            "settings": {
-              "title": "",
-              "announcement_text": "<p>Kostenloser Umtausch<\/p>"
-            }
-          },
-          "1845e2c6-d475-470e-81ff-6bb64b635172": {
-            "type": "message",
-            "disabled": true,
-            "settings": {
-              "title": "Black Days",
-              "announcement_text": "<p><strong>Cyber Days<\/strong> - Sparen Sie bis zu 80%<\/p>"
-            }
-          },
-          "ed921cc9-429d-455b-86d4-1b6382ef61e7": {
-            "type": "message",
-            "disabled": true,
-            "settings": {
-              "title": "Black Days",
-              "announcement_text": "<p><strong>Cyber Days<\/strong> - Billiger geht's nicht<\/p>"
-            }
-          }
-        },
-        "block_order": [
-          "82893cc1-5e92-46bd-a94d-7204271ffa01",
-          "c4676b39-a890-441a-b56f-27f60a8d0ad9",
-          "announcement-0",
-          "1845e2c6-d475-470e-81ff-6bb64b635172",
-          "ed921cc9-429d-455b-86d4-1b6382ef61e7"
-        ],
-        "settings": {
-          "style__selector": "none",
-          "show_announcement": true,
-          "small_announcement_text": false,
-          "show_social": false,
-          "email": false,
-          "phone": false,
-          "left_message": "",
-          "right_message": "",
-          "announcement_autoplayspeed": 3
+          "announcement_bar_position": "non_sticky",
+          "announcement_text_size": "small",
+          "autoplay": true,
+          "cycle_speed": 5,
+          "background": "#f7f7f7",
+          "text_color": "#454545",
+          "button_background": "#39708e",
+          "button_text_color": "#ffffff"
         }
       },
       "header": {
         "type": "header",
         "settings": {
-          "main_menu_link_list": "main-menu",
-          "navigation_type": "right",
-          "logo_link": true,
-          "default_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_028903dc-7d7d-433a-a72d-e0d2c6b586a4.png",
-          "mobile_logo": "shopify:\/\/shop_images\/Anodyne_black_medium_028903dc-7d7d-433a-a72d-e0d2c6b586a4.png",
-          "default_logo_svg": "",
-          "inverted_logo_svg": "",
-          "mobile_logo_svg": "",
-          "logo_width": 160,
-          "logo_mobile_width": 100
-        }
-      },
-      "dbtfy-instagram-feed": {
-        "type": "dbtfy-instagram-feed",
-        "settings": {
-          "dbtfy_instagram_feed_icon": false,
-          "dbtfy_instagram_feed_access_token": "",
-          "dbtfy_instagram_feed_full_width": false,
-          "title": "From our Instagram",
-          "subtitle": "",
-          "dbtfy_instagram_feed_section_style": "section-border",
-          "dbtfy_instagram_feed_rows": "1",
-          "dbtfy_instagram_feed_desktop_grid": "6",
-          "dbtfy_instagram_feed_mobile_grid": "3"
-        }
-      },
-      "guarantee": {
-        "type": "guarantee",
-        "blocks": {
-          "guarantee-0": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "image": "shopify:\/\/shop_images\/Returns.png",
-              "guarantee_icon": "loyalty",
-              "heading_text": "",
-              "text": "<p>Kostenloser Umtausch<\/p>",
-              "text_alignment": "text-center",
-              "text_alignment_mobile": "text-center",
-              "button_style": "btn-outline-primary",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "guarantee-1": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "image": "shopify:\/\/shop_images\/Truck.png",
-              "guarantee_icon": "loyalty",
-              "heading_text": "",
-              "text": "<p>Gratis Versand für Einkäufe über 59 CHF.<\/p>",
-              "text_alignment": "text-center",
-              "text_alignment_mobile": "text-center",
-              "button_style": "btn-outline-primary",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "guarantee-2": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "image": "shopify:\/\/shop_images\/Checkmark.png",
-              "guarantee_icon": "loyalty",
-              "heading_text": "",
-              "text": "<p>14 Tage Rückgaberecht<\/p>",
-              "text_alignment": "text-center",
-              "text_alignment_mobile": "text-center",
-              "button_style": "btn-outline-primary",
-              "button_label": "",
-              "button_link": ""
-            }
-          },
-          "bb764f80-013b-4d19-89ae-5e332eb782cf": {
-            "type": "text",
-            "settings": {
-              "title": "",
-              "image": "shopify:\/\/shop_images\/Customerservice_copy.png",
-              "guarantee_icon": "loyalty",
-              "heading_text": "",
-              "text": "<p>Professioneller Service<\/p>",
-              "text_alignment": "text-center",
-              "text_alignment_mobile": "text-center",
-              "button_style": "btn-outline-primary",
-              "button_label": "",
-              "button_link": ""
-            }
-          }
-        },
-        "block_order": [
-          "guarantee-0",
-          "guarantee-1",
-          "guarantee-2",
-          "bb764f80-013b-4d19-89ae-5e332eb782cf"
-        ],
-        "settings": {
-          "show_guarantee": true,
-          "guarantee_size": "lg",
-          "section_style": "section-default"
+          "enable_sticky_header": false,
+          "logo": "shopify:\/\/shop_images\/Anodyne_new_logo.png",
+          "logo_max_width": 180,
+          "mobile_logo_max_width": 120,
+          "navigation_menu": "main-menu",
+          "sidebar_navigation_menu": "",
+          "header_layout": "logo_left_navigation_center",
+          "show_icons": true,
+          "reduce_desktop_padding": true,
+          "show_locale_selector": false,
+          "show_country_selector": false,
+          "enable_transparent_header": false,
+          "transparent_header_text_color": "#ffffff",
+          "search_menu": ""
         }
       },
       "footer": {
         "type": "footer",
         "blocks": {
-          "footer-1": {
-            "type": "link_list",
+          "a69e2f4d-3a14-47d9-89d6-c2cfec1fe73e": {
+            "type": "links",
             "settings": {
-              "title": "Kategorier",
-              "column_width": 1,
-              "heading_text": "Kategorien",
-              "subtitle": "",
-              "footer_link_list": "category-menu"
+              "menu": "customer-service-mobil-menu"
             }
           },
-          "0bf661af-2d67-4ed7-9f1e-750e2c09c74e": {
-            "type": "link_list",
+          "links": {
+            "type": "links",
             "settings": {
-              "title": "Anodyne",
-              "column_width": 1,
-              "heading_text": "Anodyne®",
-              "subtitle": "",
-              "footer_link_list": "anodyne-menu"
+              "menu": "anodyne-menu"
             }
           },
-          "045bae48-bfff-4e04-a080-14a99dbf2e0c": {
+          "099dea2f-51ed-4c5f-89fb-cca5573a9916": {
+            "type": "links",
+            "settings": {
+              "menu": "category-menu"
+            }
+          },
+          "371cc746-f8e4-40d5-9950-31f07634d251": {
             "type": "text",
             "settings": {
               "title": "Kontakt",
-              "column_width": 1,
-              "svg": "",
-              "img_url": "",
-              "logo_width": 150,
-              "heading_text": "Kontakt",
-              "subtitle": "",
-              "text": "<p>Anodyne.ch<\/p><p><strong>Mon - Don<\/strong>: 10:00 - 16:00<br\/><strong>Freitag:<\/strong> 10:00 - 15:00<\/p>",
-              "email": true,
-              "phone": true,
-              "show_social_media": false
+              "content": "<p>Wir stehen immer bereit Ihnen zu helfen, vor, während und nach Ihrer Bestellung. Scheuen Sie sich nicht uns zu kontaktieren, falls Sie Fragen haben. Wir bestreben uns Ihre Fragen werktags innerhalb von 24 Stunden zu beantworten.<\/p><p>E-Mail: <a href=\"mailto:info@anodyne.ch\"><span style=\"text-decoration:underline\">info@anodyne.ch<\/span><\/a><br\/>Tlf: <a href=\"tel:+41(0)445510131\">+41 (0) 44 551 01 31<\/a><\/p><p>Montag-Donnerstag: 10:00-15:00 Uhr<br\/>Freitag: 10:00-14:00 Uhr<br\/><br\/>-----<br\/><strong><br\/>Anodyne® GmbH<br\/><\/strong>Bahnstrasse 25<br\/>8603 Schwerzenbach <br\/>Schweiz<\/p>"
             }
           },
-          "38aab7d5-4020-4b5d-aa34-5f065cd7a210": {
-            "type": "html",
+          "social_media": {
+            "type": "social_media",
             "settings": {
-              "title": "Socials",
-              "column_width": 1,
-              "heading_text": "Socials",
-              "subtitle": "",
-              "html_area": "",
-              "facebook_link": "https:\/\/www.facebook.com\/anodyne.ch\/",
-              "youtube_link": "https:\/\/www.youtube.com\/channel\/UCFLDlWEPVUrvsuNjVt6sXJg",
-              "insta_link": "https:\/\/www.instagram.com\/anodyne.dach"
+              "title": "Social",
+              "content": ""
             }
           }
         },
         "block_order": [
-          "footer-1",
-          "0bf661af-2d67-4ed7-9f1e-750e2c09c74e",
-          "045bae48-bfff-4e04-a080-14a99dbf2e0c",
-          "38aab7d5-4020-4b5d-aa34-5f065cd7a210"
+          "a69e2f4d-3a14-47d9-89d6-c2cfec1fe73e",
+          "links",
+          "099dea2f-51ed-4c5f-89fb-cca5573a9916",
+          "371cc746-f8e4-40d5-9950-31f07634d251",
+          "social_media"
         ],
         "settings": {
-          "show_social_media": false,
-          "social_media_position_desktop": "center",
-          "social_title": "Follow-us on social media!",
-          "show_payment_icons": false,
-          "show_shopify_footer": false,
-          "show_debutify_footer": false,
-          "custom_credential": "<p>Anodyne GmbH, Bahnstrasse 25, 8603 Schwerzenbach, Switzerland (Kein Verkauf von dieser Adresse). UID: CHE-280.781.291 MwSt.<\/p>",
-          "show_product_counter": true
+          "show_payment_icons": true,
+          "show_country_selector": false,
+          "show_locale_selector": false,
+          "show_cookie_bar": false,
+          "cookie_bar_title": "Cookie politik",
+          "cookie_bar_content": "<p>Jeg accepterer, at mine oplysninger behandles i overensstemmelse med de betingelser, der er fastsat i politikken om beskyttelse af personlige oplysninger.<\/p>"
         }
       },
-      "dbtfy-upsell-bundles": {
-        "type": "dbtfy-upsell-bundles",
+      "popup": {
+        "type": "popup",
         "settings": {
-          "dbtfy_upsell_bundles_title": "Frequently bought together",
-          "dbtfy_upsell_bundles_subtitle": "",
-          "dbtfy_upsell_bundles_total": "Total price:",
-          "dbtfy_upsell_bundles_cart": "Add selected items",
-          "dbtfy_upsell_bundles_icons": "library_add_check",
-          "dbtfy_upsell_bundles_current": "This item:",
-          "section_style": "section-border",
-          "dbtfy_upsell_bundles_reviews": false,
-          "dbtfy_upsell_bundles_limit": "2",
-          "dbtfy_upsell_bundles_position": "product"
+          "enable": false,
+          "apparition_delay": 5,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "image_position": "left",
+          "title": "Get 10% off",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>"
         }
       },
-      "dbtfy-pricing-table": {
-        "type": "dbtfy-pricing-table",
+      "mini-cart": {
+        "type": "mini-cart",
         "settings": {
-          "show_on_desktop": true,
-          "show_on_mobile": true,
-          "title": "Pricing table",
-          "subtitle": "",
-          "section_style": "section-blank",
-          "dbtfy_button_position": "middle"
+          "show_order_note": false,
+          "show_checkout_button": true,
+          "empty_button_link": "shopify:\/\/collections",
+          "show_recommendations": true,
+          "recommendations_title": "Andere Kunden kauften auch"
         }
       },
-      "product-recommendations": {
-        "type": "product-recommendations",
-        "settings": {
-          "show_product_recommendations": true,
-          "title": "",
-          "subtitle": "",
-          "section_style": "section-blank",
-          "rows": "2",
-          "desktop_grid": "4",
-          "mobile_grid": "2",
-          "slider_related_products": true,
-          "arrows": true,
-          "dots": true,
-          "autoplay": false,
-          "autoplayspeed": 5
-        }
-      },
-      "dbtfy-faq-section": {
-        "type": "dbtfy-faq-section",
-        "settings": {
-          "show_on_desktop": true,
-          "show_on_mobile": true,
-          "title": "FAQ",
-          "subtitle": "",
-          "section_style": "section-border",
-          "dbtfy_faq_searchbox": true,
-          "dbtfy_faq_search_placeholder": "Search questions...",
-          "dbtfy_faq_bannerbox": true,
-          "dbtfy_faq_banner_icon": "live_help",
-          "dbtfy_faq_banner_text": "Didn't find your answer?",
-          "dbtfy_faq_banner_subtitle": "Our customer service will be happy to help you.",
-          "dbtfy_faq_btn": "Get in Touch",
-          "dbtfy_faq_link": ""
-        }
-      },
-      "related-products": {
-        "type": "related-products",
-        "settings": {
-          "show_related_products": false,
-          "related_collection": true,
-          "same_vendor": false,
-          "same_type": false,
-          "never_empty": true,
-          "title": "You may also like",
-          "subtitle": "",
-          "section_style": "section-border",
-          "rows": "1",
-          "desktop_grid": "4",
-          "mobile_grid": "2",
-          "slider_related_products": true,
-          "arrows": true,
-          "dots": true,
-          "autoplay": false,
-          "autoplayspeed": 5
-        }
-      },
-      "quotes": {
-        "type": "quotes",
-        "settings": {
-          "show_on_desktop": false,
-          "show_on_mobile": false,
-          "title": "Testimonials",
-          "subtitle": "",
-          "section_style": "section-blank",
-          "quote_width": "60",
-          "arrows": true,
-          "dots": true,
-          "autoplay": true,
-          "autoplayspeed": 5
-        }
-      },
-      "1630070175c6ebb320": {
-        "type": "featured-collections",
+      "static-text-with-icons": {
+        "type": "static-text-with-icons",
         "blocks": {
-          "1630070175c6ebb320-2": {
-            "type": "collection",
+          "static-text-with-icons-0": {
+            "type": "item",
             "settings": {
-              "collection": "posture-shirt"
+              "icon": "picto-box",
+              "custom_icon_width": 50,
+              "title": "Free shipping",
+              "content": "<p>Free worldwide shipping and returns - customs and duties taxes included<\/p>"
             }
           },
-          "1630070175c6ebb320-1": {
-            "type": "collection",
+          "static-text-with-icons-1": {
+            "type": "item",
             "settings": {
-              "collection": "ruckenstutze"
+              "icon": "picto-phone",
+              "custom_icon_width": 50,
+              "title": "Customer service",
+              "content": "<p>We are available from monday to friday to answer your questions.<\/p>"
             }
           },
-          "1630070175c6ebb320-0": {
-            "type": "collection",
+          "static-text-with-icons-2": {
+            "type": "item",
             "settings": {
-              "collection": "andere-producten"
+              "icon": "picto-lock",
+              "custom_icon_width": 50,
+              "title": "Secure payment",
+              "content": "<p>Your payment information is processed securely.<\/p>"
+            }
+          },
+          "static-text-with-icons-3": {
+            "type": "item",
+            "settings": {
+              "icon": "picto-email",
+              "custom_icon_width": 50,
+              "title": "Contact us",
+              "content": "<p>Need to contact us ? Just send us an e-mail at info@yourstore.com<\/p>"
             }
           }
         },
         "block_order": [
-          "1630070175c6ebb320-2",
-          "1630070175c6ebb320-1",
-          "1630070175c6ebb320-0"
+          "static-text-with-icons-0",
+          "static-text-with-icons-1",
+          "static-text-with-icons-2",
+          "static-text-with-icons-3"
         ],
         "settings": {
-          "show_on_desktop": true,
-          "show_on_mobile": true,
-          "full_width": false,
-          "title": "",
-          "subtitle": "",
-          "section_style": "section-blank",
-          "section_height": "small",
-          "show_view_all": false,
-          "button_label": "View all",
-          "button_link": "shopify:\/\/collections",
-          "button_style": "btn--primary",
-          "slider_featured_collections": false,
-          "arrows": false,
-          "dots": false
+          "show_section": false,
+          "background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)"
         }
       },
-      "163032806406e9f003": {
-        "type": "quotes",
-        "blocks": {
-          "163032806406e9f003-0": {
-            "type": "quote",
-            "settings": {
-              "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
-              "icon": "format_quote",
-              "quote": "<p><em>Das Shirt sitzt gut und man merkt die Unterstützung durch das Material.<\/em><\/p>",
-              "author": "Angela E."
-            }
-          },
-          "163032806406e9f003-1": {
-            "type": "quote",
-            "settings": {
-              "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
-              "icon": "format_quote",
-              "quote": "<p><em>Bin in jeglicher Hinsicht zufrieden. Schnelle Lieferung und prima Qualität<\/em><\/p>",
-              "author": "Thomas S."
-            }
-          },
-          "163032806406e9f003-2": {
-            "type": "quote",
-            "settings": {
-              "quote_image": "shopify:\/\/shop_images\/Quotationmarks_trustedshops.png",
-              "icon": "format_quote",
-              "quote": "<p><em>Auch bei dieser Bestellung ist alles ganz zu meinen Wünschen verlaufen.<\/em><\/p>",
-              "author": "Norbert B."
-            }
-          }
-        },
-        "block_order": [
-          "163032806406e9f003-0",
-          "163032806406e9f003-1",
-          "163032806406e9f003-2"
-        ],
+      "static-newsletter": {
+        "type": "static-newsletter",
         "settings": {
-          "show_on_desktop": true,
-          "show_on_mobile": true,
-          "title": "",
-          "subtitle": "",
-          "section_style": "section-blank",
-          "quote_width": "60",
-          "arrows": true,
-          "dots": true,
-          "autoplay": true,
-          "autoplayspeed": 7
+          "show_section": false,
+          "reveal_on_scroll": true,
+          "subheading": "Subscribe to our newsletter",
+          "content": "<p>Promotions, new products and sales. Directly to your inbox.<\/p>",
+          "text_position": "right",
+          "text_alignment": "left",
+          "text_background": "rgba(0,0,0,0)",
+          "text_color": "rgba(0,0,0,0)",
+          "button_background": "rgba(0,0,0,0)",
+          "button_text_color": "rgba(0,0,0,0)"
         }
       },
-      "1630331223d20499c6": {
-        "type": "featured-products",
+      "scrolling-banner": {
+        "type": "scrolling-banner",
         "settings": {
-          "show_on_desktop": true,
-          "show_on_mobile": true,
-          "title": "Beliebte Produkte",
-          "subtitle": "",
-          "section_style": "section-blank",
-          "home_featured_products": "posture-shirt",
-          "rows": "1",
-          "desktop_grid": "4",
-          "mobile_grid": "2",
-          "show_view_all": true,
-          "button_label": "Mehr Sehen",
-          "button_link": "shopify:\/\/collections",
-          "button_style": "",
-          "slider_related_products": false,
-          "arrows": false,
-          "dots": false,
-          "autoplay": false,
-          "autoplayspeed": 5
-        }
-      },
-      "1630404145a76c9e4d": {
-        "type": "featured-video",
-        "blocks": {
-          "1630404145a76c9e4d-0": {
-            "type": "video",
-            "settings": {
-              "video_url": "https:\/\/www.youtube.com\/watch?v=rWPAplHxWY4"
-            }
-          }
-        },
-        "block_order": [
-          "1630404145a76c9e4d-0"
-        ],
-        "settings": {
-          "show_on_desktop": true,
-          "show_on_mobile": true,
-          "full_width": false,
-          "title": "Wer ist Anodyne?",
-          "subtitle": "Sehen Sie sich unser Präsentationsvideo an",
-          "section_style": "section-default"
-        }
-      },
-      "collection-template": {
-        "type": "collection-template",
-        "settings": {
-          "collection_tags_enable": false,
-          "collection_tags_count": false,
-          "collection_multiple_tags_filtering_enable": false,
-          "collection_sort_enable": false,
-          "tag_selector": "button",
-          "rows": "4",
-          "desktop_grid": "4",
-          "mobile_grid": "2"
-        }
-      },
-      "dbtfy-collection-filters": {
-        "type": "dbtfy-collection-filters",
-        "settings": {
-          "clear_label": "Clear",
-          "clear_all_label": "Clear All",
-          "hide_unavailable_options": false,
-          "visibility_tags_count": "all"
-        }
-      },
-      "map": {
-        "type": "map",
-        "settings": {
-          "show_on_desktop": false,
-          "show_on_mobile": false,
-          "hide_section": false,
-          "heading": "Our store",
-          "address": "<p>123 Fake St.<br\/>Toronto, Canada<\/p><p>Mon - Fri, 10am - 9pm<br\/>Saturday, 11am - 9pm<br\/>Sunday, 11am - 5pm<\/p>",
-          "map_address": "490 Rue De La Gauchetière O, Montréal",
-          "button_text": "Get directions",
-          "map_icon": "location_on",
-          "api_key": "",
-          "image_position": "center center"
-        }
-      },
-      "dbtfy-cart-goal": {
-        "type": "dbtfy-cart-goal",
-        "settings": {
-          "dbtfy_cart_goal_before_text": "Noch",
-          "dbtfy_cart_goal_amount": "59",
-          "dbtfy_cart_goal_after_text": "zum KOSTENLOSEN Versand!",
-          "dbtfy_cart_goal_reached_text": "Gratis Versand!",
-          "dbtfy_cart_goal_icons": "local_shipping"
-        }
-      },
-      "dbtfy-customizable-products": {
-        "type": "dbtfy-customizable-products",
-        "settings": {
-        }
-      },
-      "dbtfy-product-tabs": {
-        "type": "dbtfy-product-tabs",
-        "settings": {
-          "dbtfy_product_tabs_display_type": "vertical",
-          "dbtfy_product_tab_heading_color": "headings",
-          "dbtfy_product_tab_text_color": "text",
-          "dbtfy_product_tab_background_color": "accent_background"
-        }
-      },
-      "dbtfy-product-swatches": {
-        "type": "dbtfy-product-swatches",
-        "settings": {
-          "dbtfy_product_swatches_show_in_grid": true
+          "text": "<strong>🇨🇭 Feiern Sie mit uns unseren 9. Geburtstag und sichern Sie sich im Webshop bis zu 50% Rabatt auf ausgewählte Produkte<\/strong> ●",
+          "link": "",
+          "text_size": 80,
+          "line_height": 1.9,
+          "speed": 2,
+          "direction": "left",
+          "font": "heading",
+          "space_x": false,
+          "stencil_all_text": false,
+          "stencil_text": "",
+          "overlay_style_tint": false,
+          "color_scheme": "custom",
+          "color_bg": "#f6a429",
+          "color_text": "#ffffff"
         }
       }
     },
     "content_for_index": [
-      "1630070175c6ebb320",
-      "163032806406e9f003",
-      "1630331223d20499c6",
-      "1630404145a76c9e4d"
+
     ],
     "blocks": {
-      "NzlD52UPxObuSyh21K": {
+      "ICd99wzho09teS0DY0": {
         "type": "shopify:\/\/apps\/drip-email-marketing\/blocks\/drip_shopify_snippet\/0c4de56d-b2fa-4621-acea-6293bc16aba8",
         "disabled": false,
         "settings": {
           "account_param": "2019292"
+        }
+      },
+      "88352651305172750": {
+        "type": "shopify:\/\/apps\/dcart\/blocks\/app-embed\/731e2611-8bdf-4514-b5e4-f64f1cae3fb7",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "15849993549880743979": {
+        "type": "shopify:\/\/apps\/ga-free-gift-bogo\/blocks\/app-embeded\/58ed8460-f12d-44c1-87aa-ec47351b5fd7",
+        "disabled": false,
+        "settings": {
+        }
+      }
+    }
+  },
+  "presets": {
+    "Carbon": {
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "heading_color": "#282828",
+      "text_color": "#282828",
+      "secondary_background": "#f5f5f5",
+      "success_color": "#2e9e7b",
+      "error_color": "#de2a2a",
+      "header_background": "#282828",
+      "footer_background": "#282828",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#405de6",
+      "secondary_button_background": "#f3ff34",
+      "secondary_button_text_color": "#282828",
+      "product_on_sale_accent": "#de2a2a",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3ff34",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2a2a",
+      "heading_font": "zurich_extended_n8",
+      "heading_font_size": "medium",
+      "heading_text_transform": "uppercase",
+      "text_font": "zurich_n4",
+      "text_font_size": 15,
+      "currency_code_enabled": false,
+      "stagger_products_apparition": true,
+      "round_color_swatches": false,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "count",
+      "product_image_size": "natural",
+      "show_product_rating": false,
+      "cart_type": "message",
+      "cart_show_free_shipping_threshold": true,
+      "accent_color": "#405de6",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#282828",
+      "checkout_button_color": "#405de6",
+      "checkout_error_color": "#de2a2a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "normal",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "background": "#f3ff34",
+            "text_color": "#282828",
+            "button_background": "#282828",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_left_navigation_center",
+            "show_icons": false,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Ivory": {
+      "button_border_radius": 4,
+      "block_border_radius": "small",
+      "heading_color": "#1a1a1a",
+      "text_color": "#1a1a1a",
+      "secondary_background": "#f5f1ec",
+      "success_color": "#2e9e7b",
+      "error_color": "#de2a2a",
+      "header_background": "#56112a",
+      "header_text_color": "#ffffff",
+      "footer_background": "#56112a",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#56112a",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#f7aea6",
+      "secondary_button_text_color": "#56112a",
+      "product_on_sale_accent": "#913b59",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3e5b6",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2a2a",
+      "heading_font": "itc_caslon_no_224_n5",
+      "heading_font_size": "medium",
+      "heading_text_transform": "normal",
+      "text_font": "avenir_next_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": true,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "count",
+      "product_image_size": "natural",
+      "cart_type": "drawer",
+      "accent_color": "#405de6",
+      "checkout_sidebar_background_color": "#f6f3ed",
+      "checkout_accent_color": "#353535",
+      "checkout_button_color": "#353535",
+      "checkout_error_color": "#de2a2a",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "background": "#f7aea6",
+            "text_color": "#56112a",
+            "button_background": "#56112a",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": false,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": false,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Quartz": {
+      "icon_stroke_width": 1.3,
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "vertical_spacing": "medium",
+      "heading_color": "#0d0d0d",
+      "text_color": "#2e2e2e",
+      "background": "#ffffff",
+      "secondary_background": "#f5f5f5",
+      "success_color": "#3c6e71",
+      "error_color": "#de2a2a",
+      "header_background": "#ffffff",
+      "header_text_color": "#2e2e2e",
+      "footer_background": "#ffffff",
+      "footer_text_color": "#2e2e2e",
+      "primary_button_background": "#051e38",
+      "primary_button_text_color": "#ffffff",
+      "secondary_button_background": "#dfdfdf",
+      "secondary_button_text_color": "#2e2e2e",
+      "product_on_sale_accent": "#de2b2b",
+      "product_sold_out_accent": "#5b5b5b",
+      "product_custom_label_background": "#051e38",
+      "product_custom_label_2_background": "#2e9e7b",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#de2b2b",
+      "heading_font": "futura_n3",
+      "heading_font_size": "medium",
+      "heading_text_transform": "uppercase",
+      "text_font": "din_next_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": false,
+      "show_vendor": false,
+      "show_secondary_image": true,
+      "product_color_display": "hide",
+      "product_image_size": "natural",
+      "cart_type": "drawer",
+      "cart_icon": "tote_bag",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#051e38",
+      "checkout_button_color": "#051e38",
+      "checkout_error_color": "#de2a2a",
+      "accent_color": "#405de6",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "background": "#051e38",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#051e38"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": true,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": true,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {
+          }
+        }
+      }
+    },
+    "Sapphire": {
+      "icon_stroke_width": 1.2,
+      "button_border_radius": 0,
+      "block_border_radius": "none",
+      "heading_color": "#0c1b54",
+      "text_color": "#0c1b54",
+      "background": "#ffffff",
+      "secondary_background": "#f7f7f7",
+      "success_color": "#708a7d",
+      "error_color": "#d2545a",
+      "header_background": "#0c1b54",
+      "footer_background": "#0c1b54",
+      "footer_text_color": "#ffffff",
+      "primary_button_background": "#0c1b54",
+      "secondary_button_background": "#f7f7f7",
+      "secondary_button_text_color": "#0c1b54",
+      "product_rating_color": "#a48156",
+      "product_on_sale_accent": "#d2545a",
+      "product_custom_label_background": "#405de6",
+      "product_custom_label_2_background": "#f3ff34",
+      "product_in_stock_text_color": "#2e9e7b",
+      "product_low_stock_text_color": "#d2545a",
+      "heading_font": "chong_modern_n4",
+      "heading_font_size": "large",
+      "heading_text_transform": "normal",
+      "text_font": "trade_gothic_n4",
+      "text_font_size": 15,
+      "stagger_products_apparition": true,
+      "round_color_swatches": true,
+      "show_vendor": true,
+      "show_secondary_image": true,
+      "show_product_rating": true,
+      "product_color_display": "hide",
+      "product_image_size": "natural",
+      "cart_type": "message",
+      "checkout_sidebar_background_color": "#f5f5f5",
+      "checkout_accent_color": "#282828",
+      "checkout_button_color": "#405de6",
+      "checkout_error_color": "#de2a2a",
+      "accent_color": "#405de6",
+      "sections": {
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "blocks": {
+            "message-1": {
+              "type": "message",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "message-1"
+          ],
+          "settings": {
+            "announcement_bar_position": "non_sticky",
+            "announcement_text_size": "small",
+            "autoplay": true,
+            "cycle_speed": 5,
+            "background": "#ffe5db",
+            "text_color": "#0c1b54",
+            "button_background": "#0c1b54",
+            "button_text_color": "#ffffff"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "enable_sticky_header": true,
+            "navigation_menu": "main-menu",
+            "header_layout": "logo_center_navigation_inline",
+            "show_icons": true,
+            "reduce_desktop_padding": false,
+            "enable_transparent_header": true,
+            "transparent_header_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+              }
+            },
+            "links": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {
+              }
+            },
+            "social_media": {
+              "type": "social_media",
+              "settings": {
+              }
+            }
+          },
+          "block_order": [
+            "text",
+            "links",
+            "newsletter",
+            "social_media"
+          ],
+          "settings": {
+          }
         }
       }
     }

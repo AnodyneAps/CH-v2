@@ -1,11 +1,30 @@
 {
   "sections": {
     "main": {
-      "type": "contact-content",
-      "settings": {}
+      "type": "main-page",
+      "settings": {
+        "show_title": true,
+        "page_width": "large"
+      }
+    },
+    "contact-form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "",
+        "content": "",
+        "text_1_heading": "",
+        "text_1_text": "",
+        "text_2_heading": "",
+        "text_2_text": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "contact-form"
   ]
 }

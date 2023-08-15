@@ -1,0 +1,35 @@
+{% assign colorNames = product.title | split: '-' %}
+<div class="colorLinks__wrapper">
+  <div class="ProductForm__Label">Farve: {{ colorNames | last }}</div>
+  <ul class="colorLinks__ul">
+    <li class="colorLinks__li black">
+      <a
+        href="/products/ajr-3-pack-box-black"
+        class="colorLink__a  {% if product.url contains 'box-black' %}active{% endif %}"
+        style="background-image: var(--black);"
+        title="Black color"></a>
+    </li>
+    <li class="colorLinks__li  black-white ">
+      <a
+        href="/products/ajr-3-pack-box-bwhite"
+        class="colorLink__a  {% if product.url contains 'bwhite' %}active{% endif %}"
+        style="background-image: var(--blackandwhite);"
+        title="Black and White color"></a>
+    </li>
+    <li class="colorLinks__li  gray">
+      <a
+        href="/products/ajr-3-pack-box-gray"
+        class="colorLink__a  {% if product.url contains 'gray' %}active{% endif %}"
+        style="background-image: var(--gray);"
+        title="Grey color"></a>
+    </li>
+    <li class="colorLinks__li  color-mix">
+      <a
+        href="/products/ajr-3-pack-box-color-mix"
+        class="colorLink__a  {% if product.url contains 'mix' %}active{% endif %}"
+        style="background-image: var(--mix);"
+        title="Mix color"></a>
+    </li>
+  </ul>
+
+</div>

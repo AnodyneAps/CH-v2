@@ -1,0 +1,626 @@
+{%- if section.settings.background != settings.background and section.settings.background != 'rgba(0,0,0,0)' -%}
+  {%- assign blends_with_background = false -%}
+{%- else -%}
+  {%- assign blends_with_background = true -%}
+{%- endif -%}
+
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+CSS
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}
+
+<style>
+  #shopify-section-{{ section.id }}{
+    {%- if section.settings.background == 'rgba(0,0,0,0)' -%}
+      {%- assign section_background = settings.background -%}
+    {%- else -%}
+      {%- assign section_background = section.settings.background -%}
+    {%- endif -%}
+
+    {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign heading_color = settings.heading_color -%}
+      {%- assign text_color = settings.background_text_color -%}
+    {%- else -%}
+      {%- assign heading_color = section.settings.background_text_color -%}
+      {%- assign text_color = section.settings.background_text_color -%}
+    {%- endif -%}
+
+    --heading-color: {{ heading_color.red }}
+    , {{ heading_color.green }}
+    , {{ heading_color.blue }}
+    ;
+    --text-color: {{ text_color.red }}
+    , {{ text_color.green }}
+    , {{ text_color.blue }}
+    ;
+    --section-background: {{ section_background.red }}
+    , {{ section_background.green }}
+    , {{ section_background.blue }}
+    ;
+    --vertical-breather: 40px; /* Inner spacing is smaller on this section */
+  }
+</style>
+
+
+{%- if section.settings.background_type == 'boxed' -%}
+  {%- assign is_boxed = true -%}
+{%- else -%}
+  {%- assign is_boxed = false -%}
+{%- endif -%}
+
+{%- if section.settings.text_background != settings.background and section.settings.text_background != 'rgba(0,0,0,0)' -%}
+  {%- assign blends_with_background = false -%}
+{%- else -%}
+  {%- assign blends_with_background = true -%}
+{%- endif -%}
+
+<style>
+  #shopify-section-{{ section.id }}{
+    {%- if section.settings.text_background == 'rgba(0,0,0,0)' -%}
+      {%- assign section_block_background = settings.background -%}
+    {%- else -%}
+      {%- assign section_block_background = section.settings.text_background -%}
+    {%- endif -%}
+
+    {%- if section.settings.text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign heading_color = settings.heading_color -%}
+      {%- assign text_color = settings.text_color -%}
+    {%- else -%}
+      {%- assign heading_color = section.settings.text_color -%}
+      {%- assign text_color = section.settings.text_color -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_background == 'rgba(0,0,0,0)' -%}
+      {%- assign button_background = settings.primary_button_background -%}
+    {%- else -%}
+      {%- assign button_background = section.settings.button_background -%}
+    {%- endif -%}
+
+    {%- if section.settings.button_text_color == 'rgba(0,0,0,0)' -%}
+      {%- assign button_text_color = settings.primary_button_text_color -%}
+    {%- else -%}
+      {%- assign button_text_color = section.settings.button_text_color -%}
+    {%- endif -%}
+
+    --heading-color: {{ heading_color.red }}
+    , {{ heading_color.green }}
+    , {{ heading_color.blue }}
+    ;
+    --text-color: {{ text_color.red }}
+    , {{ text_color.green }}
+    , {{ text_color.blue }}
+    ;
+    --primary-button-background: {{ button_background.red }}
+    , {{ button_background.green }}
+    , {{ button_background.blue }}
+    ;
+    --primary-button-text-color: {{ button_text_color.red }}
+    , {{ button_text_color.green }}
+    , {{ button_text_color.blue }}
+    ;
+
+    --prev-next-button-background: {{ settings.background.red }}
+    , {{ settings.background.green }}
+    , {{ settings.background.blue }}
+    ;
+    --prev-next-button-color: {{ settings.text_color.red }}
+    , {{ settings.text_color.green }}
+    , {{ settings.text_color.blue }}
+    ;
+
+    --section-block-background: {{ section_block_background.red }}
+    , {{ section_block_background.green }}
+    , {{ section_block_background.blue }}
+    ;
+  }
+
+  @media screen and (max-width: 999px) {
+    {%- if blends_with_background -%}
+      #shopify-section-{{ section.id }}.section {
+        margin-bottom: 0 !important;
+      }
+    {%- endif -%}
+
+    {%- unless section.settings.text_position contains 'overlap' -%}
+      #shopify-section-{{ section.id }}.image-with-text-block__content {
+        margin: 0 !important; /* Because it blends with the background we have to remove double margin */
+      }
+    {%- elsif is_boxed == false -%}
+      #shopify-section-{{ section.id }}.section {
+        margin-top: 0 !important; /* We need to remove the margin on the section if the image overlap */
+      }
+    {%- endunless -%}
+  }
+</style>
+
+<section class="section {% unless is_boxed or section.settings.text_position contains 'overlap' %}section--flush{% endunless %} hidden-pocket ">
+  <div class="section__color-wrapper">
+    <div {% if is_boxed %}class="container vertical-breather"{% endif %}>
+      {% if section.settings.title != blank %}
+        <header class="section__header ">
+          <div class="text-container">
+            {% if section.settings.subheading != blank %}
+              <h3 class="heading heading--small">{{ section.settings.subheading }}</h3>
+            {% endif %}
+            <h2 class="heading h2">{{ section.settings.title }}</h2>
+          </div>
+        </header>
+      {% endif %}
+      <div class="why-ajr">
+        <div class="why-ajr__left-block">
+          <div class="left-content content-box--text-{{ section.settings.text_alignment}}">
+            <div class="left-wrapper {{ section.settings.align_left }}">
+              <div class="left-icon {{ section.settings.order_left }}">
+                {%- if section.settings.left_icon_one != blank -%}
+                  <img
+                    class="icon one"
+                    loading="lazy"
+                    sizes="(max-width: 50px) 80px"
+                    {% render 'image-attributes', image: section.settings.left_icon_one, sizes: '60,70,80' %}>
+                {%- else -%}
+                  <img
+                    class="icon"
+                    src="https://cdn.shopify.com/s/files/1/0627/1234/8917/files/cotton.png?v=1645704358"
+                    alt="cotton">
+                {%- endif -%}
+              </div>
+              <div class="left-text">
+                {% if section.settings.left_icon_one_title != blank %}
+                  <h3 class="heading heading--medium">{{ section.settings.left_icon_one_title }}</h3>
+                {% endif %}
+                {% if section.settings.left_icon_one_content != blank %}
+                  <p class="text">{{ section.settings.left_icon_one_content }}</p>
+                {% endif %}
+              </div>
+            </div>
+            <div class="left-wrapper {{ section.settings.align_left }}">
+              <div class="left-icon {{ section.settings.order_left }}">
+                {%- if section.settings.left_icon_two != blank -%}
+                  <img
+                    class="icon two"
+                    loading="lazy"
+                    sizes="(max-width: 50px) 80px"
+                    {% render 'image-attributes', image: section.settings.left_icon_two, sizes: '60,70,80' %}>
+                {%- else -%}
+                  <img
+                    class="icon"
+                    src="https://cdn.shopify.com/s/files/1/0627/1234/8917/files/cotton.png?v=1645704358"
+                    alt="cotton">
+                {%- endif -%}
+              </div>
+              <div class="left-text">
+                {% if section.settings.left_icon_two_title != blank %}
+                  <h3 class="heading heading--medium">{{ section.settings.left_icon_two_title }}</h3>
+                {% endif %}
+                {% if section.settings.left_icon_two_content != blank %}
+                  <p class="text">{{ section.settings.left_icon_two_content }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="why-ajr__middle-block">
+          <div class="middle-wrapper">
+            {%- if section.settings.threed_image != blank -%}
+              <img
+                class="middle-3d"
+                loading="lazy"
+                sizes="(max-width: 820px) 920px, {% if section.settings.background_type == 'boxed' %}min(720px, 820px){% else %}1000px{% endif %}"
+                {% render 'image-attributes', image: section.settings.threed_image, sizes: '600,700,800,1000' %}>
+            {%- else -%}
+              <img
+                class="middle-3d"
+                loading="lazy"
+                src="https://cdn.shopify.com/s/files/1/0627/1234/8917/files/3dmockupIn.png?v=1674118337"
+                alt="AJR 3d image">
+            {%- endif -%}
+          </div>
+        </div>
+        <div class="why-ajr__right-block">
+          <div class="right-content content-box--text-{{ section.settings.right_text_alignment}}">
+            <div class="right-wrapper {{ section.settings.align_right }}">
+              <div class="right-icon {{ section.settings.order_right }}">
+                {%- if section.settings.right_icon_one != blank -%}
+                  <img
+                    class="icon right-one"
+                    loading="lazy"
+                    sizes="(max-width: 50px) 80px"
+                    {% render 'image-attributes', image: section.settings.right_icon_one, sizes: '60,70,80' %}>
+                {%- else -%}
+                  <img
+                    class="icon"
+                    src="https://cdn.shopify.com/s/files/1/0627/1234/8917/files/cotton.png?v=1645704358"
+                    alt="cotton">
+                {%- endif -%}
+              </div>
+              <div class="right-text">
+                {% if section.settings.right_icon_one_title != blank %}
+                  <h3 class="heading heading--medium">{{ section.settings.right_icon_one_title }}</h3>
+                {% endif %}
+                {% if section.settings.right_icon_one_content != blank %}
+                  <p class="text">{{ section.settings.right_icon_one_content }}</p>
+                {% endif %}
+              </div>
+            </div>
+            <div class="right-wrapper {{ section.settings.align_right }}">
+              <div class="right-icon {{ section.settings.order_right }}">
+                {%- if section.settings.right_icon_two != blank -%}
+                  <img
+                    class="icon right-two"
+                    loading="lazy"
+                    sizes="(max-width: 50px) 80px"
+                    {% render 'image-attributes', image: section.settings.right_icon_two, sizes: '60,70,80' %}>
+                {%- else -%}
+                  <img
+                    class="icon"
+                    src="https://cdn.shopify.com/s/files/1/0627/1234/8917/files/cotton.png?v=1645704358"
+                    alt="cotton">
+                {%- endif -%}
+              </div>
+              <div class="right-text">
+                {% if section.settings.right_icon_two_title != blank %}
+                  <h3 class="heading heading--medium">{{ section.settings.right_icon_two_title }}</h3>
+                {% endif %}
+                {% if section.settings.right_icon_two_content != blank %}
+                  <p class="text">{{ section.settings.right_icon_two_content }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {%- if section.settings.threed_button_text != blank -%}
+        <div class="ajr_button-wrapper">
+          <a href="{{ section.settings.threed_button_link }}" class="button button--primary">{{ section.settings.threed_button_text | escape }}</a>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+{%- comment -%}
+------------------------------------------------------------------------------------------------------------------------
+Icons display carousel on mobile
+------------------------------------------------------------------------------------------------------------------------
+{%- endcomment -%}<section class="section {% unless is_boxed or section.settings.text_position contains 'overlap' %}section--flush{% endunless %} hidden-lap-and-up">
+  <div class="container__isboxed">
+    <div class="section__color-wrapper">
+      <div class="container vertical-breather">
+        <native-carousel class="text-with-icons">
+          <div class="text-with-icons__list hide-scrollbar">
+            {%- for block in section.blocks -%}
+              <native-carousel-item
+                {% unless forloop.first %}hidden{% endunless %}
+                id="block-{{ section.id }}-{{ block.id }}"
+                class="text-with-icons__item"
+                {{ block.shopify_attributes }}>
+                <div class="text-with-icons__icon-wrapper why-ajr-icon">
+                  {%- if block.settings.custom_icon != blank -%}
+                    {% capture custom_icon_width %}
+                      {{ block.settings.custom_icon_width | times: 2 }}x{% endcapture %}
+                    <img
+                      class="icon"
+                      style="max-width: {{ block.settings.custom_icon_width | plus: 10 }}px; background-color: white; padding:10px; border-radius:50%"
+                      width="{{ block.settings.custom_icon.width }}"
+                      height="{{ block.settings.custom_icon.height }}"
+                      src="{{ block.settings.custom_icon | img_url: custom_icon_width }}"
+                      alt="{{ block.settings.custom_icon.alt | escape }}">
+                  {%- else -%}
+                    <img
+                      class="icon"
+                      src="https://cdn.shopify.com/s/files/1/0627/1234/8917/files/cotton.png?v=1645704358"
+                      alt="cotton">
+                  {%- endif -%}
+                </div>
+
+                {%- if block.settings.title != blank or block.settings.content != blank -%}
+                  <div class="text-with-icons__content-wrapper">
+                    {%- if block.settings.title != blank -%}
+                      <h3 class="heading heading--medium">{{ block.settings.title | escape }}</h3>
+                    {%- endif -%}
+
+                    {%- if block.settings.content != blank -%}
+                      {{- block.settings.content -}}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              </native-carousel-item>
+            {%- endfor -%}
+          </div>
+
+          {%- if section.blocks.size > 1 -%}
+            <page-dots class="text-with-icons__dots dots-nav dots-nav--centered hidden-lap-and-up">
+              {%- for block in section.blocks -%}
+                <button class="dots-nav__item tap-area" {% if forloop.first %}aria-current="true"{% endif %}>
+                  <span class="visually-hidden">{{ 'general.accessibility.go_to_slide' | t: num: forloop.index }}</span>
+                </button>
+              {%- endfor -%}
+            </page-dots>
+          {%- endif -%}
+        </native-carousel>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+  {
+    "name": "why ajr",
+    "class": "shopify-section--why-ajr",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "threed_image",
+        "label": "Image",
+        "info": "820 x 958px .png recommended. Image may be cut based on screen size."
+      },
+      {
+        "type": "text",
+        "id": "subheading",
+        "label": "Subheading top",
+        "default": "Subheading"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading top",
+        "default": "Why AJR underwear is the best?"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "label": "Content",
+        "default": "<p>Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.</p>"
+      }, {
+        "type": "header",
+        "content": "Icons"
+      }, {
+        "type": "image_picker",
+        "id": "left_icon_one",
+        "label": "Left icon one",
+        "info": "100 x 100px .png recommended."
+      }, {
+        "type": "text",
+        "id": "left_icon_one_title",
+        "label": "Left heading one",
+        "default": "One:Why AJR underwear is the best?"
+      }, {
+        "type": "richtext",
+        "id": "left_icon_one_content",
+        "label": "Left content one",
+        "default": "<p>One:Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.</p>"
+      }, {
+        "type": "image_picker",
+        "id": "left_icon_two",
+        "label": "Left icon two",
+        "info": "100 x 100px .png recommended."
+      }, {
+        "type": "text",
+        "id": "left_icon_two_title",
+        "label": "Left heading two",
+        "default": "Two: Why AJR underwear is the best?"
+      }, {
+        "type": "richtext",
+        "id": "left_icon_two_content",
+        "label": "Left content two",
+        "default": "<p>Two: Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.</p>"
+      }, {
+        "type": "image_picker",
+        "id": "right_icon_one",
+        "label": "Right icon one",
+        "info": "100 x 100px .png recommended."
+      }, {
+        "type": "text",
+        "id": "right_icon_one_title",
+        "label": "Right heading one",
+        "default": "Right one: Why AJR underwear is the best?"
+      }, {
+        "type": "richtext",
+        "id": "right_icon_one_content",
+        "label": "Right content one",
+        "default": "<p>Right one: Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.</p>"
+      }, {
+        "type": "image_picker",
+        "id": "right_icon_two",
+        "label": "Right icon two",
+        "info": "100 x 100px .png recommended."
+      }, {
+        "type": "text",
+        "id": "right_icon_two_title",
+        "label": "Right heading two",
+        "default": "Right two: Why AJR underwear is the best?"
+      }, {
+        "type": "richtext",
+        "id": "right_icon_two_content",
+        "label": "Right content two",
+        "default": "<p>Right two: Use block text to give your customers insight into your brand. Select impactful text that relates to your brand and story.</p>"
+      }, {
+        "type": "text",
+        "id": "threed_button_text",
+        "label": "Button text"
+      }, {
+        "type": "url",
+        "id": "threed_button_link",
+        "label": "Button link"
+      }, {
+        "type": "select",
+        "id": "background_type",
+        "label": "Background",
+        "options": [
+          {
+            "value": "full_width",
+            "label": "Full width"
+          }, {
+            "value": "boxed",
+            "label": "Boxed"
+          }
+        ],
+        "default": "full_width"
+      }, {
+        "type": "select",
+        "id": "text_alignment",
+        "label": "Left side text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          }, {
+            "value": "center",
+            "label": "Center"
+          }, {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "right"
+      }, {
+        "type": "select",
+        "id": "right_text_alignment",
+        "label": "Right side text alignment",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          }, {
+            "value": "center",
+            "label": "Center"
+          }, {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "left"
+      }, {
+        "type": "select",
+        "id": "order_left",
+        "label": "Left side icons order",
+        "options": [
+          {
+            "value": "order_left",
+            "label": "Order left"
+          }, {
+            "value": "order_right",
+            "label": "Order right"
+          }
+        ],
+        "default": "order_left"
+      }, {
+        "type": "select",
+        "id": "order_right",
+        "label": "Right side icons order",
+        "options": [
+          {
+            "value": "order_left",
+            "label": "Order left"
+          }, {
+            "value": "order_right",
+            "label": "Order right"
+          }
+        ],
+        "default": "order_left"
+      }, {
+        "type": "select",
+        "id": "align_left",
+        "label": "Left side icons alignment",
+        "options": [
+          {
+            "value": "align_left",
+            "label": "Align left"
+          }, {
+            "value": "align_right",
+            "label": "Align right"
+          }
+        ],
+        "default": "align_left"
+      }, {
+        "type": "select",
+        "id": "align_right",
+        "label": "Right side icons align",
+        "options": [
+          {
+            "value": "align_left",
+            "label": "Align left"
+          }, {
+            "value": "align_right",
+            "label": "Align right"
+          }
+        ],
+        "default": "align_left"
+      }, {
+        "type": "header",
+        "content": "Colors"
+      }, {
+        "type": "color",
+        "id": "background",
+        "label": "Background",
+        "default": "rgba(0,0,0,0)"
+      }, {
+        "type": "color",
+        "id": "background_text_color",
+        "label": "Text color",
+        "default": "rgba(0,0,0,0)"
+      }, {
+        "type": "color",
+        "id": "text_background",
+        "label": "Text background",
+        "default": "rgba(0,0,0,0)"
+      }, {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color",
+        "default": "rgba(0,0,0,0)"
+      }, {
+        "type": "color",
+        "id": "button_background",
+        "label": "Button background",
+        "default": "rgba(0,0,0,0)"
+      }, {
+        "type": "color",
+        "id": "button_text_color",
+        "label": "Button text",
+        "default": "rgba(0,0,0,0)"
+      }
+    ],
+    "max_blocks": 4,
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Icons for mobile",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "custom_icon",
+            "label": "Custom icon",
+            "info": "100 x 100px .png with transparency recommended"
+          }, {
+            "type": "range",
+            "id": "custom_icon_width",
+            "min": 40,
+            "max": 200,
+            "step": 5,
+            "unit": "px",
+            "label": "Custom icon width",
+            "info": "Only impact custom icons",
+            "default": 50
+          }, {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Your title"
+          }, {
+            "type": "richtext",
+            "id": "content",
+            "label": "Content",
+            "default": "<p>Short content about your store</p>"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "why ajr",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}
