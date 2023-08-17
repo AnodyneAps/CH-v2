@@ -221,7 +221,7 @@
     {%- if product_tabs_nav_items != blank -%}
       <div class="product-tabs__content">
         {%- assign processed_blocks = 0 -%}
-
+        {%- assign size_chart = pages[product.metafields.choose_size.choose_product_size_chart].content -%}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'description' -%}
@@ -245,6 +245,7 @@
                   class="collapsible">
                   <div class="product-tabs__tab-item-content rte">
                     {{- product.description -}}
+                    {{- size_chart -}}
                   </div>
 
                   {%- if trust_content != blank and processed_blocks == 0 -%}
