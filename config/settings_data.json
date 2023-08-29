@@ -254,7 +254,7 @@
           "link": "",
           "text_size": 80,
           "line_height": 1.9,
-          "speed": 2,
+          "speed": 0.5,
           "direction": "left",
           "font": "heading",
           "space_x": false,
@@ -280,12 +280,6 @@
       },
       "88352651305172750": {
         "type": "shopify:\/\/apps\/dcart\/blocks\/app-embed\/731e2611-8bdf-4514-b5e4-f64f1cae3fb7",
-        "disabled": false,
-        "settings": {
-        }
-      },
-      "15849993549880743979": {
-        "type": "shopify:\/\/apps\/ga-free-gift-bogo\/blocks\/app-embeded\/58ed8460-f12d-44c1-87aa-ec47351b5fd7",
         "disabled": false,
         "settings": {
         }
